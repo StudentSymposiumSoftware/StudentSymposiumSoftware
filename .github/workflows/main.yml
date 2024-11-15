@@ -42,3 +42,4 @@ jobs:
           eslint-args: '--ignore-path=.gitignore --quiet'
           extensions: 'js,jsx,ts,tsx,gs'
           annotations: true
+          working-directory: /SSS
