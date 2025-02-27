@@ -22,7 +22,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm init @eslint/config@latest
+      - run: npm ci # or yarn install
         working-directory: SSS/
       - uses: sibiraj-s/action-eslint@v3
         with:
