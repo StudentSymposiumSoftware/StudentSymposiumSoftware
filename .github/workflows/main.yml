@@ -19,14 +19,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm ci # or yarn install
-        working-directory: SSS/
+          cache: 'npm'
+          cache-dependency-path: SSS/package-lock.json # Ensure caching works correctly
+
+      - run: npm ci
+        working-directory: SSS/ # Ensure dependencies are installed in the correct folder
+
+      - run: npx eslint --version
+        working-directory: SSS/ # Check if eslint is installed correctly
+
       - uses: sibiraj-s/action-eslint@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }} # optional
           eslint-args: '--ignore-path=.gitignore --quiet'
           extensions: 'js,jsx,ts,tsx,gs'
           annotations: true
+          working-directory: SSS/
+
