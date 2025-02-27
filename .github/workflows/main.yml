@@ -29,9 +29,6 @@ jobs:
       - run: npm ci
         working-directory: SSS/ 
 
-      - run: npx eslint --version
-        working-directory: SSS/ 
-
       - run: npx eslint . --ignore-path=.gitignore --quiet
         working-directory: SSS/ 
 
