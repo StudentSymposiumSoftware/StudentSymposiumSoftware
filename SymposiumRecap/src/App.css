@@ -3,7 +3,7 @@
   height: 100%;
 
   min-height: 100vh;
-  background-color: rgb(12, 12, 70);
+  background-color: #003263;
 
   display: flex;
   justify-content: center;
@@ -25,7 +25,7 @@
   height: 8vh;
   margin-left: 5vw;
   margin-right: 5vw;
-  background-color: rgba(90, 78, 36, 0.295);
+  background-color: rgba(138, 139, 145, 0.5);
 }
 
 .PageLink{
