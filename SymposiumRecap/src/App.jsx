@@ -7,29 +7,16 @@ import SearchView from './components/SearchView';
 import ListView from './components/ListView';
 import GridView from './components/GridView';
 
-/*
-
-  Mock Data has many objects of these fields:
-   - Author
-   - Title
-   - Category
-   - Major
-   - Professor
-   - University
-   - Abstract Number
-
-*/
-const mock_data = []
-
+import { getMockData } from "./mockData";
 
 function App() {
-  
+  let mockData = getMockData();
 
   return (
     <Router>
       <div id="site-container">      
         <div id="navbar">
-          Navigate to our different displays here:
+          <h3>Navigate to our different displays here:</h3>
           
           <Link className="PageLink" to={"/"}><h3>Home Page</h3></Link>
           <Link className="PageLink" to={"/search"}><h3>Search View</h3></Link>
@@ -40,9 +27,9 @@ function App() {
       
         <Routes>
           <Route path="/" element={<HomepageComponent/>} />
-          <Route path="/search" element={<SearchView/>} />
-          <Route path="/list" element={<ListView/>} />
-          <Route path="/grid" element={<GridView/>} />
+          <Route path="/search" element={<SearchView data={mockData}/>} />
+          <Route path="/list" element={<ListView data={mockData}/>} />
+          <Route path="/grid" element={<GridView data={mockData}/>} />
         </Routes>
       
       </div>
