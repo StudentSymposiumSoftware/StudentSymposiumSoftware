@@ -24,13 +24,16 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
-          cache-dependency-path: SSS/package-lock.json # Ensure caching works correctly
+          cache-dependency-path: SSS/package-lock.json 
 
       - run: npm ci
-        working-directory: SSS/ # Ensure dependencies are installed in the correct folder
+        working-directory: SSS/ 
 
       - run: npx eslint --version
-        working-directory: SSS/ # Check if eslint is installed correctly
+        working-directory: SSS/ 
+
+      - run: npx eslint . --ignore-path=.gitignore --quiet
+        working-directory: SSS/ 
 
       - uses: sibiraj-s/action-eslint@v3
         with:
@@ -39,4 +42,5 @@ jobs:
           extensions: 'js,jsx,ts,tsx,gs'
           annotations: true
           working-directory: SSS/
+
 
