@@ -30,9 +30,9 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-        working-directory: SSS/
+        working-directory: SymposiumRecap/
 
       - name: Run ESLint
         run: npx eslint . --ext .js,.jsx,.ts,.tsx
-        working-directory: SSS/
+        working-directory: SymposiumRecap/
 
