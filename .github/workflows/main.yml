@@ -15,26 +15,23 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  eslint:
+  lint:
+    name: Run ESLint
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: 'npm'
-          cache-dependency-path: SSS/package-lock.json 
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - run: npm ci
-        working-directory: SSS/ 
-
-      - uses: sibiraj-s/action-eslint@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }} # optional
-          eslint-args: '--ignore-path=.gitignore --quiet'
-          extensions: 'js,jsx,ts,tsx,gs'
-          annotations: true
-          working-directory: SSS/
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ESLint
+        run: npx eslint . --ext .js,.jsx,.ts,.tsx
 
 
