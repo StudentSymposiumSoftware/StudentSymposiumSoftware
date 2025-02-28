@@ -36,7 +36,3 @@ jobs:
         run: npx eslint . --ext .js,.jsx,.ts,.tsx
         working-directory: SympsoiumRecap/
 
-      - name: Run ESLint
-        run: npx eslint . --ext .js,.jsx,.ts,.tsx
-        working-directory: SSS/
-
