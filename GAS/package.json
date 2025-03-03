@@ -1,5 +1,10 @@
 {
 	"dependencies": {
-		"clasp": "^1.0.0"
+		"@google/clasp": "^2.5.0"
+	},
+	"scripts": {
+		"login": "clasp login",
+		"dev": "rm -f ./.clasp.json && cp ./.clasp-dev.json ./.clasp.json && clasp push -f && clasp open",
+		"prod": "rm -f ./.clasp.json && cp ./.clasp-prd.json ./.clasp.json && clasp push -f && clasp open"
 	}
 }
