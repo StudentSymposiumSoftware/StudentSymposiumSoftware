@@ -1,0 +1,24 @@
+name: Google App Script - Deployment
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+  Deploy-AppsScript:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 12
+          cache: npm
+      - run: npm ci
+      - run: |
+          gpg \
+            --quiet --batch --yes --decrypt --passphrase="${{ secrets.CLASP_SECRET }}" \
+            --output $HOME/.clasprc.json .clasprc.json.gpg
+        working-directory: GAS/
+      - run: npm run dev
