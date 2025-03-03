@@ -1,5 +1,5 @@
 function doGet() {
-  return HtmlService.createHtmlOutputFromFile('Index');
+  return HtmlService.createHtmlOutputFromFile('src/Index');
 }
 
 function onOpen() {
@@ -10,7 +10,7 @@ function onOpen() {
 }
 
 function showSidebar() {
-  var html = HtmlService.createHtmlOutputFromFile('Index')
+  var html = HtmlService.createHtmlOutputFromFile('src/Index')
       .setTitle('Student Symposium Software')
       .setWidth(1000);
   SpreadsheetApp.getUi().showSidebar(html);
