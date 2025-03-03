@@ -15,10 +15,12 @@ jobs:
         with:
           node-version: 12
           cache: npm
-      - run: npm ci
+      - run: npm i
+        working-directory: GAS/
       - run: |
           gpg \
             --quiet --batch --yes --decrypt --passphrase="${{ secrets.CLASP_SECRET }}" \
             --output $HOME/.clasprc.json .clasprc.json.gpg
         working-directory: GAS/
-      - run: npm run dev
+      - run: npm run deploy
+        working-directory: GAS/
