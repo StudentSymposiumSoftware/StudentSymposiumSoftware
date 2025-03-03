@@ -11,9 +11,6 @@ importers:
       '@google/clasp':
         specifier: ^2.5.0
         version: 2.5.0
-      clasp:
-        specifier: ^1.0.0
-        version: 1.0.0
 
 packages:
 
@@ -188,9 +185,6 @@ packages:
   chokidar@3.6.0:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
     engines: {node: '>= 8.10.0'}
-
-  clasp@1.0.0:
-    resolution: {integrity: sha512-JkgxdZvYBtqIlGPvC5oRZ548eHpfx+81z5GXckpXcMkRTZDddkQfwK60w1YE32n8ovGoSW88pbsIvCPOKM6hyA==}
 
   clean-stack@2.2.0:
     resolution: {integrity: sha512-4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==}
@@ -1235,8 +1229,6 @@ snapshots:
       readdirp: 3.6.0
     optionalDependencies:
       fsevents: 2.3.3
-
-  clasp@1.0.0: {}
 
   clean-stack@2.2.0: {}
 
