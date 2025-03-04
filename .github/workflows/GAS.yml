@@ -6,21 +6,25 @@ on:
             - main
 
 jobs:
-  Deploy-AppsScript:
+  Deploy-Apps-Script:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 12
           cache: npm
-      - run: npm i
+      - name: Install dependencies
+        run: npm i
         working-directory: GAS/
-      - run: |
+      - name: Decrypt .clasprc.json (GAS credentials)
+        run: |
           gpg \
             --quiet --batch --yes --decrypt --passphrase="${{ secrets.CLASP_SECRET }}" \
             --output $HOME/.clasprc.json .clasprc.json.gpg
         working-directory: GAS/
-      - run: npm run deploy
+      - name: Deploy to Google App Script
+        run: npm run deploy
         working-directory: GAS/
