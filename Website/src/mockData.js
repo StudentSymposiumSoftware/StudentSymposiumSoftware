@@ -12,7 +12,7 @@
 */
 
 
-const mock_data = [{ author: 'Elijah Smith',
+export const mockData = [{ author: 'Elijah Smith',
     professor: 'Olivia Lewis',
     school: 'UMaine Machias',
     major: 'Physics',
@@ -223,6 +223,5 @@ const mock_data = [{ author: 'Elijah Smith',
     category: 'Natural Sciences',
     abstractNumber: 82398661 }]
 
-export const getMockData = () => {
-    return mock_data;
-}
+
+  export default mockData;

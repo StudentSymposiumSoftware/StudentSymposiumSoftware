@@ -6,10 +6,9 @@ import SearchView from './components/SearchView';
 import ListView from './components/ListView';
 import GridView from './components/GridView';
 
-import { getMockData } from "./mockData";
+import { mockData } from "./mockData";
 
 function App() {
-  let mockData = getMockData();
 
   return (
     <Router>
