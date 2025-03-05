@@ -9,15 +9,19 @@ jobs:
   Deploy-Apps-Script:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository code
-        uses: actions/checkout@v3
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup PNPM Package Manager
+        uses: pnpm/action-setup@v2
         with:
-          node-version: 12
-          cache: npm
+            version: 10.5.2
+            run_install: false
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
       - name: Install dependencies
-        run: npm i
+        run: pnpm install
         working-directory: GAS/
       - name: Decrypt .clasprc.json (GAS credentials)
         run: |

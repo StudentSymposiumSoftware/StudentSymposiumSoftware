@@ -1,0 +1,63 @@
+name: Pull Request Validation
+
+on:
+    pull_request:
+        types: [opened, synchronize, reopened]
+        branches:
+            - main
+
+jobs:
+    commit-validator:
+        name: Commit Validator
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+            - name: Validate Commit Messages
+              uses: zjuDBSystems/commit-message-validator@v1.0.0
+
+    eslint-Website:
+        name: ESLint - Website
+        runs-on: ubuntu-latest
+        needs: commit-validator
+        steps:
+          - name: Checkout
+            uses: actions/checkout@v2
+          - name: Setup PNPM Package Manager
+            uses: pnpm/action-setup@v2
+            with:
+                version: 10.5.2
+                run_install: false
+          - name: Install Node.js
+            uses: actions/setup-node@v4
+            with:
+              node-version: 20
+          - name: Install dependencies
+            run: pnpm install
+            working-directory: Website/
+          - name: Run ESLint
+            run: pnpm run lint
+            working-directory: Website/
+
+    eslint-GAS:
+      name: ESLint - GAS
+      runs-on: ubuntu-latest
+      needs: commit-validator
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v2
+        - name: Setup PNPM Package Manager
+          uses: pnpm/action-setup@v2
+          with:
+              version: 10.5.2
+              run_install: false
+        - name: Install Node.js
+          uses: actions/setup-node@v4
+          with:
+            node-version: 20
+        - name: Install dependencies
+          run: pnpm install
+          working-directory: GAS/
+        - name: Run ESLint
+          run: pnpm run lint
+          working-directory: GAS/
