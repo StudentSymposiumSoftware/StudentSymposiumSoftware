@@ -44,8 +44,8 @@ function EmailJudges(){
   }
 
   // Craft and Send Emails (Untested)
-  for (var i = 0; i < Object.keys(processedJudgesList).length; i++) {
-    /* Judge */ var currentJudge = processedJudgesList[Object.keys(processedJudgesList)[i]]
+  for (var j = 0; i < Object.keys(processedJudgesList).length; j++) {
+    /* Judge */ var currentJudge = processedJudgesList[Object.keys(processedJudgesList)[j]]
     /* str */ var body = EMAIL_PRELUDE + "<br/>" + currentJudge.toString()
     sendEmail(currentJudge.email, EMAIL_SUBJECT, body);
   }

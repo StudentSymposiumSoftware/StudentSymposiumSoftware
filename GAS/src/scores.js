@@ -39,9 +39,9 @@ function calculateScores() {
   }
   Logger.log(scores)
 
-  for (key in scores){
+  for (var key in scores){
     for(let i = 0; i < 2; i++){
-      sum = scores[key][i].reduce((a,b) => a + b)
+      var sum = scores[key][i].reduce((a,b) => a + b)
       scores[key][i] = sum/16 
     }
   }
@@ -52,7 +52,7 @@ function calculateScores() {
   // [[KEYS, SCORE1AVG, SCORE2AVG]]
   let outputData = []
   for (let i = 0; i < Object.keys(scores).length; i++){
-    absScore = []
+    var absScore = []
 
     let key = Object.keys(scores)[i];
     absScore[0] = key
@@ -61,7 +61,7 @@ function calculateScores() {
     absScore[1] = row[0]
     absScore[2] = row[1] 
 
-    finalScore = (row[0] + row[1])/2
+    var finalScore = (row[0] + row[1])/2
     absScore[3] = finalScore
     outputData.push(absScore)
   }
