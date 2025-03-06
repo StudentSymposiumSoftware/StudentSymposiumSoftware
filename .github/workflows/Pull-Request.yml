@@ -88,7 +88,6 @@ jobs:
     vitetest-Website:
       name: Vitetest - Website
       runs-on: ubuntu-latest
-      needs: build-Website
       steps:
         - name: Checkout
           uses: actions/checkout@v2
@@ -112,6 +111,11 @@ jobs:
       name: Coverage - Website
       runs-on: ubuntu-latest
       needs: vitetest-Website
+      permissions:
+        # Required to checkout the code
+        contents: read
+        # Required to put a comment into the pull-request
+        pull-requests: write
       steps:
         - name: Checkout
           uses: actions/checkout@v2
@@ -128,5 +132,13 @@ jobs:
           run: pnpm install
           working-directory: Website/
         - name: Run Coverage
-          run: pnpm run coverage
+          run: npx vitest run --coverage.enabled true
           working-directory: Website/
+        - run: ls
+        - run: ls Website/
+        - run: ls Website/coverage/
+        - name: 'Report Coverage'
+          if: always() 
+          uses:  davelosert/vitest-coverage-report-action@v2
+          with:
+            working-directory: Website/
