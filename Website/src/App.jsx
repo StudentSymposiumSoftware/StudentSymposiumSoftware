@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css'
 
@@ -7,8 +8,27 @@ import ListView from './components/ListView';
 import GridView from './components/GridView';
 
 import { mockData } from "./mockData";
+import { fetchCsvData, parseInput } from './firebase/CsvFetcher.js';
+
+const USE_MOCK_DATA = false; // Switch this flag to go back to mock data
 
 function App() {
+  const [abstractData, setAbstractData] = useState([]);
+
+  useEffect(() => {
+    const loadData = async () => {
+      let data = await fetchCsvData("2025_abstracts.csv");
+ 
+      if (!USE_MOCK_DATA && data && Array.isArray(data) && data.length > 0) {
+        let parsedData = parseInput(data);
+        setAbstractData(parsedData);
+      } else {
+        setAbstractData(mockData);
+      }
+    };
+
+    loadData();
+  }, []);
 
   return (
     <Router>
@@ -25,9 +45,9 @@ function App() {
       
         <Routes>
           <Route path="/" element={<HomepageComponent/>} />
-          <Route path="/search" element={<SearchView data={mockData}/>} />
-          <Route path="/list" element={<ListView data={mockData}/>} />
-          <Route path="/grid" element={<GridView data={mockData}/>} />
+          <Route path="/search" element={<SearchView data={abstractData}/>} />
+          <Route path="/list" element={<ListView data={abstractData}/>} />
+          <Route path="/grid" element={<GridView data={abstractData}/>} />
         </Routes>
       
       </div>

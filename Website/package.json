@@ -13,6 +13,9 @@
     "update-test": "vitest run -u"
   },
   "dependencies": {
+    "dotenv": "^16.4.7",
+    "firebase": "^11.4.0",
+    "papaparse": "^5.5.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.2.0"
