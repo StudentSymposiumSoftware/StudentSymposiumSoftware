@@ -46,7 +46,6 @@ function calculateScores() {
     }
   }
 
-  Logger.log(scores)
 
   // Prepare for output
   // [[KEYS, SCORE1AVG, SCORE2AVG]]
