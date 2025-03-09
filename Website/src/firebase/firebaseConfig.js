@@ -2,14 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: import.meta.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.REACT_APP_FIREBASE_PROJECT_ID,
+  apiKey: "AIzaSyB0BH1xGuzp4V6OK9qTVucK-76xMEGgXbQ",
+  authDomain: "symposiumrecap.firebaseapp.com",
+  projectId: "symposiumrecap",
   storageBucket: "symposiumrecap.firebasestorage.app",
-  messagingSenderId: import.meta.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.REACT_APP_FIREBASE_APP_ID
+  messagingSenderId: "911741567786",
+  appId: "1:911741567786:web:03906d7c82dcd6f56ad453"
 }
 
 const app = initializeApp(firebaseConfig);
 export const storage = getStorage(app);
-
