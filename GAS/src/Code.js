@@ -4,7 +4,7 @@ function doGet() {
 
 function onOpen() {
   SpreadsheetApp.getUi() 
-      .createMenu('Custom Menu')
+      .createMenu('Symposium Actions')
       .addItem('Show sidebar', 'showSidebar')
       .addToUi();
 }
@@ -141,7 +141,7 @@ function createAbstractDoc() {
   data.sort((a, b) => a[numberIndex] - b[numberIndex])
 
   const coAuthorIndexes = [];
-  ["1st", "2nd", "3rd", "4th", "fth"].forEach((ordinal) => {
+  ["1st", "2nd", "3rd", "4th", "5th"].forEach((ordinal) => {
     const coAuthorNameIndex = headers.indexOf(`${ordinal} Co-author's Full Name`);
     if (coAuthorNameIndex !== -1) {
       coAuthorIndexes.push(coAuthorNameIndex);
