@@ -6,17 +6,795 @@ exports[`GridView renders correctly 1`] = `
   "baseElement": <body>
     <div>
       <div
-        id="grid-container"
+        class="grid-container"
       >
-        Welcome to the grid view page
+        <div
+          class="item"
+        >
+          <h4>
+            Machine Learning Approaches to Financial Fraud Detection by Elijah Smith
+          </h4>
+          <p>
+            Physics at UMaine Machias
+          </p>
+          <p>
+            Abstract number 38893888
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            The Psychology of Decision-Making in Uncertain Environments by Sophia Campbell
+          </h4>
+          <p>
+            Political Science at UMaine Machias
+          </p>
+          <p>
+            Abstract number 75957852
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            The Sociology of Online Communities in the Digital Age by Lucy Martinez
+          </h4>
+          <p>
+            Business Administration at UMaine Machias
+          </p>
+          <p>
+            Abstract number 48203955
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Advancements in Human-Robot Interaction for Assistive Technologies by Zoe Jackson
+          </h4>
+          <p>
+            Psychology at UMaine Machias
+          </p>
+          <p>
+            Abstract number 64568884
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Blockchain Technology in Supply Chain Transparency by Noah King
+          </h4>
+          <p>
+            Political Science at UMaine Machias
+          </p>
+          <p>
+            Abstract number 40679302
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Advancements in Human-Robot Interaction for Assistive Technologies by Joseph Baker
+          </h4>
+          <p>
+            Mathematics at UMaine Orono
+          </p>
+          <p>
+            Abstract number 37625940
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Climate Change and Its Effects on Global Food Security by Ava Rodriguez
+          </h4>
+          <p>
+            Physics at UMaine Machias
+          </p>
+          <p>
+            Abstract number 35716422
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            The Psychology of Decision-Making in Uncertain Environments by Henry Adams
+          </h4>
+          <p>
+            Psychology at UMaine Machias
+          </p>
+          <p>
+            Abstract number 82413071
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Machine Learning Approaches to Financial Fraud Detection by Mason Hernandez
+          </h4>
+          <p>
+            Business Administration at UMaine Orono
+          </p>
+          <p>
+            Abstract number 27882383
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Machine Learning Approaches to Financial Fraud Detection by Emma Taylor
+          </h4>
+          <p>
+            Biology at UMaine Orono
+          </p>
+          <p>
+            Abstract number 92969314
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            The Role of Citizen Science in Biodiversity Conservation by Aurora Martinez
+          </h4>
+          <p>
+            Computer Science at UMaine Machias
+          </p>
+          <p>
+            Abstract number 29718536
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            The Role of Citizen Science in Biodiversity Conservation by Lucas Robinson
+          </h4>
+          <p>
+            Psychology at UMaine Orono
+          </p>
+          <p>
+            Abstract number 1457768
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Blockchain Technology in Supply Chain Transparency by Chloe Adams
+          </h4>
+          <p>
+            Physics at UMaine Orono
+          </p>
+          <p>
+            Abstract number 14148682
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Exploring the Feasibility of Space-Based Solar Power by Layla Young
+          </h4>
+          <p>
+            Biology at UMaine Orono
+          </p>
+          <p>
+            Abstract number 60454722
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Social Media Influence on Adolescent Mental Health by Alexander Hall
+          </h4>
+          <p>
+            Business Administration at UMaine Machias
+          </p>
+          <p>
+            Abstract number 41498009
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Analyzing the Impact of Microplastics on Marine Ecosystems by Zoe Young
+          </h4>
+          <p>
+            Physics at UMaine Orono
+          </p>
+          <p>
+            Abstract number 23333306
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Cultural Impacts on Language Evolution by Mason Clark
+          </h4>
+          <p>
+            Nursing at UMaine Machias
+          </p>
+          <p>
+            Abstract number 97656877
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Social Media Influence on Adolescent Mental Health by Henry Hall
+          </h4>
+          <p>
+            Mechanical Engineering at UMaine Machias
+          </p>
+          <p>
+            Abstract number 91417686
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Advancements in Human-Robot Interaction for Assistive Technologies by Samuel Scott
+          </h4>
+          <p>
+            Mathematics at UMaine Machias
+          </p>
+          <p>
+            Abstract number 4887031
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Advancements in Human-Robot Interaction for Assistive Technologies by Grace Nelson
+          </h4>
+          <p>
+            Nursing at UMaine Machias
+          </p>
+          <p>
+            Abstract number 36475226
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Machine Learning Approaches to Financial Fraud Detection by Scarlett Hernandez
+          </h4>
+          <p>
+            Mechanical Engineering at UMaine Machias
+          </p>
+          <p>
+            Abstract number 29014475
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            The Future of CRISPR in Gene Therapy by Maya Hernandez
+          </h4>
+          <p>
+            Physics at UMaine Machias
+          </p>
+          <p>
+            Abstract number 44667664
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Analyzing the Impact of Microplastics on Marine Ecosystems by Elijah Rivera
+          </h4>
+          <p>
+            Computer Science at UMaine Orono
+          </p>
+          <p>
+            Abstract number 21709418
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Social Media Influence on Adolescent Mental Health by Liam Taylor
+          </h4>
+          <p>
+            Political Science at UMaine Machias
+          </p>
+          <p>
+            Abstract number 45822327
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            The Impact of Remote Work on Organizational Productivity by Mia Robinson
+          </h4>
+          <p>
+            Mathematics at UMaine Orono
+          </p>
+          <p>
+            Abstract number 75710656
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Deep Learning for Medical Image Analysis by Evelyn Rodriguez
+          </h4>
+          <p>
+            Physics at UMaine Orono
+          </p>
+          <p>
+            Abstract number 39877467
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Cultural Impacts on Language Evolution by Zoe Brown
+          </h4>
+          <p>
+            Physics at UMaine Orono
+          </p>
+          <p>
+            Abstract number 74596190
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Advancements in Human-Robot Interaction for Assistive Technologies by Sophie Thomas
+          </h4>
+          <p>
+            Mechanical Engineering at UMaine Machias
+          </p>
+          <p>
+            Abstract number 30556122
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Advancements in Human-Robot Interaction for Assistive Technologies by Maya Mitchell
+          </h4>
+          <p>
+            Nursing at UMaine Orono
+          </p>
+          <p>
+            Abstract number 75180428
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Analyzing the Impact of Microplastics on Marine Ecosystems by Jack Anderson
+          </h4>
+          <p>
+            Physics at UMaine Orono
+          </p>
+          <p>
+            Abstract number 82398661
+          </p>
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      id="grid-container"
+      class="grid-container"
     >
-      Welcome to the grid view page
+      <div
+        class="item"
+      >
+        <h4>
+          Machine Learning Approaches to Financial Fraud Detection by Elijah Smith
+        </h4>
+        <p>
+          Physics at UMaine Machias
+        </p>
+        <p>
+          Abstract number 38893888
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          The Psychology of Decision-Making in Uncertain Environments by Sophia Campbell
+        </h4>
+        <p>
+          Political Science at UMaine Machias
+        </p>
+        <p>
+          Abstract number 75957852
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          The Sociology of Online Communities in the Digital Age by Lucy Martinez
+        </h4>
+        <p>
+          Business Administration at UMaine Machias
+        </p>
+        <p>
+          Abstract number 48203955
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Advancements in Human-Robot Interaction for Assistive Technologies by Zoe Jackson
+        </h4>
+        <p>
+          Psychology at UMaine Machias
+        </p>
+        <p>
+          Abstract number 64568884
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Blockchain Technology in Supply Chain Transparency by Noah King
+        </h4>
+        <p>
+          Political Science at UMaine Machias
+        </p>
+        <p>
+          Abstract number 40679302
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Advancements in Human-Robot Interaction for Assistive Technologies by Joseph Baker
+        </h4>
+        <p>
+          Mathematics at UMaine Orono
+        </p>
+        <p>
+          Abstract number 37625940
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Climate Change and Its Effects on Global Food Security by Ava Rodriguez
+        </h4>
+        <p>
+          Physics at UMaine Machias
+        </p>
+        <p>
+          Abstract number 35716422
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          The Psychology of Decision-Making in Uncertain Environments by Henry Adams
+        </h4>
+        <p>
+          Psychology at UMaine Machias
+        </p>
+        <p>
+          Abstract number 82413071
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Machine Learning Approaches to Financial Fraud Detection by Mason Hernandez
+        </h4>
+        <p>
+          Business Administration at UMaine Orono
+        </p>
+        <p>
+          Abstract number 27882383
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Machine Learning Approaches to Financial Fraud Detection by Emma Taylor
+        </h4>
+        <p>
+          Biology at UMaine Orono
+        </p>
+        <p>
+          Abstract number 92969314
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          The Role of Citizen Science in Biodiversity Conservation by Aurora Martinez
+        </h4>
+        <p>
+          Computer Science at UMaine Machias
+        </p>
+        <p>
+          Abstract number 29718536
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          The Role of Citizen Science in Biodiversity Conservation by Lucas Robinson
+        </h4>
+        <p>
+          Psychology at UMaine Orono
+        </p>
+        <p>
+          Abstract number 1457768
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Blockchain Technology in Supply Chain Transparency by Chloe Adams
+        </h4>
+        <p>
+          Physics at UMaine Orono
+        </p>
+        <p>
+          Abstract number 14148682
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Exploring the Feasibility of Space-Based Solar Power by Layla Young
+        </h4>
+        <p>
+          Biology at UMaine Orono
+        </p>
+        <p>
+          Abstract number 60454722
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Social Media Influence on Adolescent Mental Health by Alexander Hall
+        </h4>
+        <p>
+          Business Administration at UMaine Machias
+        </p>
+        <p>
+          Abstract number 41498009
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Analyzing the Impact of Microplastics on Marine Ecosystems by Zoe Young
+        </h4>
+        <p>
+          Physics at UMaine Orono
+        </p>
+        <p>
+          Abstract number 23333306
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Cultural Impacts on Language Evolution by Mason Clark
+        </h4>
+        <p>
+          Nursing at UMaine Machias
+        </p>
+        <p>
+          Abstract number 97656877
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Social Media Influence on Adolescent Mental Health by Henry Hall
+        </h4>
+        <p>
+          Mechanical Engineering at UMaine Machias
+        </p>
+        <p>
+          Abstract number 91417686
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Advancements in Human-Robot Interaction for Assistive Technologies by Samuel Scott
+        </h4>
+        <p>
+          Mathematics at UMaine Machias
+        </p>
+        <p>
+          Abstract number 4887031
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Advancements in Human-Robot Interaction for Assistive Technologies by Grace Nelson
+        </h4>
+        <p>
+          Nursing at UMaine Machias
+        </p>
+        <p>
+          Abstract number 36475226
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Machine Learning Approaches to Financial Fraud Detection by Scarlett Hernandez
+        </h4>
+        <p>
+          Mechanical Engineering at UMaine Machias
+        </p>
+        <p>
+          Abstract number 29014475
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          The Future of CRISPR in Gene Therapy by Maya Hernandez
+        </h4>
+        <p>
+          Physics at UMaine Machias
+        </p>
+        <p>
+          Abstract number 44667664
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Analyzing the Impact of Microplastics on Marine Ecosystems by Elijah Rivera
+        </h4>
+        <p>
+          Computer Science at UMaine Orono
+        </p>
+        <p>
+          Abstract number 21709418
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Social Media Influence on Adolescent Mental Health by Liam Taylor
+        </h4>
+        <p>
+          Political Science at UMaine Machias
+        </p>
+        <p>
+          Abstract number 45822327
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          The Impact of Remote Work on Organizational Productivity by Mia Robinson
+        </h4>
+        <p>
+          Mathematics at UMaine Orono
+        </p>
+        <p>
+          Abstract number 75710656
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Deep Learning for Medical Image Analysis by Evelyn Rodriguez
+        </h4>
+        <p>
+          Physics at UMaine Orono
+        </p>
+        <p>
+          Abstract number 39877467
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Cultural Impacts on Language Evolution by Zoe Brown
+        </h4>
+        <p>
+          Physics at UMaine Orono
+        </p>
+        <p>
+          Abstract number 74596190
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Advancements in Human-Robot Interaction for Assistive Technologies by Sophie Thomas
+        </h4>
+        <p>
+          Mechanical Engineering at UMaine Machias
+        </p>
+        <p>
+          Abstract number 30556122
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Advancements in Human-Robot Interaction for Assistive Technologies by Maya Mitchell
+        </h4>
+        <p>
+          Nursing at UMaine Orono
+        </p>
+        <p>
+          Abstract number 75180428
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Analyzing the Impact of Microplastics on Marine Ecosystems by Jack Anderson
+        </h4>
+        <p>
+          Physics at UMaine Orono
+        </p>
+        <p>
+          Abstract number 82398661
+        </p>
+      </div>
     </div>
   </div>,
   "debug": [Function],
