@@ -10,21 +10,14 @@ import GridView from './components/GridView';
 import { mockData } from "./mockData";
 import { fetchCsvData, parseInput } from './firebase/CsvFetcher.js';
 
-const USE_MOCK_DATA = false; // Switch this flag to go back to mock data
-
 function App() {
   const [abstractData, setAbstractData] = useState([]);
 
   useEffect(() => {
     const loadData = async () => {
       let data = await fetchCsvData("2025_abstracts.csv");
- 
-      if (!USE_MOCK_DATA && data && Array.isArray(data) && data.length > 0) {
-        let parsedData = parseInput(data);
-        setAbstractData(parsedData);
-      } else {
-        setAbstractData(mockData);
-      }
+      let parsedData = parseInput(data);
+      setAbstractData(parsedData);
     };
 
     loadData();
