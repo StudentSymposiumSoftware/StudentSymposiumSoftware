@@ -3,9 +3,20 @@ function doGet() {
 }
 
 function onOpen() {
-  SpreadsheetApp.getUi() 
-      .createMenu('Symposium Actions')
-      .addItem('Show sidebar', 'showSidebar')
+  var ui = SpreadsheetApp.getUi() 
+    ui.createMenu('Symposium Actions')
+      .addItem('Email Judges', 'EmailJudges')
+      .addSubMenu(
+        ui.createMenu('Scoring')
+        .addItem('Get Scores', 'getScoreInfo')
+        .addItem('Calculate Scores', 'calculateScores')
+        .addItem('Clear Scores', 'clearScores')
+      )
+      .addSubMenu(
+        ui.createMenu('Exports')
+          .addItem('Generate Book of Abstracts', 'createAbstractDoc')
+          .addItem('Generate Results Page', 'resultsPage')
+        )
       .addToUi();
 }
 
