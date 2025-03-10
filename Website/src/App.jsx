@@ -13,13 +13,9 @@ function App() {
   const [abstractData, setAbstractData] = useState([]);
 
   useEffect(() => {
-    const loadData = async () => {
-      let data = await fetchCsvData("2025_abstracts.csv");
-      let parsedData = parseInput(data);
-      setAbstractData(parsedData);
-    };
-
-    loadData();
+    fetchCsvData("2025_abstracts.csv")
+    .then(data => parseInput(data))
+    .then(parsedData => setAbstractData(parsedData));
   }, []);
 
   return (
