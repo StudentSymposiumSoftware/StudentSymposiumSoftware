@@ -10,12 +10,11 @@ export const fetchCsvData = async (filePath) => {
     const response = await fetch(url);
     const csvText = await response.text();
 
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       Papa.parse(csvText, {
         header: true, 
         skipEmptyLines: true,
-        complete: (result) => resolve(result.data),
-        error: (error) => reject(error),
+        complete: (result) => resolve(result.data)
       });
     });
   } catch (error) {

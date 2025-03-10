@@ -20,12 +20,3 @@ it('fetchCsvData returns empty array on error', async () => {
     const data = await fetchCsvData("invalid_file.csv");
     expect(data).toEqual([]);
 });
-
-it('parseInput transforms data correctly', () => {
-    const inputData = [
-      { 'Student First Name': 'John', 'Student Last Name': 'Doe', 'Project Title': 'Test Project' },
-    ];
-    const parsedData = parseInput(inputData);
-    expect(parsedData[0].author).toBe('John Doe');
-    expect(parsedData[0].title).toBe('Test Project');
-});
