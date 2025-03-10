@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-indigo.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </head>
+  <body>
+    <div id="button-holder">
+      <button onclick="handleButtonClick('calculateScores')" class="mdl-button mdl-js-button mdl-button--raised">Calculate Scores</button><br/>
+      <button onclick="handleButtonClick('clearScores')" class="mdl-button mdl-js-button mdl-button--raised">Clear Scores</button><br/>
+      <button onclick="handleButtonClick('EmailJudges')" class="mdl-button mdl-js-button mdl-button--raised">Email Judges</button><br/>
+      <button onclick="handleButtonClick('createAbstractDoc')" class="mdl-button mdl-js-button mdl-button--raised">Create Book of Abstracts</button><br/>
+      <button onclick="handleButtonClick('getScoreInfo')" class="mdl-button mdl-js-button mdl-button--raised">Get Scores</button><br/>
+      <button onclick="handleButtonClick('resultsPage')" class="mdl-button mdl-js-button mdl-button--raised">Generate Results Page</button><br/>
+
+    </div>
+
+    <div id="status-message" style="margin-top: 20px; color: green; font-weight: bold;"></div>
+    
+    <script>
+      function handleButtonClick(functionName) {
+        document.getElementById('status-message').innerHTML = 'Running ' + functionName + '...';
+
+        google.script.run.withSuccessHandler(function() {
+          document.getElementById('status-message').innerHTML = functionName + ' completed successfully!';
+        }).withFailureHandler(function() {
+          document.getElementById('status-message').innerHTML = 'Error: ' + functionName + ' failed!';
+        })[functionName]();  
+      }
+    </script>
+
+  </body>
+  <style>
+    button {
+      display: block;
+      margin-bottom: 5px;
+    }
+  </style>
+</html>

@@ -1,0 +1,17 @@
+{
+	"dependencies": {
+		"@google/clasp": "^2.5.0"
+	},
+	"scripts": {
+		"login": "clasp login",
+		"dev": "rm -f ./.clasp.json && cp ./.clasp-dev.json ./.clasp.json && clasp push -f && clasp open",
+		"deploy": "rm -f ./.clasp.json && cp ./.clasp-prd.json ./.clasp.json && clasp push -f",
+		"lint": "eslint ."
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.21.0",
+		"eslint": "^9.21.0",
+		"eslint-plugin-googleappsscript": "^1.0.5",
+		"globals": "^16.0.0"
+	}
+}
