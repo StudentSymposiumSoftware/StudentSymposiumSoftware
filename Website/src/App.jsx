@@ -7,7 +7,6 @@ import SearchView from './components/SearchView';
 import ListView from './components/ListView';
 import GridView from './components/GridView';
 
-import { mockData } from "./mockData";
 import { fetchCsvData, parseInput } from './firebase/CsvFetcher.js';
 
 function App() {
