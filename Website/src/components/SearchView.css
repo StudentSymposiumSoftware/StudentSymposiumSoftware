@@ -1,0 +1,9 @@
+select {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+option {
+    padding: 10px;
+}
