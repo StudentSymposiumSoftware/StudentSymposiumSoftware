@@ -12,11 +12,14 @@ function SearchView(props) {
     });
 
     const handleChange = (e) => {
-        setFilters({
-            ...filters,
-            [e.target.name]: e.target.value,
+        const { name, value } = e.target;
+        setFilters((prevFilters) => {
+            const updatedFilters = { ...prevFilters };
+            updatedFilters[name] = value;
+            return updatedFilters;
         });
     };
+
 
     const getUniqueValues = (key) => {
         return [...new Set(props.data.map(item => item[key]))];
