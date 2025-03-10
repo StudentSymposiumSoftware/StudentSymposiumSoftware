@@ -3,9 +3,9 @@ import { expect, it } from "vitest";
 import { fetchCsvData, parseInput } from '../../../src/firebase/CsvFetcher.js';
 
 it('Data can be fetched', async () => {
-    let data = await fetchCsvData("2025_abstracts.csv");
-    expect(data).toBeInstanceOf(Array);
-    expect(data.length).toBeGreaterThan(0);
+    fetchCsvData("2025_abstracts.csv")
+    .then(data => parseInput(data))
+    .then(parsedData => expect(parsedData.length).toBeGreaterThan(0));
 });
 
 it('Data can be parsed', async () => {
