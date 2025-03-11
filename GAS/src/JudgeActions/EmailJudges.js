@@ -1,12 +1,12 @@
-function EmailJudges(){
+function EmailJudges() {
   // Constants
   /* int */ const COL_ABSTRACTNUM = 0;
   /* int */ const COL_JUDGEEMAIL = 1;
   /* int */ const COL_JUDGE2EMAIL = 2;
   /* str */ const RANGE_JUDGEASSIGNING_ABSTRACTASSIGNMENTTABLE = "A2:C";
-  
+
   const Spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
-  
+
   // Named Ranges (Settings)
   /* str */ const EMAIL_SUBJECT = Spreadsheet.getSheetByName("Judge Assigning").getRange("JudgeAssignmentEmail_Subject");
   /* str */ const EMAIL_PRELUDE = Spreadsheet.getSheetByName("Judge Assigning").getRange("JudgeAssignmentEmail_OpeningText");
@@ -57,7 +57,7 @@ function EmailJudges(){
 * subject {str} - Subject of email
 * body {str} - HTML formatted body of email
 */
-function sendEmail(email, subject, body){
+function sendEmail(email, subject, body) {
   MailApp.sendEmail({
     to: email,
     subject: subject,
@@ -75,7 +75,7 @@ class Judge {
     /* str */ this.email = judgeEmail;
     /* str[] */ this.abstractNumbers = [abstractNumber];
   }
-  
+
   AbstractNumberText(numbers) {
     return `Assigned Abstract Numbers: ${numbers}`
   }
