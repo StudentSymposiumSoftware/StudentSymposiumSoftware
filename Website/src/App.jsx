@@ -22,12 +22,15 @@ function App() {
     <Router>
       <div id="site-container">      
         <div id="navbar">
-          <h3>Navigate to our different displays here:</h3>
-          
-          <Link className="PageLink" to={"/"}><h3>Home Page</h3></Link>
-          <Link className="PageLink" to={"/search"}><h3>Search View</h3></Link>
-          <Link className="PageLink" to={"/list"}><h3>List View</h3></Link>
-          <Link className="PageLink" to={"/grid"}><h3>Grid View</h3></Link>
+          <span className="inline-block mr-5 p-2">
+            <img src="/Website/logo.png" id="navbar_logo"/>
+          </span>
+          <span className="inline-block">
+            <Link className="PageLink" to={"/"}><h3>Home Page</h3></Link>
+            <Link className="PageLink" to={"/search"}><h3>Search View</h3></Link>
+            <Link className="PageLink" to={"/list"}><h3>List View</h3></Link>
+            <Link className="PageLink" to={"/grid"}><h3>Grid View</h3></Link>
+          </span>
 
         </div>
       
