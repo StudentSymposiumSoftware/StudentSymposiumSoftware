@@ -11,9 +11,86 @@ exports[`GridView renders correctly 1`] = `
         <div
           id="navbar"
         >
+          <span
+            class="inline-block mr-5 p-2"
+          >
+            <img
+              id="navbar_logo"
+              src="/Website/logo.png"
+            />
+          </span>
+          <span
+            class="inline-block"
+          >
+            <a
+              class="PageLink"
+              data-discover="true"
+              href="#/"
+            >
+              <h3>
+                Home Page
+              </h3>
+            </a>
+            <a
+              class="PageLink"
+              data-discover="true"
+              href="#/search"
+            >
+              <h3>
+                Search View
+              </h3>
+            </a>
+            <a
+              class="PageLink"
+              data-discover="true"
+              href="#/list"
+            >
+              <h3>
+                List View
+              </h3>
+            </a>
+            <a
+              class="PageLink"
+              data-discover="true"
+              href="#/grid"
+            >
+              <h3>
+                Grid View
+              </h3>
+            </a>
+          </span>
+        </div>
+        <div
+          id="homepage-container"
+        >
+          <h2>
+            Welcome to the Symposium Recap site !!
+          </h2>
           <h3>
-            Navigate to our different displays here:
+            Please select the needed link above to route to your component
           </h3>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      id="site-container"
+    >
+      <div
+        id="navbar"
+      >
+        <span
+          class="inline-block mr-5 p-2"
+        >
+          <img
+            id="navbar_logo"
+            src="/Website/logo.png"
+          />
+        </span>
+        <span
+          class="inline-block"
+        >
           <a
             class="PageLink"
             data-discover="true"
@@ -50,66 +127,7 @@ exports[`GridView renders correctly 1`] = `
               Grid View
             </h3>
           </a>
-        </div>
-        <div
-          id="homepage-container"
-        >
-          <h2>
-            Welcome to the Symposium Recap site !!
-          </h2>
-          <h3>
-            Please select the needed link above to route to your component
-          </h3>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      id="site-container"
-    >
-      <div
-        id="navbar"
-      >
-        <h3>
-          Navigate to our different displays here:
-        </h3>
-        <a
-          class="PageLink"
-          data-discover="true"
-          href="#/"
-        >
-          <h3>
-            Home Page
-          </h3>
-        </a>
-        <a
-          class="PageLink"
-          data-discover="true"
-          href="#/search"
-        >
-          <h3>
-            Search View
-          </h3>
-        </a>
-        <a
-          class="PageLink"
-          data-discover="true"
-          href="#/list"
-        >
-          <h3>
-            List View
-          </h3>
-        </a>
-        <a
-          class="PageLink"
-          data-discover="true"
-          href="#/grid"
-        >
-          <h3>
-            Grid View
-          </h3>
-        </a>
+        </span>
       </div>
       <div
         id="homepage-container"
