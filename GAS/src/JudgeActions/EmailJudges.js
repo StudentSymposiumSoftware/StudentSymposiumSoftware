@@ -8,8 +8,8 @@ function EmailJudges() {
   const Spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
 
   // Named Ranges (Settings)
-  /* str */ const EMAIL_SUBJECT = Spreadsheet.getSheetByName("Judge Assigning").getRange("JudgeAssignmentEmail_Subject");
-  /* str */ const EMAIL_PRELUDE = Spreadsheet.getSheetByName("Judge Assigning").getRange("JudgeAssignmentEmail_OpeningText");
+  /* str */ const EMAIL_SUBJECT = Spreadsheet.getSheetByName("Judge Assigning").getRange("JudgeAssignmentEmail_Subject").getValue();
+  /* str */ const EMAIL_PRELUDE = Spreadsheet.getSheetByName("Judge Assigning").getRange("JudgeAssignmentEmail_OpeningText").getValue();
 
   // Setup
   /* str[] */ var sourceEmailList = Spreadsheet.getSheetByName("Judge Assigning").getRange(RANGE_JUDGEASSIGNING_ABSTRACTASSIGNMENTTABLE).getValues();
