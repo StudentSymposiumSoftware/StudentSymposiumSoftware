@@ -25,3 +25,18 @@
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.author-link {
+    text-decoration: underline;
+    color: rgb(31, 31, 101);
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.author-link:hover {
+    color: darkblue;
+}
+
+.author-link:active {
+    color: red;
+}
