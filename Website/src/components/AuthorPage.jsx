@@ -17,7 +17,7 @@ function AuthorPage(props) {
             <h2 id="author-title">{authorName}</h2>
 
             <div id="abstract-display">
-                <div className={`${authorData.length > 0 ? "abstract-list" : "hidden"}`} id="authored-abstracts">
+                {authorData.length > 0 && <div className="abstract-list" id="authored-abstracts">
                     <h3 className="author-subtitle">Authored:</h3>
                     {authorData.map((abstract, index) => (
                         <div className="abstract-item" key={index}>
@@ -25,9 +25,9 @@ function AuthorPage(props) {
                             <h3>{abstract.title}</h3>
                         </div>
                     ))}
-                </div>
+                </div>}
 
-                <div className={`${mentorData.length > 0 ? "abstract-list" : "hidden"}`} id="approved-abstracts">
+                {mentorData.length > 0 && <div className="abstract-list" id="approved-abstracts">
                     <h3 className="author-subtitle">Abstracts Approved:</h3>
                     {mentorData.map((abstract, index) => (
                         <div className="abstract-item" key={index}>
@@ -35,7 +35,7 @@ function AuthorPage(props) {
                             <h3>{abstract.title}</h3> 
                         </div>
                     ))}
-                </div>
+                </div>}
             </div>
         </div>
     );
