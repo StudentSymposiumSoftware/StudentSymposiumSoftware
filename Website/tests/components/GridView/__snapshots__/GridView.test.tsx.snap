@@ -12,7 +12,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Machine Learning Approaches to Financial Fraud Detection by Elijah Smith
+            Machine Learning Approaches to Financial Fraud Detection
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Elijah Smith
           </h4>
           <p>
             Physics at UMaine Machias
@@ -25,7 +31,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            The Psychology of Decision-Making in Uncertain Environments by Sophia Campbell
+            The Psychology of Decision-Making in Uncertain Environments
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Sophia Campbell
           </h4>
           <p>
             Political Science at UMaine Machias
@@ -38,7 +50,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            The Sociology of Online Communities in the Digital Age by Lucy Martinez
+            The Sociology of Online Communities in the Digital Age
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Lucy Martinez
           </h4>
           <p>
             Business Administration at UMaine Machias
@@ -51,7 +69,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Advancements in Human-Robot Interaction for Assistive Technologies by Zoe Jackson
+            Advancements in Human-Robot Interaction for Assistive Technologies
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Zoe Jackson
           </h4>
           <p>
             Psychology at UMaine Machias
@@ -64,7 +88,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Blockchain Technology in Supply Chain Transparency by Noah King
+            Blockchain Technology in Supply Chain Transparency
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Noah King
           </h4>
           <p>
             Political Science at UMaine Machias
@@ -77,7 +107,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Advancements in Human-Robot Interaction for Assistive Technologies by Joseph Baker
+            Advancements in Human-Robot Interaction for Assistive Technologies
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Joseph Baker
           </h4>
           <p>
             Mathematics at UMaine Orono
@@ -90,7 +126,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Climate Change and Its Effects on Global Food Security by Ava Rodriguez
+            Climate Change and Its Effects on Global Food Security
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Ava Rodriguez
           </h4>
           <p>
             Physics at UMaine Machias
@@ -103,7 +145,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            The Psychology of Decision-Making in Uncertain Environments by Henry Adams
+            The Psychology of Decision-Making in Uncertain Environments
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Henry Adams
           </h4>
           <p>
             Psychology at UMaine Machias
@@ -116,7 +164,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Machine Learning Approaches to Financial Fraud Detection by Mason Hernandez
+            Machine Learning Approaches to Financial Fraud Detection
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Mason Hernandez
           </h4>
           <p>
             Business Administration at UMaine Orono
@@ -129,7 +183,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Machine Learning Approaches to Financial Fraud Detection by Emma Taylor
+            Machine Learning Approaches to Financial Fraud Detection
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Emma Taylor
           </h4>
           <p>
             Biology at UMaine Orono
@@ -142,7 +202,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            The Role of Citizen Science in Biodiversity Conservation by Aurora Martinez
+            The Role of Citizen Science in Biodiversity Conservation
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Aurora Martinez
           </h4>
           <p>
             Computer Science at UMaine Machias
@@ -155,7 +221,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            The Role of Citizen Science in Biodiversity Conservation by Lucas Robinson
+            The Role of Citizen Science in Biodiversity Conservation
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Lucas Robinson
           </h4>
           <p>
             Psychology at UMaine Orono
@@ -168,7 +240,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Blockchain Technology in Supply Chain Transparency by Chloe Adams
+            Blockchain Technology in Supply Chain Transparency
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Chloe Adams
           </h4>
           <p>
             Physics at UMaine Orono
@@ -181,7 +259,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Exploring the Feasibility of Space-Based Solar Power by Layla Young
+            Exploring the Feasibility of Space-Based Solar Power
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Layla Young
           </h4>
           <p>
             Biology at UMaine Orono
@@ -194,7 +278,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Social Media Influence on Adolescent Mental Health by Alexander Hall
+            Social Media Influence on Adolescent Mental Health
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Alexander Hall
           </h4>
           <p>
             Business Administration at UMaine Machias
@@ -207,7 +297,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Analyzing the Impact of Microplastics on Marine Ecosystems by Zoe Young
+            Analyzing the Impact of Microplastics on Marine Ecosystems
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Zoe Young
           </h4>
           <p>
             Physics at UMaine Orono
@@ -220,7 +316,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Cultural Impacts on Language Evolution by Mason Clark
+            Cultural Impacts on Language Evolution
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Mason Clark
           </h4>
           <p>
             Nursing at UMaine Machias
@@ -233,7 +335,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Social Media Influence on Adolescent Mental Health by Henry Hall
+            Social Media Influence on Adolescent Mental Health
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Henry Hall
           </h4>
           <p>
             Mechanical Engineering at UMaine Machias
@@ -246,7 +354,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Advancements in Human-Robot Interaction for Assistive Technologies by Samuel Scott
+            Advancements in Human-Robot Interaction for Assistive Technologies
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Samuel Scott
           </h4>
           <p>
             Mathematics at UMaine Machias
@@ -259,7 +373,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Advancements in Human-Robot Interaction for Assistive Technologies by Grace Nelson
+            Advancements in Human-Robot Interaction for Assistive Technologies
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Grace Nelson
           </h4>
           <p>
             Nursing at UMaine Machias
@@ -272,7 +392,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Machine Learning Approaches to Financial Fraud Detection by Scarlett Hernandez
+            Machine Learning Approaches to Financial Fraud Detection
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Scarlett Hernandez
           </h4>
           <p>
             Mechanical Engineering at UMaine Machias
@@ -285,7 +411,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            The Future of CRISPR in Gene Therapy by Maya Hernandez
+            The Future of CRISPR in Gene Therapy
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Maya Hernandez
           </h4>
           <p>
             Physics at UMaine Machias
@@ -298,7 +430,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Analyzing the Impact of Microplastics on Marine Ecosystems by Elijah Rivera
+            Analyzing the Impact of Microplastics on Marine Ecosystems
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Elijah Rivera
           </h4>
           <p>
             Computer Science at UMaine Orono
@@ -311,7 +449,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Social Media Influence on Adolescent Mental Health by Liam Taylor
+            Social Media Influence on Adolescent Mental Health
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Liam Taylor
           </h4>
           <p>
             Political Science at UMaine Machias
@@ -324,7 +468,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            The Impact of Remote Work on Organizational Productivity by Mia Robinson
+            The Impact of Remote Work on Organizational Productivity
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Mia Robinson
           </h4>
           <p>
             Mathematics at UMaine Orono
@@ -337,7 +487,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Deep Learning for Medical Image Analysis by Evelyn Rodriguez
+            Deep Learning for Medical Image Analysis
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Evelyn Rodriguez
           </h4>
           <p>
             Physics at UMaine Orono
@@ -350,7 +506,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Cultural Impacts on Language Evolution by Zoe Brown
+            Cultural Impacts on Language Evolution
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Zoe Brown
           </h4>
           <p>
             Physics at UMaine Orono
@@ -363,7 +525,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Advancements in Human-Robot Interaction for Assistive Technologies by Sophie Thomas
+            Advancements in Human-Robot Interaction for Assistive Technologies
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Sophie Thomas
           </h4>
           <p>
             Mechanical Engineering at UMaine Machias
@@ -376,7 +544,13 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Advancements in Human-Robot Interaction for Assistive Technologies by Maya Mitchell
+            Advancements in Human-Robot Interaction for Assistive Technologies
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Maya Mitchell
           </h4>
           <p>
             Nursing at UMaine Orono
@@ -389,7 +563,32 @@ exports[`GridView renders correctly 1`] = `
           class="item"
         >
           <h4>
-            Analyzing the Impact of Microplastics on Marine Ecosystems by Jack Anderson
+            Analyzing the Impact of Microplastics on Marine Ecosystems
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Jack Anderson
+          </h4>
+          <p>
+            Physics at UMaine Orono
+          </p>
+          <p>
+            Abstract number 82398661
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <h4>
+            Analyzing the Impact of Microplastics on Marine Ecosystems
+          </h4>
+          <h4
+            class="author-link"
+          >
+            By 
+            Harper Rodriguez
           </h4>
           <p>
             Physics at UMaine Orono
@@ -409,7 +608,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Machine Learning Approaches to Financial Fraud Detection by Elijah Smith
+          Machine Learning Approaches to Financial Fraud Detection
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Elijah Smith
         </h4>
         <p>
           Physics at UMaine Machias
@@ -422,7 +627,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          The Psychology of Decision-Making in Uncertain Environments by Sophia Campbell
+          The Psychology of Decision-Making in Uncertain Environments
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Sophia Campbell
         </h4>
         <p>
           Political Science at UMaine Machias
@@ -435,7 +646,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          The Sociology of Online Communities in the Digital Age by Lucy Martinez
+          The Sociology of Online Communities in the Digital Age
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Lucy Martinez
         </h4>
         <p>
           Business Administration at UMaine Machias
@@ -448,7 +665,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Advancements in Human-Robot Interaction for Assistive Technologies by Zoe Jackson
+          Advancements in Human-Robot Interaction for Assistive Technologies
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Zoe Jackson
         </h4>
         <p>
           Psychology at UMaine Machias
@@ -461,7 +684,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Blockchain Technology in Supply Chain Transparency by Noah King
+          Blockchain Technology in Supply Chain Transparency
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Noah King
         </h4>
         <p>
           Political Science at UMaine Machias
@@ -474,7 +703,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Advancements in Human-Robot Interaction for Assistive Technologies by Joseph Baker
+          Advancements in Human-Robot Interaction for Assistive Technologies
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Joseph Baker
         </h4>
         <p>
           Mathematics at UMaine Orono
@@ -487,7 +722,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Climate Change and Its Effects on Global Food Security by Ava Rodriguez
+          Climate Change and Its Effects on Global Food Security
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Ava Rodriguez
         </h4>
         <p>
           Physics at UMaine Machias
@@ -500,7 +741,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          The Psychology of Decision-Making in Uncertain Environments by Henry Adams
+          The Psychology of Decision-Making in Uncertain Environments
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Henry Adams
         </h4>
         <p>
           Psychology at UMaine Machias
@@ -513,7 +760,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Machine Learning Approaches to Financial Fraud Detection by Mason Hernandez
+          Machine Learning Approaches to Financial Fraud Detection
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Mason Hernandez
         </h4>
         <p>
           Business Administration at UMaine Orono
@@ -526,7 +779,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Machine Learning Approaches to Financial Fraud Detection by Emma Taylor
+          Machine Learning Approaches to Financial Fraud Detection
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Emma Taylor
         </h4>
         <p>
           Biology at UMaine Orono
@@ -539,7 +798,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          The Role of Citizen Science in Biodiversity Conservation by Aurora Martinez
+          The Role of Citizen Science in Biodiversity Conservation
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Aurora Martinez
         </h4>
         <p>
           Computer Science at UMaine Machias
@@ -552,7 +817,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          The Role of Citizen Science in Biodiversity Conservation by Lucas Robinson
+          The Role of Citizen Science in Biodiversity Conservation
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Lucas Robinson
         </h4>
         <p>
           Psychology at UMaine Orono
@@ -565,7 +836,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Blockchain Technology in Supply Chain Transparency by Chloe Adams
+          Blockchain Technology in Supply Chain Transparency
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Chloe Adams
         </h4>
         <p>
           Physics at UMaine Orono
@@ -578,7 +855,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Exploring the Feasibility of Space-Based Solar Power by Layla Young
+          Exploring the Feasibility of Space-Based Solar Power
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Layla Young
         </h4>
         <p>
           Biology at UMaine Orono
@@ -591,7 +874,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Social Media Influence on Adolescent Mental Health by Alexander Hall
+          Social Media Influence on Adolescent Mental Health
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Alexander Hall
         </h4>
         <p>
           Business Administration at UMaine Machias
@@ -604,7 +893,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Analyzing the Impact of Microplastics on Marine Ecosystems by Zoe Young
+          Analyzing the Impact of Microplastics on Marine Ecosystems
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Zoe Young
         </h4>
         <p>
           Physics at UMaine Orono
@@ -617,7 +912,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Cultural Impacts on Language Evolution by Mason Clark
+          Cultural Impacts on Language Evolution
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Mason Clark
         </h4>
         <p>
           Nursing at UMaine Machias
@@ -630,7 +931,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Social Media Influence on Adolescent Mental Health by Henry Hall
+          Social Media Influence on Adolescent Mental Health
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Henry Hall
         </h4>
         <p>
           Mechanical Engineering at UMaine Machias
@@ -643,7 +950,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Advancements in Human-Robot Interaction for Assistive Technologies by Samuel Scott
+          Advancements in Human-Robot Interaction for Assistive Technologies
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Samuel Scott
         </h4>
         <p>
           Mathematics at UMaine Machias
@@ -656,7 +969,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Advancements in Human-Robot Interaction for Assistive Technologies by Grace Nelson
+          Advancements in Human-Robot Interaction for Assistive Technologies
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Grace Nelson
         </h4>
         <p>
           Nursing at UMaine Machias
@@ -669,7 +988,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Machine Learning Approaches to Financial Fraud Detection by Scarlett Hernandez
+          Machine Learning Approaches to Financial Fraud Detection
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Scarlett Hernandez
         </h4>
         <p>
           Mechanical Engineering at UMaine Machias
@@ -682,7 +1007,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          The Future of CRISPR in Gene Therapy by Maya Hernandez
+          The Future of CRISPR in Gene Therapy
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Maya Hernandez
         </h4>
         <p>
           Physics at UMaine Machias
@@ -695,7 +1026,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Analyzing the Impact of Microplastics on Marine Ecosystems by Elijah Rivera
+          Analyzing the Impact of Microplastics on Marine Ecosystems
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Elijah Rivera
         </h4>
         <p>
           Computer Science at UMaine Orono
@@ -708,7 +1045,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Social Media Influence on Adolescent Mental Health by Liam Taylor
+          Social Media Influence on Adolescent Mental Health
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Liam Taylor
         </h4>
         <p>
           Political Science at UMaine Machias
@@ -721,7 +1064,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          The Impact of Remote Work on Organizational Productivity by Mia Robinson
+          The Impact of Remote Work on Organizational Productivity
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Mia Robinson
         </h4>
         <p>
           Mathematics at UMaine Orono
@@ -734,7 +1083,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Deep Learning for Medical Image Analysis by Evelyn Rodriguez
+          Deep Learning for Medical Image Analysis
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Evelyn Rodriguez
         </h4>
         <p>
           Physics at UMaine Orono
@@ -747,7 +1102,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Cultural Impacts on Language Evolution by Zoe Brown
+          Cultural Impacts on Language Evolution
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Zoe Brown
         </h4>
         <p>
           Physics at UMaine Orono
@@ -760,7 +1121,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Advancements in Human-Robot Interaction for Assistive Technologies by Sophie Thomas
+          Advancements in Human-Robot Interaction for Assistive Technologies
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Sophie Thomas
         </h4>
         <p>
           Mechanical Engineering at UMaine Machias
@@ -773,7 +1140,13 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Advancements in Human-Robot Interaction for Assistive Technologies by Maya Mitchell
+          Advancements in Human-Robot Interaction for Assistive Technologies
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Maya Mitchell
         </h4>
         <p>
           Nursing at UMaine Orono
@@ -786,7 +1159,32 @@ exports[`GridView renders correctly 1`] = `
         class="item"
       >
         <h4>
-          Analyzing the Impact of Microplastics on Marine Ecosystems by Jack Anderson
+          Analyzing the Impact of Microplastics on Marine Ecosystems
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Jack Anderson
+        </h4>
+        <p>
+          Physics at UMaine Orono
+        </p>
+        <p>
+          Abstract number 82398661
+        </p>
+      </div>
+      <div
+        class="item"
+      >
+        <h4>
+          Analyzing the Impact of Microplastics on Marine Ecosystems
+        </h4>
+        <h4
+          class="author-link"
+        >
+          By 
+          Harper Rodriguez
         </h4>
         <p>
           Physics at UMaine Orono
