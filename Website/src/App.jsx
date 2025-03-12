@@ -6,6 +6,7 @@ import HomepageComponent from './components/Homepage';
 import SearchView from './components/SearchView';
 import ListView from './components/ListView';
 import GridView from './components/GridView';
+import AuthorPage from "./components/AuthorPage.jsx";
 
 import { fetchCsvData, parseInput } from './firebase/CsvFetcher.js';
 
@@ -39,6 +40,7 @@ function App() {
           <Route path="/search" element={<SearchView data={abstractData}/>} />
           <Route path="/list" element={<ListView data={abstractData}/>} />
           <Route path="/grid" element={<GridView data={abstractData}/>} />
+          <Route path="/author/:name" element={<AuthorPage data={abstractData}/>} />
         </Routes>
       
       </div>
