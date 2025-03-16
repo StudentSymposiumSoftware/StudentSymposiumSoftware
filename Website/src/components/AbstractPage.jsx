@@ -1,23 +1,34 @@
 import "./AbstractPage.css"
-import { useNavigate, useParams  } from "react-router-dom"
+import { useParams  } from "react-router-dom"
 
 function AbstractPage(props) {
-    const navigate = useNavigate();
 
     let { id} = useParams();
-    for (let i = 0; i < props.data.length; i++) {
-        if (props.data[i].abstractNumber == id) {
+    const abstract = props.data.find(item => item.abstractNumber == id);
+
+    if (abstract) {
+      const coAuthors = [
+        abstract.author,
+        abstract["1st Co-author's Full Name"],
+        abstract["2nd Co-author's Full Name"],
+        abstract["3rd Co-author's Full Name"],
+        abstract["4th Co-author's Full Name"],
+        abstract["5th Co-author's Full Name"],
+        abstract["If you have more than 5 co-authors, please list their names and emails below, and whether they are an undergraduate student, graduate student, faculty, or external author. Please see the example."]
+    ];
+
+    // Filter out any undefined or empty co-author values
+    const filteredCoAuthors = coAuthors.filter(coAuthor => coAuthor && coAuthor.trim() !== "");
         return (
             <div id="abstract-container">
-                <h1 style={{ fontSize: "50px" }}>{props.data[i].title}</h1>
-                <h2  className="author-link" id="author-abstract-page"><i>Authors:</i> {[props.data[i].author, props.data[i]["1st Co-author's Full Name"], props.data[i]["2nd Co-author's Full Name"], props.data[i]["3rd Co-author's Full Name"], props.data[i]["4th Co-author's Full Name"], props.data[i]["5th Co-author's Full Name"], props.data[i]["If you have more than 5 co-authors, please list their names and emails below, and whether they are an undergraduate student, graduate student, faculty, or external author. Please see the example."]].join(', ')}</h2>
-                <h2><i>Faculty Advisor:</i> {props.data[i]["Faculty Mentor Name"]}</h2>
-                <h2><i>Abstract Number:</i> {props.data[i].abstractNumber}</h2>
+                <h1 style={{ fontSize: "50px" }}>{abstract.title}</h1>
+                <h2  className="author-link" id="author-abstract-page"><i>Authors:</i> {filteredCoAuthors.join(", ")}</h2>
+                <h2><i>Faculty Advisor:</i> {abstract["Faculty Mentor Name"]}</h2>
+                <h2><i>Abstract Number:</i> {abstract.abstractNumber}</h2>
                 <br></br>
-                <p>{props.data[i]['Project Abstract']}</p>
+                <p>{abstract['Project Abstract']}</p>
             </div>
       );
-    }
   }
 
   return (
