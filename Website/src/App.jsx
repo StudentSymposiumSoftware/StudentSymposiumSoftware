@@ -7,6 +7,7 @@ import SearchView from './components/SearchView';
 import ListView from './components/ListView';
 import GridView from './components/GridView';
 import AuthorPage from "./components/AuthorPage.jsx";
+import AdminPage from "./components/AdminPage.jsx";
 
 import { fetchCsvData, parseInput } from './firebase/CsvFetcher.js';
 
@@ -31,6 +32,7 @@ function App() {
             <Link className="PageLink" to={"/search"}><h3>Search View</h3></Link>
             <Link className="PageLink" to={"/list"}><h3>List View</h3></Link>
             <Link className="PageLink" to={"/grid"}><h3>Grid View</h3></Link>
+            <Link className="PageLink" to={"/admin"}><h3>Admin</h3></Link>
           </span>
 
         </div>
@@ -41,6 +43,7 @@ function App() {
           <Route path="/list" element={<ListView data={abstractData}/>} />
           <Route path="/grid" element={<GridView data={abstractData}/>} />
           <Route path="/author/:name" element={<AuthorPage data={abstractData}/>} />
+          <Route path="/admin" element={<AdminPage/>}/>
         </Routes>
       
       </div>
