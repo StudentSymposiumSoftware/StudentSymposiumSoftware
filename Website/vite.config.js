@@ -21,7 +21,7 @@ export default defineConfig({
       }
     },
   },
-  base: '/Website/',
+  base: '/StudentSymposiumSoftware/',
   build: {
     watch: { include: ['/*.css', './*.css', '/src/*.css'] }
   },
