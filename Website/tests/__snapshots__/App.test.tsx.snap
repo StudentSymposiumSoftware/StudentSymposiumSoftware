@@ -58,6 +58,15 @@ exports[`GridView renders correctly 1`] = `
                 Grid View
               </h3>
             </a>
+            <a
+              class="PageLink"
+              data-discover="true"
+              href="#/admin"
+            >
+              <h3>
+                Admin
+              </h3>
+            </a>
           </span>
         </div>
         <div
@@ -125,6 +134,15 @@ exports[`GridView renders correctly 1`] = `
           >
             <h3>
               Grid View
+            </h3>
+          </a>
+          <a
+            class="PageLink"
+            data-discover="true"
+            href="#/admin"
+          >
+            <h3>
+              Admin
             </h3>
           </a>
         </span>
