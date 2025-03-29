@@ -1,7 +1,7 @@
 import "./Homepage.css";
 import { useEffect, useState } from "react";
 
-function HomepageComponent(props) {
+function Homepage(props) {
     const [randomAbstract, setRandomAbstract] = useState(null);
 
     useEffect(() => {
@@ -37,4 +37,4 @@ function HomepageComponent(props) {
     );
 }
 
-export default HomepageComponent;
+export default Homepage;
