@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+#homepage-container {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.abstract-display {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 50%;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+    color: black;
+}
