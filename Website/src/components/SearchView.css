@@ -33,15 +33,22 @@ option {
     height: 10vh;
     background-color: rgba(117, 117, 117, 0.226);
 
+    gap: 0.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2vw;
-    font-size: 1.3vw;
     border-radius: 20px;
     transition: all 0.25s ease;
     border-radius: solid 1px black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search-item h4{
+    font-size: 0.9vw;
+}
+
+.search-item h3{
+    font-size: 0.8vw;
 }
 
 .search-item:hover{
