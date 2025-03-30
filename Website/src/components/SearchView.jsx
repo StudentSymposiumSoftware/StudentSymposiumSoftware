@@ -1,39 +1,70 @@
 import "./SearchView.css";
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
+import { useNavigate } from "react-router-dom"
 
 function SearchView(props) {
-    console.log(props.data); // <-- Here's the data for your ticket
+    const navigate = useNavigate();
+    const [query, setQuery] = useState("");
 
-    const [filters, setFilters] = useState({
-        major: null,
-        professor: null,
-        category: null,
-        university: null,
-    });
+    const filteredData = useMemo(() => {
+        return props.data.filter(item =>
+            Object.values(item).some(value =>
+                String(value).toLowerCase().includes(query.toLowerCase())
+            )
+        )
+    }, [query, props.data])
 
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFilters((prevFilters) => {
-            const updatedFilters = { ...prevFilters };
-            updatedFilters[name] = value;
-            return updatedFilters;
-        });
-    };
+    // const [filters, setFilters] = useState({
+    //     major: null,
+    //     professor: null,
+    //     category: null,
+    //     university: null,
+    // });
+
+    // const handleChange = (e) => {
+    //     const { name, value } = e.target;
+    //     setFilters((prevFilters) => {
+    //         const updatedFilters = { ...prevFilters };
+    //         updatedFilters[name] = value;
+    //         return updatedFilters;
+    //     });
+    // };
 
 
-    const getUniqueValues = (key) => {
-        return [...new Set(props.data.map(item => item[key]))];
-    };
+    // const getUniqueValues = (key) => {
+    //     return [...new Set(props.data.map(item => item[key]))];
+    // };
 
-    const majorOptions = getUniqueValues("major");
-    const professorOptions = getUniqueValues("professor");
-    const categoryOptions = getUniqueValues("category");
-    const universityOptions = getUniqueValues("school");
+    // const majorOptions = getUniqueValues("major");
+    // const professorOptions = getUniqueValues("professor");
+    // const categoryOptions = getUniqueValues("category");
+    // const universityOptions = getUniqueValues("school");
 
     return (
         <div id="search-container">
-            <h2>Welcome to the search page</h2>
-
+            <input
+                type="text"
+                placeholder="Search..."
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                className="search-bar"
+            />
+            
+            <div className="search-results">
+                {filteredData.length > 0 ? (
+                    filteredData.map((item, index) => (
+                        <div key={index} className="search-item" onClick={() => navigate(`/author/${item.author}`)}>
+                            <h4>#{item.abstractNumber}</h4> 
+                            <h3>{item.title}</h3>      
+                            <h4>by {item.author}</h4>
+                        </div>
+                    ))
+                ) : (
+                <div className="no-results-found">No results found</div>
+                )}
+            </div>
+        
+{/* 
             <div>
                 <label htmlFor="major">Major:</label>
                 <select
@@ -100,9 +131,9 @@ function SearchView(props) {
                         </option>
                     ))}
                 </select>
-            </div>
+            </div> */}
 
-            <pre>{JSON.stringify(filters, null, 2)}</pre>
+       
         </div>
     );
 }
