@@ -25,7 +25,7 @@ function App() {
       <div id="site-container">      
         <div id="navbar">
           <span className="inline-block mr-5 p-2">
-            <img src="/Website/logo.png" id="navbar_logo"/>
+            <img src="logo.png" id="navbar_logo"/>
           </span>
           <span className="inline-block">
             <Link className="PageLink" to={"/"}><h3>Home Page</h3></Link>
