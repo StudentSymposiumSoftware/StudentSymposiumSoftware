@@ -52,6 +52,18 @@ function EmailJudges() {
 }
 
 /*
+* Send a test email to the specified email address in the sheet
+*/
+function sendTestEmail() {
+  /* Spreadsheet */ const Spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+  /* str */ const TEST_EMAIL = Spreadsheet.getSheetByName("Judge Assigning").getRange("JudgeAssignmentEmail_TestEmailAddress").getValue();
+  /* str */ const TEST_SUBJECT = "SSS Test Email";
+  /* str */ const TEST_BODY = "This is a test email from the Student Symposium Software Suite"
+
+  sendEmail(TEST_EMAIL, TEST_SUBJECT, TEST_BODY);
+}
+
+/*
 * Lightweight wrapper for GMail email app
 * email {str} - Email(s) to send to (comma seperated)
 * subject {str} - Subject of email
