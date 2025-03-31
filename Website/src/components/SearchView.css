@@ -25,14 +25,14 @@ option {
     gap: 1vh;
     justify-content: center;
     align-items: center;
-    
 }
 
 .search-item{
+    padding: 5px;
     width: 50vw;
     height: 10vh;
     background-color: rgba(117, 117, 117, 0.226);
-
+    cursor: pointer;
     gap: 0.5vw;
     display: flex;
     justify-content: center;
