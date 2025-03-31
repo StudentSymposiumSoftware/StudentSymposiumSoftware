@@ -16,6 +16,7 @@ function onOpen() {
         .addItem('Generate Book of Abstracts', 'createAbstractDoc')
         .addItem('Generate Results Page', 'resultsPage')
         .addItem('Export to XLSX', 'exportSheetXLSX')
+        .addItem('Upload Final Sheet to Website', 'exportToFirebase')
     )
     .addSubMenu(
       ui.createMenu('Testing')
