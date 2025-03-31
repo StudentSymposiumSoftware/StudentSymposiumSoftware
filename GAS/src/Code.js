@@ -16,6 +16,10 @@ function onOpen() {
         .addItem('Generate Book of Abstracts', 'createAbstractDoc')
         .addItem('Generate Results Page', 'resultsPage')
     )
+    .addSubMenu(
+      ui.createMenu('Testing')
+        .addItem('Test Email', 'sendTestEmail')
+    )
     .addToUi();
 }
 
