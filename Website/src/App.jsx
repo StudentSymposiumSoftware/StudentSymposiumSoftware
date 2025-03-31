@@ -2,12 +2,12 @@ import { useState, useEffect } from "react";
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css'
 
-import HomepageComponent from './components/Homepage';
-import SearchView from './components/SearchView';
-import ListView from './components/ListView';
-import GridView from './components/GridView';
-import AuthorPage from "./components/AuthorPage.jsx";
-import AdminPage from "./components/AdminPage.jsx";
+import HomepageComponent from './components/Homepage/Homepage';
+import SearchView from './components/Views/Search/SearchView';
+import ListView from './components/Views/List/ListView';
+import GridView from './components/Views/Grid/GridView';
+import AuthorPage from "./components/AuthorPage/AuthorPage.jsx";
+import AdminPage from "./components/Admin/AdminPage.jsx";
 
 import { fetchCsvData, parseInput } from './firebase/CsvFetcher.js';
 

@@ -1,7 +1,7 @@
 import "./AdminPage.css"
 
 // Firebase Imports
-import { storage, database, authentication } from "../firebase/firebaseConfig";
+import { storage, database, authentication } from "../../firebase/firebaseConfig";
 import { ref as dbRef, onValue } from "firebase/database";
 import { uploadBytes, ref as storageRef } from "firebase/storage";
 import { signInWithRedirect, GoogleAuthProvider } from "firebase/auth";
