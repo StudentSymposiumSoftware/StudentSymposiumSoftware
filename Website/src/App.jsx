@@ -16,16 +16,16 @@ function App() {
 
   useEffect(() => {
     fetchCsvData("2025_abstracts.csv")
-    .then(data => parseInput(data))
-    .then(parsedData => setAbstractData(parsedData));
+      .then(data => parseInput(data))
+      .then(parsedData => setAbstractData(parsedData));
   }, []);
 
   return (
     <Router>
-      <div id="site-container">      
+      <div id="site-container">
         <div id="navbar">
           <span className="inline-block mr-5 p-2">
-            <img src="/Website/logo.png" id="navbar_logo"/>
+            <img src="/Website/logo.png" id="navbar_logo" />
           </span>
           <span className="inline-block">
             <Link className="PageLink" to={"/"}><h3>Home Page</h3></Link>
@@ -36,7 +36,7 @@ function App() {
           </span>
 
         </div>
-      
+
         <Routes>
           <Route path="/" element={<HomepageComponent/>} />
           <Route path="/search" element={<SearchView data={abstractData}/>} />
@@ -45,7 +45,7 @@ function App() {
           <Route path="/author/:name" element={<AuthorPage data={abstractData}/>} />
           <Route path="/admin" element={<AdminPage/>}/>
         </Routes>
-      
+
       </div>
     </Router>
   )

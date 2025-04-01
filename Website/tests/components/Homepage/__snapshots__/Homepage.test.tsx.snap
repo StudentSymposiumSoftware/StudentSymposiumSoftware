@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Homepage renders correctly 1`] = `
+exports[`Homepage renders correctly and updates abstract 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -14,6 +14,55 @@ exports[`Homepage renders correctly 1`] = `
         <h3>
           Please select the needed link above to route to your component
         </h3>
+        <div
+          class="abstract-display"
+        >
+          <h4>
+            Abstract 2
+          </h4>
+          <p>
+            <strong>
+              Author:
+            </strong>
+             
+            Author B
+          </p>
+          <p>
+            <strong>
+              Professor:
+            </strong>
+             
+            Prof. Y
+          </p>
+          <p>
+            <strong>
+              School:
+            </strong>
+             
+            School X
+          </p>
+          <p>
+            <strong>
+              Major:
+            </strong>
+             
+            Major A
+          </p>
+          <p>
+            <strong>
+              Category:
+            </strong>
+             
+            Category 2
+          </p>
+          <p>
+            <strong>
+              Abstract Number:
+            </strong>
+             
+            002
+          </p>
+        </div>
       </div>
     </div>
   </body>,
@@ -27,6 +76,55 @@ exports[`Homepage renders correctly 1`] = `
       <h3>
         Please select the needed link above to route to your component
       </h3>
+      <div
+        class="abstract-display"
+      >
+        <h4>
+          Abstract 2
+        </h4>
+        <p>
+          <strong>
+            Author:
+          </strong>
+           
+          Author B
+        </p>
+        <p>
+          <strong>
+            Professor:
+          </strong>
+           
+          Prof. Y
+        </p>
+        <p>
+          <strong>
+            School:
+          </strong>
+           
+          School X
+        </p>
+        <p>
+          <strong>
+            Major:
+          </strong>
+           
+          Major A
+        </p>
+        <p>
+          <strong>
+            Category:
+          </strong>
+           
+          Category 2
+        </p>
+        <p>
+          <strong>
+            Abstract Number:
+          </strong>
+           
+          002
+        </p>
+      </div>
     </div>
   </div>,
   "debug": [Function],
