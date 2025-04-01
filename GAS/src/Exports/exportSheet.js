@@ -35,7 +35,7 @@ function uploadToFirebaseStorage(year) {
             muteHttpExceptions: true
           };
         /* String */ var bucketName = "symposiumrecap.firebasestorage.app";
-        /* String */ var pathAndName = `symposium/${year}/symposium.xlsx`;
+        /* String */ var pathAndName = `symposium/${year}-symposium.xlsx`;
         /* String */ var upload_url = 'https://www.googleapis.com/upload/storage/v1/b/' + bucketName + '/o?uploadType=media&name=' + pathAndName;
         /* blob */ var blob = UrlFetchApp.fetch(spreadsheet_url, params).getBlob();
         /* String */ var oA_Tkn = ScriptApp.getOAuthToken();
