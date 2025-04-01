@@ -38,7 +38,7 @@ export async function fetchXLSXData(year) {
 
 
 export const parseInput = (inputData) => {
-    // Transforms CSV into data similar to the mock data
+    // Transforms JSON into data similar to the mock data
     for (let i = 0; i < inputData.length; i++){
       inputData[i].author = `${inputData[i]['Student First Name']} ${inputData[i]['Student Last Name']}`
       inputData[i].professor = inputData[i]["Faculty Mentor Name"]

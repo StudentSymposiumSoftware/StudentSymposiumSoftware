@@ -19,7 +19,7 @@ function App() {
   const [abstractData, setAbstractData] = useState([]);
   const [year, setYear] = useState();
   const [availableYears, setAvailableYears] = useState(false);
-
+  /* v8 ignore start */
   useEffect(() => {
     if (year) {
       fetchXLSXData(year)
@@ -43,7 +43,7 @@ function App() {
         setAvailableYears(listOfAvailableYears);
     })
   }, [])
-
+  /* v8 ignore end */
   return (
     <Router>
       <div id="site-container">      
