@@ -18,49 +18,49 @@ exports[`Homepage renders correctly and updates abstract 1`] = `
           class="abstract-display"
         >
           <h4>
-            Abstract 1
+            Abstract 2
           </h4>
           <p>
             <strong>
               Author:
             </strong>
              
-            Author A
+            Author B
           </p>
           <p>
             <strong>
               Professor:
             </strong>
              
-            Prof. X
+            Prof. Y
           </p>
           <p>
             <strong>
               School:
             </strong>
              
-            School Y
+            School X
           </p>
           <p>
             <strong>
               Major:
             </strong>
              
-            Major Z
+            Major A
           </p>
           <p>
             <strong>
               Category:
             </strong>
              
-            Category 1
+            Category 2
           </p>
           <p>
             <strong>
               Abstract Number:
             </strong>
              
-            001
+            002
           </p>
         </div>
       </div>
@@ -80,49 +80,49 @@ exports[`Homepage renders correctly and updates abstract 1`] = `
         class="abstract-display"
       >
         <h4>
-          Abstract 1
+          Abstract 2
         </h4>
         <p>
           <strong>
             Author:
           </strong>
            
-          Author A
+          Author B
         </p>
         <p>
           <strong>
             Professor:
           </strong>
            
-          Prof. X
+          Prof. Y
         </p>
         <p>
           <strong>
             School:
           </strong>
            
-          School Y
+          School X
         </p>
         <p>
           <strong>
             Major:
           </strong>
            
-          Major Z
+          Major A
         </p>
         <p>
           <strong>
             Category:
           </strong>
            
-          Category 1
+          Category 2
         </p>
         <p>
           <strong>
             Abstract Number:
           </strong>
            
-          001
+          002
         </p>
       </div>
     </div>
