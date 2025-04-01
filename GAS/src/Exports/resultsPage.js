@@ -14,18 +14,26 @@ function resultsPage() {
 
     let undergradOrGradIndex = applicationsHeaders.indexOf("Are you entering this abstract for Graduate Exposition or Undergraduate Showcase?");
     let abstractNumberIndex = applicationsHeaders.indexOf("Abstract Numbers");
-    const studentFirstNameIndex = applicationsHeaders.indexOf('Student First Name');
-    const studentLastNameIndex = applicationsHeaders.indexOf('Student Last Name');
-    const graduateCategoryIndex = applicationsHeaders.indexOf("Graduate Presentations: Please select one of the following categories that best fit your research. *For more information about being a presenter at the Symposium and for a helpful guide on the below categories, visit: https://umaine.edu/umss/list-of-majors-categories/");
-    const undergraduateCategoryIndex = applicationsHeaders.indexOf("Undergraduate Presentations: Please select one of the following categories that best fits your research. *For more information about being a presenter at the Symposium, and for a helpful guide on the categories below, visit: https://umaine.edu/umss/list-of-majors-categories/");
+    let studentFirstNameIndex = applicationsHeaders.indexOf('Student First Name');
+    let studentLastNameIndex = applicationsHeaders.indexOf('Student Last Name');
+    let graduateCategoryIndex = applicationsHeaders.indexOf("Graduate Presentations: Please select one of the following categories that best fit your research. *For more information about being a presenter at the Symposium and for a helpful guide on the below categories, visit: https://umaine.edu/umss/list-of-majors-categories/");
+    let undergraduateCategoryIndex = applicationsHeaders.indexOf("Undergraduate Presentations: Please select one of the following categories that best fits your research. *For more information about being a presenter at the Symposium, and for a helpful guide on the categories below, visit: https://umaine.edu/umss/list-of-majors-categories/");
+    let projectTitleIndex = applicationsHeaders.indexOf("Project Title");
+    let firstCoAuthorIndex = applicationsHeaders.indexOf("1st Co-author's Full Name");
+    let secondCoAuthorIndex = applicationsHeaders.indexOf("2nd Co-author's Full Name");
+    let thirdCoAuthorIndex = applicationsHeaders.indexOf("3rd Co-author's Full Name");
+    let fourthCoAuthorIndex = applicationsHeaders.indexOf("4th Co-author's Full Name");
+    let fifthCoAuthorIndex = applicationsHeaders.indexOf("5th Co-author's Full Name");
+    let extraCoAuthorIndex = applicationsHeaders.indexOf("If you have more than 5 co-authors, please list their names and emails below, and whether they are an undergraduate student, graduate student, faculty, or external author. Please see the example.");
+    // For extra co-authors, it ends up adding their email and class as well, but I figured the user can just erase extra informaton as needed
 
-    let classAndAbstractMap = {};  // Abstract num mapped to undergrad or grad
+    let classAndAbstractMap = {};  
 
     for (let i = 1; i < numRowsInApplications; i++) {
         classAndAbstractMap[applicationsData[i][abstractNumberIndex]] = applicationsData[i][undergradOrGradIndex];
     };
 
-    let nameAndAbstractMap = {};  // Abstract num mapped to first and last name
+    let nameAndAbstractMap = {};
 
     for (let i = 1; i < numRowsInApplications; i++) {
         let studentFirstName = applicationsData[i][studentFirstNameIndex];
@@ -34,7 +42,7 @@ function resultsPage() {
         nameAndAbstractMap[applicationsData[i][abstractNumberIndex]] = firstAndLast;
     }
 
-    let categoryAndAbstractMap = {}; // Abstractt num mapped to category
+    let categoryAndAbstractMap = {}; 
     for (let i = 1; i < numRowsInApplications; i++) {
         if (applicationsData[i][undergraduateCategoryIndex] == "" || applicationsData[i][undergraduateCategoryIndex] == null) {
             categoryAndAbstractMap[applicationsData[i][abstractNumberIndex]] = applicationsData[i][graduateCategoryIndex];
@@ -42,6 +50,18 @@ function resultsPage() {
         else {
             categoryAndAbstractMap[applicationsData[i][abstractNumberIndex]] = applicationsData[i][undergraduateCategoryIndex];
         }
+    }
+
+    let titleAndAbstractMap = {};
+    for (let i = 1; i < numRowsInApplications; i++) {
+        titleAndAbstractMap[applicationsData[i][abstractNumberIndex]] = applicationsData[i][projectTitleIndex];
+    };
+
+    let authorsAndAbstractMap = {};
+    for (let i = 1; i< numRowsInApplications; i++){
+        let authors = [applicationsData[i][firstCoAuthorIndex], applicationsData[i][secondCoAuthorIndex], applicationsData[i][thirdCoAuthorIndex], applicationsData[i][fourthCoAuthorIndex], applicationsData[i][fifthCoAuthorIndex], applicationsData[i][extraCoAuthorIndex]];
+
+        authorsAndAbstractMap[applicationsData[i][abstractNumberIndex]] = authors;
     }
 
     let resultsObj = {
@@ -59,8 +79,8 @@ function resultsPage() {
     let depthOfKnowledgeIndex = scoresHeaders.indexOf("Depth of Knowledge");
 
 
-    for (let i = 1; i < numRowsInScores; i++) { // results!
-        let abstractNumber = scoresData[i][abstractNumberIndexScores]; // Abstract number location in Student Scores sheet
+    for (let i = 1; i < numRowsInScores; i++) { 
+        let abstractNumber = scoresData[i][abstractNumberIndexScores]; 
 
         let topicAndPurpose = Number(scoresData[i][topicAndPurposeIndex].match(/\d/g).join(""));
         let method = Number(scoresData[i][methodIndex].match(/\d/g).join(""));
@@ -70,10 +90,10 @@ function resultsPage() {
         let depthOfKnowledge = Number(scoresData[i][depthOfKnowledgeIndex].match(/\d/g).join(""));
         let overallScore = Number(scoresData[i][overallScoreIndex].match(/\d/g).join(""));
 
-        // Now do math to get weighted score according to the rubric (Capstone Project > Documents from Client > UMSS-Judging-Rubric-24.pdf)
+        // math to get weighted score according to the rubric (Capstone Project > Documents from Client > UMSS-Judging-Rubric-24.pdf)
         let weightedScore = ((topicAndPurpose * 2) + (method * 3) + results + (conclusions * 2) + (presentation * 3) + (depthOfKnowledge * 3) + (overallScore * 2))
-        let undergradOrGrad = classAndAbstractMap[abstractNumber]; // Undergraduate or grad student, determined by classMap
-        let category = categoryAndAbstractMap[abstractNumber]; // Abstract category, determined by categoryMap
+        let undergradOrGrad = classAndAbstractMap[abstractNumber]; 
+        let category = categoryAndAbstractMap[abstractNumber]; 
 
         if (undergradOrGrad == 'Undergraduate Showcase' || undergradOrGrad == 'Graduate Exposition') {
             if (!resultsObj[undergradOrGrad][category]) {
@@ -87,7 +107,7 @@ function resultsPage() {
             }
             else {
                 resultsObj[undergradOrGrad][category].push({
-                    name: nameAndAbstractMap[abstractNumber], // First and last name in results arry
+                    name: nameAndAbstractMap[abstractNumber], 
                     abstractNumber: abstractNumber,
                     weightedScore: weightedScore,
                     category: categoryAndAbstractMap[abstractNumber]
@@ -110,20 +130,16 @@ function resultsPage() {
         })
     });
 
-    // The undergraduateResults and graduateResults are now sorted by category in descending order (i.e.
-    // undergraduateResults[0].weightedScore will be the highest weighted score in that category)
-    // Now, for every category, we need to enter the top three into the sheet.
-    ////// Create results sheet
+
     let resultsSheet = spreadsheet.getSheetByName("Final Results");
     if (!resultsSheet) {
         resultsSheet = spreadsheet.insertSheet("Final Results");
-        // Add a clear results sheet button so that it is accurate each time it adds data (below)
     }
     else {
         resultsSheet.clear();
     }
 
-    resultsSheet.appendRow(['Abstract Number', 'Category', 'Student Name', 'Degree Level', 'Overall Score']);
+    resultsSheet.appendRow(['Abstract Number', 'Category', 'Student Name', 'Degree Level', 'Overall Score', 'Project Title',	'First Co-Author',	'Second Co-Author',	'Third Co-Author',	'Fourth Co-Author',	'Fifth Co-Author',	'Extra Co-Authors']);
 
     Object.keys(undergraduateResults).forEach(function (category) {
         let categoryResults = undergraduateResults[category];
@@ -131,7 +147,7 @@ function resultsPage() {
         let topThreeUndergraduates = categoryResults.slice(0, 3);
 
         topThreeUndergraduates.forEach(function (student) {
-            resultsSheet.appendRow([student.abstractNumber, category, student.name, 'Undergraduate', student.weightedScore]);
+            resultsSheet.appendRow([student.abstractNumber, category, student.name, 'Undergraduate', student.weightedScore/16,titleAndAbstractMap[student.abstractNumber], authorsAndAbstractMap[student.abstractNumber][0], authorsAndAbstractMap[student.abstractNumber][1], authorsAndAbstractMap[student.abstractNumber][2], authorsAndAbstractMap[student.abstractNumber][3], authorsAndAbstractMap[student.abstractNumber][4], authorsAndAbstractMap[student.abstractNumber][5] ]);
         });
     });
 
@@ -141,7 +157,7 @@ function resultsPage() {
         let topThreeGraduates = categoryResults.slice(0, 3);
 
         topThreeGraduates.forEach(function (student) {
-            resultsSheet.appendRow([student.abstractNumber, category, student.name, 'Graduate', student.weightedScore]);
+            resultsSheet.appendRow([student.abstractNumber, category, student.name, 'Graduate', student.weightedScore/16, titleAndAbstractMap[student.abstractNumber], authorsAndAbstractMap[student.abstractNumber][0], authorsAndAbstractMap[student.abstractNumber][1], authorsAndAbstractMap[student.abstractNumber][2], authorsAndAbstractMap[student.abstractNumber][3], authorsAndAbstractMap[student.abstractNumber][4], authorsAndAbstractMap[student.abstractNumber][5]]);
         });
     });
 }
