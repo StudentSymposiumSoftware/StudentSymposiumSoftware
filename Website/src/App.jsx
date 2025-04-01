@@ -3,7 +3,7 @@ import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css'
 
 import { storage } from "./firebase/firebaseConfig";
-import { ref as storageRef, listAll, list } from "firebase/storage";
+import { ref as storageRef, listAll } from "firebase/storage";
 
 import HomepageComponent from './components/Homepage/Homepage';
 import SearchView from './components/Views/Search/SearchView';
@@ -13,7 +13,7 @@ import AuthorPage from "./components/AuthorPage/AuthorPage.jsx";
 import AdminPage from "./components/Admin/AdminPage.jsx";
 import YearSelector from "./firebase/yearSelector.jsx";
 
-import { fetchCsvData, parseInput } from './firebase/CsvFetcher.js';
+import { fetchXLSXData, parseInput } from './firebase/xlsxDataFetcher.js';
 
 function App() {
   const [abstractData, setAbstractData] = useState([]);
@@ -21,13 +21,11 @@ function App() {
   const [availableYears, setAvailableYears] = useState(false);
 
   useEffect(() => {
-    fetchCsvData("2025_abstracts.csv")
-    .then(data => parseInput(data))
-    .then(parsedData => setAbstractData(parsedData));
-  }, []);
-
-  useEffect(() => {
-    if (year) console.log(year);
+    if (year) {
+      fetchXLSXData(year)
+        .then(data => parseInput(data['studentApplicationsLinkedRaw']))
+        .then(parsedData => setAbstractData(parsedData));
+    }
   }, [year]);
 
   useEffect(() => {
