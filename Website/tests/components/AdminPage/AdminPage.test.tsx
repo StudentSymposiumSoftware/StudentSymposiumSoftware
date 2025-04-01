@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from "@testing-library/react";
 import { expect, it } from "vitest";
 
-import { AuthAdmin, Loading, AdminPage } from '../../../src/components/AdminPage';
+import { AuthAdmin, Loading, AdminPage } from '../../../src/components/Admin/AdminPage';
 
 it('Admin Page renders correctly', () => {
     const tree = render(<AdminPage/>)

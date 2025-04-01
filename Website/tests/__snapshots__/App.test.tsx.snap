@@ -9,18 +9,20 @@ exports[`GridView renders correctly 1`] = `
         id="site-container"
       >
         <div
+          class="bg-white m-5 rounded-lg ml-[20px] mr-[20px] h-[100px] w-[calc(100% - 50px)] mt-[15px] flex flex-row pr-5 drop-shadow-xl"
           id="navbar"
         >
           <span
-            class="inline-block mr-5 p-2"
+            class="inline-flex items-center align-middle mr-5 h-[100px] p-[10px]"
           >
             <img
+              class="h-[80px]"
               id="navbar_logo"
-              src="/Website/logo.png"
+              src="logo.png"
             />
           </span>
           <span
-            class="inline-block"
+            class="inline-flex items-center align-middle mr-5"
           >
             <a
               class="PageLink"
@@ -68,6 +70,9 @@ exports[`GridView renders correctly 1`] = `
               </h3>
             </a>
           </span>
+          <span
+            class="inline-flex items-center justify-items-end align-middle text-right grow"
+          />
         </div>
         <div
           id="homepage-container"
@@ -87,18 +92,20 @@ exports[`GridView renders correctly 1`] = `
       id="site-container"
     >
       <div
+        class="bg-white m-5 rounded-lg ml-[20px] mr-[20px] h-[100px] w-[calc(100% - 50px)] mt-[15px] flex flex-row pr-5 drop-shadow-xl"
         id="navbar"
       >
         <span
-          class="inline-block mr-5 p-2"
+          class="inline-flex items-center align-middle mr-5 h-[100px] p-[10px]"
         >
           <img
+            class="h-[80px]"
             id="navbar_logo"
-            src="/Website/logo.png"
+            src="logo.png"
           />
         </span>
         <span
-          class="inline-block"
+          class="inline-flex items-center align-middle mr-5"
         >
           <a
             class="PageLink"
@@ -146,6 +153,9 @@ exports[`GridView renders correctly 1`] = `
             </h3>
           </a>
         </span>
+        <span
+          class="inline-flex items-center justify-items-end align-middle text-right grow"
+        />
       </div>
       <div
         id="homepage-container"

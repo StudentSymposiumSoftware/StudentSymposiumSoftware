@@ -3,7 +3,7 @@ import { render, screen, fireEvent } from "@testing-library/react";
 import { expect, it } from "vitest";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import SearchView from '../../../src/components/SearchView';
+import SearchView from '../../../src/components/Views/Search/SearchView';
 import mockData from '../../../src/mockData';
 
 
