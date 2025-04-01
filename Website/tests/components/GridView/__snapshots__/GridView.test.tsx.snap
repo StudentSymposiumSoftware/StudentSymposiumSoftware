@@ -21,7 +21,7 @@ exports[`GridView renders correctly 1`] = `
             Elijah Smith
           </h4>
           <p>
-            Physics at UMaine Machias
+            Physics from UMaine Machias
           </p>
           <p>
             Abstract number 38893888
@@ -40,7 +40,7 @@ exports[`GridView renders correctly 1`] = `
             Sophia Campbell
           </h4>
           <p>
-            Political Science at UMaine Machias
+            Political Science from UMaine Machias
           </p>
           <p>
             Abstract number 75957852
@@ -59,7 +59,7 @@ exports[`GridView renders correctly 1`] = `
             Lucy Martinez
           </h4>
           <p>
-            Business Administration at UMaine Machias
+            Business Administration from UMaine Machias
           </p>
           <p>
             Abstract number 48203955
@@ -78,7 +78,7 @@ exports[`GridView renders correctly 1`] = `
             Zoe Jackson
           </h4>
           <p>
-            Psychology at UMaine Machias
+            Psychology from UMaine Machias
           </p>
           <p>
             Abstract number 64568884
@@ -97,7 +97,7 @@ exports[`GridView renders correctly 1`] = `
             Noah King
           </h4>
           <p>
-            Political Science at UMaine Machias
+            Political Science from UMaine Machias
           </p>
           <p>
             Abstract number 40679302
@@ -116,7 +116,7 @@ exports[`GridView renders correctly 1`] = `
             Joseph Baker
           </h4>
           <p>
-            Mathematics at UMaine Orono
+            Mathematics from UMaine Orono
           </p>
           <p>
             Abstract number 37625940
@@ -135,7 +135,7 @@ exports[`GridView renders correctly 1`] = `
             Ava Rodriguez
           </h4>
           <p>
-            Physics at UMaine Machias
+            Physics from UMaine Machias
           </p>
           <p>
             Abstract number 35716422
@@ -154,7 +154,7 @@ exports[`GridView renders correctly 1`] = `
             Henry Adams
           </h4>
           <p>
-            Psychology at UMaine Machias
+            Psychology from UMaine Machias
           </p>
           <p>
             Abstract number 82413071
@@ -173,7 +173,7 @@ exports[`GridView renders correctly 1`] = `
             Mason Hernandez
           </h4>
           <p>
-            Business Administration at UMaine Orono
+            Business Administration from UMaine Orono
           </p>
           <p>
             Abstract number 27882383
@@ -192,7 +192,7 @@ exports[`GridView renders correctly 1`] = `
             Emma Taylor
           </h4>
           <p>
-            Biology at UMaine Orono
+            Biology from UMaine Orono
           </p>
           <p>
             Abstract number 92969314
@@ -211,7 +211,7 @@ exports[`GridView renders correctly 1`] = `
             Aurora Martinez
           </h4>
           <p>
-            Computer Science at UMaine Machias
+            Computer Science from UMaine Machias
           </p>
           <p>
             Abstract number 29718536
@@ -230,7 +230,7 @@ exports[`GridView renders correctly 1`] = `
             Lucas Robinson
           </h4>
           <p>
-            Psychology at UMaine Orono
+            Psychology from UMaine Orono
           </p>
           <p>
             Abstract number 1457768
@@ -249,7 +249,7 @@ exports[`GridView renders correctly 1`] = `
             Chloe Adams
           </h4>
           <p>
-            Physics at UMaine Orono
+            Physics from UMaine Orono
           </p>
           <p>
             Abstract number 14148682
@@ -268,7 +268,7 @@ exports[`GridView renders correctly 1`] = `
             Layla Young
           </h4>
           <p>
-            Biology at UMaine Orono
+            Biology from UMaine Orono
           </p>
           <p>
             Abstract number 60454722
@@ -287,7 +287,7 @@ exports[`GridView renders correctly 1`] = `
             Alexander Hall
           </h4>
           <p>
-            Business Administration at UMaine Machias
+            Business Administration from UMaine Machias
           </p>
           <p>
             Abstract number 41498009
@@ -306,7 +306,7 @@ exports[`GridView renders correctly 1`] = `
             Zoe Young
           </h4>
           <p>
-            Physics at UMaine Orono
+            Physics from UMaine Orono
           </p>
           <p>
             Abstract number 23333306
@@ -325,7 +325,7 @@ exports[`GridView renders correctly 1`] = `
             Mason Clark
           </h4>
           <p>
-            Nursing at UMaine Machias
+            Nursing from UMaine Machias
           </p>
           <p>
             Abstract number 97656877
@@ -344,7 +344,7 @@ exports[`GridView renders correctly 1`] = `
             Henry Hall
           </h4>
           <p>
-            Mechanical Engineering at UMaine Machias
+            Mechanical Engineering from UMaine Machias
           </p>
           <p>
             Abstract number 91417686
@@ -363,7 +363,7 @@ exports[`GridView renders correctly 1`] = `
             Samuel Scott
           </h4>
           <p>
-            Mathematics at UMaine Machias
+            Mathematics from UMaine Machias
           </p>
           <p>
             Abstract number 4887031
@@ -382,7 +382,7 @@ exports[`GridView renders correctly 1`] = `
             Grace Nelson
           </h4>
           <p>
-            Nursing at UMaine Machias
+            Nursing from UMaine Machias
           </p>
           <p>
             Abstract number 36475226
@@ -401,7 +401,7 @@ exports[`GridView renders correctly 1`] = `
             Scarlett Hernandez
           </h4>
           <p>
-            Mechanical Engineering at UMaine Machias
+            Mechanical Engineering from UMaine Machias
           </p>
           <p>
             Abstract number 29014475
@@ -420,7 +420,7 @@ exports[`GridView renders correctly 1`] = `
             Maya Hernandez
           </h4>
           <p>
-            Physics at UMaine Machias
+            Physics from UMaine Machias
           </p>
           <p>
             Abstract number 44667664
@@ -439,7 +439,7 @@ exports[`GridView renders correctly 1`] = `
             Elijah Rivera
           </h4>
           <p>
-            Computer Science at UMaine Orono
+            Computer Science from UMaine Orono
           </p>
           <p>
             Abstract number 21709418
@@ -458,7 +458,7 @@ exports[`GridView renders correctly 1`] = `
             Liam Taylor
           </h4>
           <p>
-            Political Science at UMaine Machias
+            Political Science from UMaine Machias
           </p>
           <p>
             Abstract number 45822327
@@ -477,7 +477,7 @@ exports[`GridView renders correctly 1`] = `
             Mia Robinson
           </h4>
           <p>
-            Mathematics at UMaine Orono
+            Mathematics from UMaine Orono
           </p>
           <p>
             Abstract number 75710656
@@ -496,7 +496,7 @@ exports[`GridView renders correctly 1`] = `
             Evelyn Rodriguez
           </h4>
           <p>
-            Physics at UMaine Orono
+            Physics from UMaine Orono
           </p>
           <p>
             Abstract number 39877467
@@ -515,7 +515,7 @@ exports[`GridView renders correctly 1`] = `
             Zoe Brown
           </h4>
           <p>
-            Physics at UMaine Orono
+            Physics from UMaine Orono
           </p>
           <p>
             Abstract number 74596190
@@ -534,7 +534,7 @@ exports[`GridView renders correctly 1`] = `
             Sophie Thomas
           </h4>
           <p>
-            Mechanical Engineering at UMaine Machias
+            Mechanical Engineering from UMaine Machias
           </p>
           <p>
             Abstract number 30556122
@@ -553,7 +553,7 @@ exports[`GridView renders correctly 1`] = `
             Maya Mitchell
           </h4>
           <p>
-            Nursing at UMaine Orono
+            Nursing from UMaine Orono
           </p>
           <p>
             Abstract number 75180428
@@ -572,7 +572,7 @@ exports[`GridView renders correctly 1`] = `
             Jack Anderson
           </h4>
           <p>
-            Physics at UMaine Orono
+            Physics from UMaine Orono
           </p>
           <p>
             Abstract number 82398661
@@ -591,7 +591,7 @@ exports[`GridView renders correctly 1`] = `
             Harper Rodriguez
           </h4>
           <p>
-            Physics at UMaine Orono
+            Physics from UMaine Orono
           </p>
           <p>
             Abstract number 82398661
@@ -617,7 +617,7 @@ exports[`GridView renders correctly 1`] = `
           Elijah Smith
         </h4>
         <p>
-          Physics at UMaine Machias
+          Physics from UMaine Machias
         </p>
         <p>
           Abstract number 38893888
@@ -636,7 +636,7 @@ exports[`GridView renders correctly 1`] = `
           Sophia Campbell
         </h4>
         <p>
-          Political Science at UMaine Machias
+          Political Science from UMaine Machias
         </p>
         <p>
           Abstract number 75957852
@@ -655,7 +655,7 @@ exports[`GridView renders correctly 1`] = `
           Lucy Martinez
         </h4>
         <p>
-          Business Administration at UMaine Machias
+          Business Administration from UMaine Machias
         </p>
         <p>
           Abstract number 48203955
@@ -674,7 +674,7 @@ exports[`GridView renders correctly 1`] = `
           Zoe Jackson
         </h4>
         <p>
-          Psychology at UMaine Machias
+          Psychology from UMaine Machias
         </p>
         <p>
           Abstract number 64568884
@@ -693,7 +693,7 @@ exports[`GridView renders correctly 1`] = `
           Noah King
         </h4>
         <p>
-          Political Science at UMaine Machias
+          Political Science from UMaine Machias
         </p>
         <p>
           Abstract number 40679302
@@ -712,7 +712,7 @@ exports[`GridView renders correctly 1`] = `
           Joseph Baker
         </h4>
         <p>
-          Mathematics at UMaine Orono
+          Mathematics from UMaine Orono
         </p>
         <p>
           Abstract number 37625940
@@ -731,7 +731,7 @@ exports[`GridView renders correctly 1`] = `
           Ava Rodriguez
         </h4>
         <p>
-          Physics at UMaine Machias
+          Physics from UMaine Machias
         </p>
         <p>
           Abstract number 35716422
@@ -750,7 +750,7 @@ exports[`GridView renders correctly 1`] = `
           Henry Adams
         </h4>
         <p>
-          Psychology at UMaine Machias
+          Psychology from UMaine Machias
         </p>
         <p>
           Abstract number 82413071
@@ -769,7 +769,7 @@ exports[`GridView renders correctly 1`] = `
           Mason Hernandez
         </h4>
         <p>
-          Business Administration at UMaine Orono
+          Business Administration from UMaine Orono
         </p>
         <p>
           Abstract number 27882383
@@ -788,7 +788,7 @@ exports[`GridView renders correctly 1`] = `
           Emma Taylor
         </h4>
         <p>
-          Biology at UMaine Orono
+          Biology from UMaine Orono
         </p>
         <p>
           Abstract number 92969314
@@ -807,7 +807,7 @@ exports[`GridView renders correctly 1`] = `
           Aurora Martinez
         </h4>
         <p>
-          Computer Science at UMaine Machias
+          Computer Science from UMaine Machias
         </p>
         <p>
           Abstract number 29718536
@@ -826,7 +826,7 @@ exports[`GridView renders correctly 1`] = `
           Lucas Robinson
         </h4>
         <p>
-          Psychology at UMaine Orono
+          Psychology from UMaine Orono
         </p>
         <p>
           Abstract number 1457768
@@ -845,7 +845,7 @@ exports[`GridView renders correctly 1`] = `
           Chloe Adams
         </h4>
         <p>
-          Physics at UMaine Orono
+          Physics from UMaine Orono
         </p>
         <p>
           Abstract number 14148682
@@ -864,7 +864,7 @@ exports[`GridView renders correctly 1`] = `
           Layla Young
         </h4>
         <p>
-          Biology at UMaine Orono
+          Biology from UMaine Orono
         </p>
         <p>
           Abstract number 60454722
@@ -883,7 +883,7 @@ exports[`GridView renders correctly 1`] = `
           Alexander Hall
         </h4>
         <p>
-          Business Administration at UMaine Machias
+          Business Administration from UMaine Machias
         </p>
         <p>
           Abstract number 41498009
@@ -902,7 +902,7 @@ exports[`GridView renders correctly 1`] = `
           Zoe Young
         </h4>
         <p>
-          Physics at UMaine Orono
+          Physics from UMaine Orono
         </p>
         <p>
           Abstract number 23333306
@@ -921,7 +921,7 @@ exports[`GridView renders correctly 1`] = `
           Mason Clark
         </h4>
         <p>
-          Nursing at UMaine Machias
+          Nursing from UMaine Machias
         </p>
         <p>
           Abstract number 97656877
@@ -940,7 +940,7 @@ exports[`GridView renders correctly 1`] = `
           Henry Hall
         </h4>
         <p>
-          Mechanical Engineering at UMaine Machias
+          Mechanical Engineering from UMaine Machias
         </p>
         <p>
           Abstract number 91417686
@@ -959,7 +959,7 @@ exports[`GridView renders correctly 1`] = `
           Samuel Scott
         </h4>
         <p>
-          Mathematics at UMaine Machias
+          Mathematics from UMaine Machias
         </p>
         <p>
           Abstract number 4887031
@@ -978,7 +978,7 @@ exports[`GridView renders correctly 1`] = `
           Grace Nelson
         </h4>
         <p>
-          Nursing at UMaine Machias
+          Nursing from UMaine Machias
         </p>
         <p>
           Abstract number 36475226
@@ -997,7 +997,7 @@ exports[`GridView renders correctly 1`] = `
           Scarlett Hernandez
         </h4>
         <p>
-          Mechanical Engineering at UMaine Machias
+          Mechanical Engineering from UMaine Machias
         </p>
         <p>
           Abstract number 29014475
@@ -1016,7 +1016,7 @@ exports[`GridView renders correctly 1`] = `
           Maya Hernandez
         </h4>
         <p>
-          Physics at UMaine Machias
+          Physics from UMaine Machias
         </p>
         <p>
           Abstract number 44667664
@@ -1035,7 +1035,7 @@ exports[`GridView renders correctly 1`] = `
           Elijah Rivera
         </h4>
         <p>
-          Computer Science at UMaine Orono
+          Computer Science from UMaine Orono
         </p>
         <p>
           Abstract number 21709418
@@ -1054,7 +1054,7 @@ exports[`GridView renders correctly 1`] = `
           Liam Taylor
         </h4>
         <p>
-          Political Science at UMaine Machias
+          Political Science from UMaine Machias
         </p>
         <p>
           Abstract number 45822327
@@ -1073,7 +1073,7 @@ exports[`GridView renders correctly 1`] = `
           Mia Robinson
         </h4>
         <p>
-          Mathematics at UMaine Orono
+          Mathematics from UMaine Orono
         </p>
         <p>
           Abstract number 75710656
@@ -1092,7 +1092,7 @@ exports[`GridView renders correctly 1`] = `
           Evelyn Rodriguez
         </h4>
         <p>
-          Physics at UMaine Orono
+          Physics from UMaine Orono
         </p>
         <p>
           Abstract number 39877467
@@ -1111,7 +1111,7 @@ exports[`GridView renders correctly 1`] = `
           Zoe Brown
         </h4>
         <p>
-          Physics at UMaine Orono
+          Physics from UMaine Orono
         </p>
         <p>
           Abstract number 74596190
@@ -1130,7 +1130,7 @@ exports[`GridView renders correctly 1`] = `
           Sophie Thomas
         </h4>
         <p>
-          Mechanical Engineering at UMaine Machias
+          Mechanical Engineering from UMaine Machias
         </p>
         <p>
           Abstract number 30556122
@@ -1149,7 +1149,7 @@ exports[`GridView renders correctly 1`] = `
           Maya Mitchell
         </h4>
         <p>
-          Nursing at UMaine Orono
+          Nursing from UMaine Orono
         </p>
         <p>
           Abstract number 75180428
@@ -1168,7 +1168,7 @@ exports[`GridView renders correctly 1`] = `
           Jack Anderson
         </h4>
         <p>
-          Physics at UMaine Orono
+          Physics from UMaine Orono
         </p>
         <p>
           Abstract number 82398661
@@ -1187,7 +1187,7 @@ exports[`GridView renders correctly 1`] = `
           Harper Rodriguez
         </h4>
         <p>
-          Physics at UMaine Orono
+          Physics from UMaine Orono
         </p>
         <p>
           Abstract number 82398661
