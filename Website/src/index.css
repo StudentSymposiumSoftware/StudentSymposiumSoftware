@@ -22,3 +22,7 @@ body, html{
   padding: 0;
   margin: 0;
 }
+
+@theme {
+  --color-primary-background: rgb(28, 46, 63);
+}
