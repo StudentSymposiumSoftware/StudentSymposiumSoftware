@@ -7,7 +7,7 @@ import mockData from '../../../src/mockData';
 import AuthorPage from '../../../src/components/AuthorPage';
 
 it('Author Page renders correctly', () => {
-    const tree = render(<AuthorPage data={mockData}/>)
+    const tree = render(<Router> <AuthorPage data={mockData}/></Router>)
     expect(tree).toMatchSnapshot();
 });
 

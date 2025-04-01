@@ -8,9 +8,9 @@ import ListView from './components/ListView';
 import GridView from './components/GridView';
 import AuthorPage from "./components/AuthorPage.jsx";
 import AdminPage from "./components/AdminPage.jsx";
+import AbstractPage from "./components/AbstractPage.jsx";
 
 import { fetchCsvData, parseInput } from './firebase/CsvFetcher.js';
-
 function App() {
   const [abstractData, setAbstractData] = useState([]);
 
@@ -43,6 +43,7 @@ function App() {
           <Route path="/list" element={<ListView data={abstractData}/>} />
           <Route path="/grid" element={<GridView data={abstractData}/>} />
           <Route path="/author/:name" element={<AuthorPage data={abstractData}/>} />
+          <Route path="/abstract/:id" element={<AbstractPage data={abstractData}/>} />
           <Route path="/admin" element={<AdminPage/>}/>
         </Routes>
       

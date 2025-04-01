@@ -62,3 +62,6 @@
 .abstract-item h3{
     font-size: 0.8vw;
 }
+#abstract-link{
+    cursor: pointer;
+}
