@@ -4,7 +4,7 @@ import { expect, it, vi } from "vitest";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import mockData from '../../../src/mockData';
-import AuthorPage from '../../../src/components/AuthorPage';
+import AuthorPage from '../../../src/components/AuthorPage/AuthorPage';
 
 it('Author Page renders correctly', () => {
     const tree = render(<AuthorPage data={mockData}/>)
