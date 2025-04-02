@@ -1,9 +1,12 @@
+html {
+  height: 100%;
+}
+
 #site-container {
-  width: 100vw;
-  min-height: 100vh;
   background-color: rgb(28, 46, 63);
   color: white;
-  padding: 5px;
+  overflow: hidden;
+  height: 96%;
   /* margin: 0;
   padding: 0; */
 }
