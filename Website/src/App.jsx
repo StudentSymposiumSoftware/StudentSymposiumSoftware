@@ -5,8 +5,6 @@ import './App.css'
 import { storage } from "./firebase/firebaseConfig";
 import { ref as storageRef, listAll } from "firebase/storage";
 
-import HomepageComponent from './components/Homepage/Homepage';
-import SearchView from './components/Views/Search/SearchView';
 import ListView from './components/Views/List/ListView';
 import GridView from './components/Views/Grid/GridView';
 import AuthorPage from "./components/AuthorPage/AuthorPage.jsx";
@@ -49,6 +47,11 @@ function App() {
     })
   }, [])
 
+  function passQuery(newQuery) {
+    setSearchText(newQuery);
+    document.getElementById("search-query").value = newQuery;
+  }
+
   /* v8 ignore end */
   return (
     <Router>
@@ -81,7 +84,7 @@ function App() {
         <div className="overflow-auto h-[calc(100vh-200px)]" id="main-content">
           <Routes>
             {/* <Route path="/" element={<HomepageComponent/>} /> */}
-            <Route path="/" element={<GridView data={abstractData} searchQuery={searchText}/>} />
+            <Route path="/" element={<GridView data={abstractData} searchQuery={searchText} setSearchText={(text) => passQuery(text)}/>} />
             <Route path="/list" element={<ListView data={abstractData}/>} />
             <Route path="/author/:name" element={<AuthorPage data={abstractData}/>} />
             <Route path="/admin" element={<AdminPage/>}/>

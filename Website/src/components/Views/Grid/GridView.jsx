@@ -1,8 +1,8 @@
 import "./GridView.css"
-import { useNavigate } from "react-router-dom"
 import { toTitleCase, findSchoolLogo } from "../../shared"
+import PersonIcon from '@mui/icons-material/PersonRounded';
 
-function GridView({data, searchQuery}) {
+function GridView({data, searchQuery, setSearchText}) {
     data = data.filter(item => {
         if (searchQuery === "") return true;
         const searchRegex = new RegExp(searchQuery, "i");
@@ -10,18 +10,17 @@ function GridView({data, searchQuery}) {
     });
     return (
         <div className="grid-container">
-            {data.map((item, index) => (<AbstractGrid key={index} item={item} index={index}/>))}
+            {data.map((item, index) => (<AbstractGrid key={index} item={item} index={index} setSearchText={(e) => setSearchText(e)}/>))}
         </div>
     );
 }
 
-function AbstractGrid({item, index}) {
-    const navigate = useNavigate();
+function AbstractGrid({item, index, setSearchText}) {
     return (
         <div key={index} className="item">
             <img src={findSchoolLogo(item.school)} alt="school logo" className="mt-5 p-[2px]"/>
             <h4>{`${item.abstractNumber}: ${toTitleCase(item.title)}`}</h4>
-            <h4 onClick={() => navigate(`/author/${item.author}`)} className="author-link">{toTitleCase(item.author)}</h4>
+            <span><PersonIcon className="mr-[2px]"/><h4 onClick={() => setSearchText(item.author)} className="author-link inline-block leading-[24px]"> {toTitleCase(item.author)}</h4></span>
         </div>
     )
 }
