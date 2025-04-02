@@ -22,6 +22,8 @@ function App() {
   const [abstractData, setAbstractData] = useState([]);
   const [year, setYear] = useState();
   const [availableYears, setAvailableYears] = useState(false);
+  const [searchText, setSearchText] = useState("");
+
   /* v8 ignore start */
   useEffect(() => {
     if (year) {
@@ -46,6 +48,7 @@ function App() {
         setAvailableYears(listOfAvailableYears);
     })
   }, [])
+
   /* v8 ignore end */
   return (
     <Router>
@@ -57,8 +60,6 @@ function App() {
           </span>
 
           <span className="inline-flex items-center align-middle mr-5 grow">
-            <Link className="PageLink" to={"/"}><h3>Home Page</h3></Link>
-            <Link className="PageLink" to={"/search"}><h3>Search View</h3></Link>
             <Link className="PageLink" to={"/admin"}><h3>Admin</h3></Link>
           </span>
 
@@ -66,23 +67,22 @@ function App() {
             {availableYears && <YearSelector setYear={setYear} availableYears={availableYears} currYear={year}/> }
           </span>
         </div>
-      
+
         <div id="filter-bar" className="bg-white m-5 rounded-lg ml-[20px] mr-[20px] h-[40px] w-[calc(100% - 50px)] mt-[10px] flex flex-row pr-5 drop-shadow-xl p-[2px]">
           <span className="pl-[10px] inline-flex items-center align-middle  grow">
-            <input placeholder="Search abstracts..." className="h-[36px] text-black w-[50%] focus:outline-none"/>
+            <input placeholder="Search abstracts..." className="h-[36px] text-black w-[50%] focus:outline-none" onChange={(e) => {setSearchText(e.target.value)}}/>
           </span>
           <span className="p-[2px] align-middle inline-flex items-center align-middle text-right">
             <Link className="PageLink" to={"/list"}><ViewListIcon className="text-primary-background h-[40px] cursor-pointer"/></Link>
-            <Link className="PageLink" to={"/grid"}><GridViewIcon className="text-primary-background h-[40px] cursor-pointer"/></Link>
+            <Link className="PageLink" to={"/"}><GridViewIcon className="text-primary-background h-[40px] cursor-pointer"/></Link>
           </span>
         </div>
 
         <div className="overflow-auto h-[calc(100vh-200px)]" id="main-content">
           <Routes>
-            <Route path="/" element={<HomepageComponent/>} />
-            <Route path="/search" element={<SearchView data={abstractData}/>} />
+            {/* <Route path="/" element={<HomepageComponent/>} /> */}
+            <Route path="/" element={<GridView data={abstractData} searchQuery={searchText}/>} />
             <Route path="/list" element={<ListView data={abstractData}/>} />
-            <Route path="/grid" element={<GridView data={abstractData}/>} />
             <Route path="/author/:name" element={<AuthorPage data={abstractData}/>} />
             <Route path="/admin" element={<AdminPage/>}/>
           </Routes>
