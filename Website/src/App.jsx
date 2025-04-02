@@ -15,6 +15,7 @@ import { fetchXLSXData, parseInput } from './firebase/xlsxDataFetcher.js';
 
 import GridViewIcon from '@mui/icons-material/GridViewRounded';
 import ViewListIcon from '@mui/icons-material/ViewListRounded';
+import ClearIcon from '@mui/icons-material/ClearRounded';
 
 function App() {
   const [abstractData, setAbstractData] = useState([]);
@@ -72,8 +73,9 @@ function App() {
         </div>
 
         <div id="filter-bar" className="bg-white m-5 rounded-lg ml-[20px] mr-[20px] h-[40px] w-[calc(100% - 50px)] mt-[10px] flex flex-row pr-5 drop-shadow-xl p-[2px]">
-          <span className="pl-[10px] inline-flex items-center align-middle  grow">
-            <input placeholder="Search abstracts..." className="h-[36px] text-black w-[50%] focus:outline-none" onChange={(e) => {setSearchText(e.target.value)}}/>
+          <span className="pl-[10px] inline-flex items-center align-middle grow">
+            <input placeholder="Search abstracts..." className="h-[36px] text-black w-[50%] focus:outline-none flex grow" id="search-query" onChange={(e) => {setSearchText(e.target.value)}}/>
+            {searchText != "" && <ClearIcon className="text-primary-background h-[40px] cursor-pointer" onClick={() => passQuery("")}/>}
           </span>
           <span className="p-[2px] align-middle inline-flex items-center align-middle text-right">
             <Link className="PageLink" to={"/list"}><ViewListIcon className="text-primary-background h-[40px] cursor-pointer"/></Link>
