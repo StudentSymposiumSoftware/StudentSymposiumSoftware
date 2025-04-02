@@ -10,7 +10,7 @@ export default function YearSelector ({setYear, availableYears, currYear}) {
                 Select Year of Symposium Data to Review:
             </div>
             <div>
-                <select onChange={(e) => {setYear(e.target.value)}} className="bg-white text-black" defaultValue={currYear}>
+                <select onChange={(e) => {setYear(e.target.value)}} className="bg-white text-black w-min" defaultValue={currYear}>
                     {availableYears.map((year) => {
                         return (
                             <option key={year} value={year}>

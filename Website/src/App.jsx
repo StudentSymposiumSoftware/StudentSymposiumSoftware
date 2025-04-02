@@ -56,13 +56,13 @@ function App() {
             <img src="logo.png" id="navbar_logo" className="h-[80px]"/>
           </span>
 
-          <span className="inline-flex items-center align-middle mr-5">
+          <span className="inline-flex items-center align-middle mr-5 grow">
             <Link className="PageLink" to={"/"}><h3>Home Page</h3></Link>
             <Link className="PageLink" to={"/search"}><h3>Search View</h3></Link>
             <Link className="PageLink" to={"/admin"}><h3>Admin</h3></Link>
           </span>
 
-          <span className="inline-flex items-center justify-items-end align-middle text-right grow">
+          <span className="inline-flex items-center justify-items-end align-middle text-right">
             {availableYears && <YearSelector setYear={setYear} availableYears={availableYears} currYear={year}/> }
           </span>
         </div>
