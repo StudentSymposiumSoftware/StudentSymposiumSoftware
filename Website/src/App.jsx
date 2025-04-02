@@ -77,15 +77,16 @@ function App() {
           </span>
         </div>
 
-        <Routes>
-          <Route path="/" element={<HomepageComponent/>} />
-          <Route path="/search" element={<SearchView data={abstractData}/>} />
-          <Route path="/list" element={<ListView data={abstractData}/>} />
-          <Route path="/grid" element={<GridView data={abstractData}/>} />
-          <Route path="/author/:name" element={<AuthorPage data={abstractData}/>} />
-          <Route path="/admin" element={<AdminPage/>}/>
-        </Routes>
-      
+        <div className="overflow-auto h-[calc(100vh-200px)]" id="main-content">
+          <Routes>
+            <Route path="/" element={<HomepageComponent/>} />
+            <Route path="/search" element={<SearchView data={abstractData}/>} />
+            <Route path="/list" element={<ListView data={abstractData}/>} />
+            <Route path="/grid" element={<GridView data={abstractData}/>} />
+            <Route path="/author/:name" element={<AuthorPage data={abstractData}/>} />
+            <Route path="/admin" element={<AdminPage/>}/>
+          </Routes>
+        </div>
       </div>
     </Router>
   )
