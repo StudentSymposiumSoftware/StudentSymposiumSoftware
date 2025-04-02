@@ -14,32 +14,6 @@ function SearchView(props) {
         )
     }, [query, props.data])
 
-    // const [filters, setFilters] = useState({
-    //     major: null,
-    //     professor: null,
-    //     category: null,
-    //     university: null,
-    // });
-
-    // const handleChange = (e) => {
-    //     const { name, value } = e.target;
-    //     setFilters((prevFilters) => {
-    //         const updatedFilters = { ...prevFilters };
-    //         updatedFilters[name] = value;
-    //         return updatedFilters;
-    //     });
-    // };
-
-
-    // const getUniqueValues = (key) => {
-    //     return [...new Set(props.data.map(item => item[key]))];
-    // };
-
-    // const majorOptions = getUniqueValues("major");
-    // const professorOptions = getUniqueValues("professor");
-    // const categoryOptions = getUniqueValues("category");
-    // const universityOptions = getUniqueValues("school");
-
     return (
         <div id="search-container">
             <input
