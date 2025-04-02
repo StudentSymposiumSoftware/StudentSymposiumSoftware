@@ -15,6 +15,9 @@ import YearSelector from "./firebase/yearSelector.jsx";
 
 import { fetchXLSXData, parseInput } from './firebase/xlsxDataFetcher.js';
 
+import GridViewIcon from '@mui/icons-material/GridViewRounded';
+import ViewListIcon from '@mui/icons-material/ViewListRounded';
+
 function App() {
   const [abstractData, setAbstractData] = useState([]);
   const [year, setYear] = useState();
@@ -56,8 +59,6 @@ function App() {
           <span className="inline-flex items-center align-middle mr-5">
             <Link className="PageLink" to={"/"}><h3>Home Page</h3></Link>
             <Link className="PageLink" to={"/search"}><h3>Search View</h3></Link>
-            <Link className="PageLink" to={"/list"}><h3>List View</h3></Link>
-            <Link className="PageLink" to={"/grid"}><h3>Grid View</h3></Link>
             <Link className="PageLink" to={"/admin"}><h3>Admin</h3></Link>
           </span>
 
@@ -66,6 +67,16 @@ function App() {
           </span>
         </div>
       
+        <div id="filter-bar" className="bg-white m-5 rounded-lg ml-[20px] mr-[20px] h-[40px] w-[calc(100% - 50px)] mt-[10px] flex flex-row pr-5 drop-shadow-xl p-[2px]">
+          <span className="pl-[10px] inline-flex items-center align-middle  grow">
+            <input placeholder="Search abstracts..." className="h-[36px] text-black w-[50%] focus:outline-none"/>
+          </span>
+          <span className="p-[2px] align-middle inline-flex items-center align-middle text-right">
+            <Link className="PageLink" to={"/list"}><ViewListIcon className="text-primary-background h-[40px] cursor-pointer"/></Link>
+            <Link className="PageLink" to={"/grid"}><GridViewIcon className="text-primary-background h-[40px] cursor-pointer"/></Link>
+          </span>
+        </div>
+
         <Routes>
           <Route path="/" element={<HomepageComponent/>} />
           <Route path="/search" element={<SearchView data={abstractData}/>} />
