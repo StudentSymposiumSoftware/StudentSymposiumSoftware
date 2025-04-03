@@ -46,6 +46,7 @@ export const parseInput = (inputData) => {
       inputData[i].title = inputData[i]["Project Title"]
       inputData[i].category = inputData[i]["Undergraduate Presentations: Please select one of the following categories that best fits your research. *For more information about being a presenter at the Symposium, and for a helpful guide on the categories below, visit: https://umaine.edu/umss/list-of-majors-categories/"] || inputData[i]["Graduate Presentations: Please select one of the following categories that best fit your research. *For more information about being a presenter at the Symposium and for a helpful guide on the below categories, visit: https://umaine.edu/umss/list-of-majors-categories/"]
       inputData[i].abstractNumber = inputData[i]["Abstract Numbers"]
+      inputData[i].keywords = inputData[i]["Project Keywords (Up to 3)"] || inputData[i]["Project Keywords (Up to 3)_1"] || "";
     }
   
     return inputData;
