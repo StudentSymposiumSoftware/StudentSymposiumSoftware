@@ -10,6 +10,7 @@ import GridView from './components/Views/Grid/GridView';
 import AuthorPage from "./components/AuthorPage/AuthorPage.jsx";
 import AdminPage from "./components/Admin/AdminPage.jsx";
 import YearSelector from "./firebase/yearSelector.jsx";
+import AbstractPage from "./components/AbstractPage/AbstractPage.jsx";
 
 import { fetchXLSXData, parseInput } from './firebase/xlsxDataFetcher.js';
 
@@ -22,13 +23,15 @@ function App() {
   const [year, setYear] = useState();
   const [availableYears, setAvailableYears] = useState(false);
   const [searchText, setSearchText] = useState("");
+  const [hash, setHash] = useState(window.location.hash);
 
   /* v8 ignore start */
   useEffect(() => {
     if (year) {
+      setAbstractData([]); // Clear previous data to show loading state
       fetchXLSXData(year)
         .then(data => parseInput(data['studentApplicationsLinkedRaw']))
-        .then(parsedData => setAbstractData(parsedData));
+        .then(parsedData => {setAbstractData(parsedData)});
     }
   }, [year]);
 
@@ -53,7 +56,22 @@ function App() {
     document.getElementById("search-query").value = newQuery;
   }
 
+  // Super gross way of handling this
+  useEffect(() => {
+    const onHashChanged = () => {
+        setHash(window.location.hash);
+    };
+
+    window.addEventListener("hashchange", onHashChanged);
+
+    return () => {
+        window.removeEventListener("hashchange", onHashChanged);
+    };
+  }, []);
+
   /* v8 ignore end */
+  const hasHash = ["#/","#/list"].includes(hash);
+
   return (
     <Router>
       <div id="site-container">      
@@ -72,23 +90,24 @@ function App() {
           </span>
         </div>
 
-        <div id="filter-bar" className="bg-white m-5 rounded-lg ml-[20px] mr-[20px] h-[40px] w-[calc(100% - 50px)] mt-[10px] flex flex-row pr-5 drop-shadow-xl p-[2px]">
+        <div id="filter-bar" className={`bg-white m-5 rounded-lg ml-[20px] mr-[20px] h-[40px] w-[calc(100% - 50px)] mt-[10px] flex flex-row pr-5 drop-shadow-xl p-[2px] ${!hasHash && "hidden"}`}>
           <span className="pl-[10px] inline-flex items-center align-middle grow">
             <input placeholder="Search abstracts..." className="h-[36px] text-black w-[50%] focus:outline-none flex grow" id="search-query" onChange={(e) => {setSearchText(e.target.value)}}/>
             {searchText != "" && <ClearIcon className="text-primary-background h-[40px] cursor-pointer" onClick={() => passQuery("")}/>}
           </span>
           <span className="p-[2px] align-middle inline-flex items-center align-middle text-right">
-            <Link className="PageLink" to={"/list"}><ViewListIcon className="text-primary-background h-[40px] cursor-pointer"/></Link>
-            <Link className="PageLink" to={"/"}><GridViewIcon className="text-primary-background h-[40px] cursor-pointer"/></Link>
+            <a className="PageLink" href="#/list"><ViewListIcon className="text-primary-background h-[40px] cursor-pointer"/></a>
+            <a className="PageLink" href="#/"><GridViewIcon className="text-primary-background h-[40px] cursor-pointer"/></a>
           </span>
         </div>
 
-        <div className="overflow-auto h-[calc(100vh-200px)]" id="main-content">
+        <div className={`overflow-auto ${hasHash ? "h-[calc(100vh-200px)]" : "h-[calc(100vh-140px)]"} w-[100%]`} id="main-content">
           <Routes>
             {/* <Route path="/" element={<HomepageComponent/>} /> */}
             <Route path="/" element={<GridView data={abstractData} searchQuery={searchText} setSearchText={(text) => passQuery(text)}/>} />
             <Route path="/list" element={<ListView data={abstractData}/>} />
             <Route path="/author/:name" element={<AuthorPage data={abstractData}/>} />
+            <Route path="/abstract/:number" element={<AbstractPage data={abstractData}/>} />
             <Route path="/admin" element={<AdminPage/>}/>
           </Routes>
         </div>
