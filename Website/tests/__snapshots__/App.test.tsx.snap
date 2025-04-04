@@ -22,44 +22,8 @@ exports[`GridView renders correctly 1`] = `
             />
           </span>
           <span
-            class="inline-flex items-center align-middle mr-5"
+            class="inline-flex items-center align-middle mr-5 grow"
           >
-            <a
-              class="PageLink"
-              data-discover="true"
-              href="#/"
-            >
-              <h3>
-                Home Page
-              </h3>
-            </a>
-            <a
-              class="PageLink"
-              data-discover="true"
-              href="#/search"
-            >
-              <h3>
-                Search View
-              </h3>
-            </a>
-            <a
-              class="PageLink"
-              data-discover="true"
-              href="#/list"
-            >
-              <h3>
-                List View
-              </h3>
-            </a>
-            <a
-              class="PageLink"
-              data-discover="true"
-              href="#/grid"
-            >
-              <h3>
-                Grid View
-              </h3>
-            </a>
             <a
               class="PageLink"
               data-discover="true"
@@ -71,18 +35,70 @@ exports[`GridView renders correctly 1`] = `
             </a>
           </span>
           <span
-            class="inline-flex items-center justify-items-end align-middle text-right grow"
+            class="inline-flex items-center justify-items-end align-middle text-right"
           />
         </div>
         <div
-          id="homepage-container"
+          class="bg-white m-5 rounded-lg ml-[20px] mr-[20px] h-[40px] w-[calc(100% - 50px)] mt-[10px] flex flex-row pr-5 drop-shadow-xl p-[2px] hidden"
+          id="filter-bar"
         >
-          <h2>
-            Welcome to the Symposium Recap site !!
-          </h2>
-          <h3>
-            Please select the needed link above to route to your component
-          </h3>
+          <span
+            class="pl-[10px] inline-flex items-center align-middle grow"
+          >
+            <input
+              class="h-[36px] text-black w-[50%] focus:outline-none flex grow"
+              id="search-query"
+              placeholder="Search abstracts..."
+            />
+          </span>
+          <span
+            class="p-[2px] align-middle inline-flex items-center align-middle text-right"
+          >
+            <a
+              class="PageLink"
+              href="#/list"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium text-primary-background h-[40px] cursor-pointer css-1umw9bq-MuiSvgIcon-root"
+                data-testid="ViewListRoundedIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M4 14h2c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1m0 5h2c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1M4 9h2c.55 0 1-.45 1-1V6c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1m5 5h11c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1H9c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1m0 5h11c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1H9c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1M8 6v2c0 .55.45 1 1 1h11c.55 0 1-.45 1-1V6c0-.55-.45-1-1-1H9c-.55 0-1 .45-1 1"
+                />
+              </svg>
+            </a>
+            <a
+              class="PageLink"
+              href="#/"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium text-primary-background h-[40px] cursor-pointer css-1umw9bq-MuiSvgIcon-root"
+                data-testid="GridViewRoundedIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M5 11h4c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2m0 10h4c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2m8-16v4c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2m2 16h4c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2"
+                />
+              </svg>
+            </a>
+          </span>
+        </div>
+        <div
+          class="overflow-auto h-[calc(100vh-140px)] w-[100%]"
+          id="main-content"
+        >
+          <div
+            class="grid-container"
+          >
+            <span
+              class="loader flex place-self-center col-span-5"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -105,44 +121,8 @@ exports[`GridView renders correctly 1`] = `
           />
         </span>
         <span
-          class="inline-flex items-center align-middle mr-5"
+          class="inline-flex items-center align-middle mr-5 grow"
         >
-          <a
-            class="PageLink"
-            data-discover="true"
-            href="#/"
-          >
-            <h3>
-              Home Page
-            </h3>
-          </a>
-          <a
-            class="PageLink"
-            data-discover="true"
-            href="#/search"
-          >
-            <h3>
-              Search View
-            </h3>
-          </a>
-          <a
-            class="PageLink"
-            data-discover="true"
-            href="#/list"
-          >
-            <h3>
-              List View
-            </h3>
-          </a>
-          <a
-            class="PageLink"
-            data-discover="true"
-            href="#/grid"
-          >
-            <h3>
-              Grid View
-            </h3>
-          </a>
           <a
             class="PageLink"
             data-discover="true"
@@ -154,18 +134,70 @@ exports[`GridView renders correctly 1`] = `
           </a>
         </span>
         <span
-          class="inline-flex items-center justify-items-end align-middle text-right grow"
+          class="inline-flex items-center justify-items-end align-middle text-right"
         />
       </div>
       <div
-        id="homepage-container"
+        class="bg-white m-5 rounded-lg ml-[20px] mr-[20px] h-[40px] w-[calc(100% - 50px)] mt-[10px] flex flex-row pr-5 drop-shadow-xl p-[2px] hidden"
+        id="filter-bar"
       >
-        <h2>
-          Welcome to the Symposium Recap site !!
-        </h2>
-        <h3>
-          Please select the needed link above to route to your component
-        </h3>
+        <span
+          class="pl-[10px] inline-flex items-center align-middle grow"
+        >
+          <input
+            class="h-[36px] text-black w-[50%] focus:outline-none flex grow"
+            id="search-query"
+            placeholder="Search abstracts..."
+          />
+        </span>
+        <span
+          class="p-[2px] align-middle inline-flex items-center align-middle text-right"
+        >
+          <a
+            class="PageLink"
+            href="#/list"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium text-primary-background h-[40px] cursor-pointer css-1umw9bq-MuiSvgIcon-root"
+              data-testid="ViewListRoundedIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M4 14h2c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1m0 5h2c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1M4 9h2c.55 0 1-.45 1-1V6c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1m5 5h11c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1H9c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1m0 5h11c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1H9c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1M8 6v2c0 .55.45 1 1 1h11c.55 0 1-.45 1-1V6c0-.55-.45-1-1-1H9c-.55 0-1 .45-1 1"
+              />
+            </svg>
+          </a>
+          <a
+            class="PageLink"
+            href="#/"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium text-primary-background h-[40px] cursor-pointer css-1umw9bq-MuiSvgIcon-root"
+              data-testid="GridViewRoundedIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M5 11h4c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2m0 10h4c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2m8-16v4c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2m2 16h4c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2"
+              />
+            </svg>
+          </a>
+        </span>
+      </div>
+      <div
+        class="overflow-auto h-[calc(100vh-140px)] w-[100%]"
+        id="main-content"
+      >
+        <div
+          class="grid-container"
+        >
+          <span
+            class="loader flex place-self-center col-span-5"
+          />
+        </div>
       </div>
     </div>
   </div>,

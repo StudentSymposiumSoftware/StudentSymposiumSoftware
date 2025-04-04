@@ -1,28 +1,15 @@
+html {
+  height: 100%;
+}
+
 #site-container {
-  width: 100vw;
-  min-height: 100vh;
   background-color: rgb(28, 46, 63);
   color: white;
-  padding: 5px;
+  overflow: hidden;
+  height: 96%;
   /* margin: 0;
   padding: 0; */
 }
-
-/* #navbar_logo {
-  width: 11vw;
-  height: 8vh;
-}
-
-#navbar{
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  background-color: white;
-  width: calc(100% - 40px);
-  padding: 5px;
-} */
 
 .PageLink{
   padding: 10px;

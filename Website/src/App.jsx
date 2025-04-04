@@ -5,26 +5,33 @@ import './App.css'
 import { storage } from "./firebase/firebaseConfig";
 import { ref as storageRef, listAll } from "firebase/storage";
 
-import HomepageComponent from './components/Homepage/Homepage';
-import SearchView from './components/Views/Search/SearchView';
 import ListView from './components/Views/List/ListView';
 import GridView from './components/Views/Grid/GridView';
 import AuthorPage from "./components/AuthorPage/AuthorPage.jsx";
 import AdminPage from "./components/Admin/AdminPage.jsx";
 import YearSelector from "./firebase/yearSelector.jsx";
+import AbstractPage from "./components/AbstractPage/AbstractPage.jsx";
 
 import { fetchXLSXData, parseInput } from './firebase/xlsxDataFetcher.js';
+
+import GridViewIcon from '@mui/icons-material/GridViewRounded';
+import ViewListIcon from '@mui/icons-material/ViewListRounded';
+import ClearIcon from '@mui/icons-material/ClearRounded';
 
 function App() {
   const [abstractData, setAbstractData] = useState([]);
   const [year, setYear] = useState();
   const [availableYears, setAvailableYears] = useState(false);
+  const [searchText, setSearchText] = useState("");
+  const [hash, setHash] = useState(window.location.hash);
+
   /* v8 ignore start */
   useEffect(() => {
     if (year) {
+      setAbstractData([]); // Clear previous data to show loading state
       fetchXLSXData(year)
         .then(data => parseInput(data['studentApplicationsLinkedRaw']))
-        .then(parsedData => setAbstractData(parsedData));
+        .then(parsedData => {setAbstractData(parsedData)});
     }
   }, [year]);
 
@@ -43,7 +50,28 @@ function App() {
         setAvailableYears(listOfAvailableYears);
     })
   }, [])
+
+  function passQuery(newQuery) {
+    setSearchText(newQuery);
+    document.getElementById("search-query").value = newQuery;
+  }
+
+  // Super gross way of handling this
+  useEffect(() => {
+    const onHashChanged = () => {
+        setHash(window.location.hash);
+    };
+
+    window.addEventListener("hashchange", onHashChanged);
+
+    return () => {
+        window.removeEventListener("hashchange", onHashChanged);
+    };
+  }, []);
+
   /* v8 ignore end */
+  const hasHash = ["#/","#/list"].includes(hash);
+
   return (
     <Router>
       <div id="site-container">      
@@ -53,28 +81,36 @@ function App() {
             <img src="logo.png" id="navbar_logo" className="h-[80px]"/>
           </span>
 
-          <span className="inline-flex items-center align-middle mr-5">
-            <Link className="PageLink" to={"/"}><h3>Home Page</h3></Link>
-            <Link className="PageLink" to={"/search"}><h3>Search View</h3></Link>
-            <Link className="PageLink" to={"/list"}><h3>List View</h3></Link>
-            <Link className="PageLink" to={"/grid"}><h3>Grid View</h3></Link>
+          <span className="inline-flex items-center align-middle mr-5 grow">
             <Link className="PageLink" to={"/admin"}><h3>Admin</h3></Link>
           </span>
 
-          <span className="inline-flex items-center justify-items-end align-middle text-right grow">
-            {availableYears && <YearSelector setYear={setYear} availableYears={availableYears} currYear={year}/> }
+          <span className="inline-flex items-center justify-items-end align-middle text-right">
+            {(availableYears && hasHash) && <YearSelector setYear={setYear} availableYears={availableYears} currYear={year}/> }
           </span>
         </div>
-      
-        <Routes>
-          <Route path="/" element={<HomepageComponent/>} />
-          <Route path="/search" element={<SearchView data={abstractData}/>} />
-          <Route path="/list" element={<ListView data={abstractData}/>} />
-          <Route path="/grid" element={<GridView data={abstractData}/>} />
-          <Route path="/author/:name" element={<AuthorPage data={abstractData}/>} />
-          <Route path="/admin" element={<AdminPage/>}/>
-        </Routes>
-      
+
+        <div id="filter-bar" className={`bg-white m-5 rounded-lg ml-[20px] mr-[20px] h-[40px] w-[calc(100% - 50px)] mt-[10px] flex flex-row pr-5 drop-shadow-xl p-[2px] ${!hasHash && "hidden"}`}>
+          <span className="pl-[10px] inline-flex items-center align-middle grow">
+            <input placeholder="Search abstracts..." className="h-[36px] text-black w-[50%] focus:outline-none flex grow" id="search-query" onChange={(e) => {setSearchText(e.target.value)}}/>
+            {searchText != "" && <ClearIcon className="text-primary-background h-[40px] cursor-pointer" onClick={() => passQuery("")}/>}
+          </span>
+          <span className="p-[2px] align-middle inline-flex items-center align-middle text-right">
+            <a className="PageLink" href="#/list"><ViewListIcon className="text-primary-background h-[40px] cursor-pointer"/></a>
+            <a className="PageLink" href="#/"><GridViewIcon className="text-primary-background h-[40px] cursor-pointer"/></a>
+          </span>
+        </div>
+
+        <div className={`overflow-auto ${hasHash ? "h-[calc(100vh-200px)]" : "h-[calc(100vh-140px)]"} w-[100%]`} id="main-content">
+          <Routes>
+            {/* <Route path="/" element={<HomepageComponent/>} /> */}
+            <Route path="/" element={<GridView data={abstractData} searchQuery={searchText} setSearchText={(text) => passQuery(text)}/>} />
+            <Route path="/list" element={<ListView data={abstractData}/>} />
+            <Route path="/author/:name" element={<AuthorPage data={abstractData}/>} />
+            <Route path="/abstract/:number" element={<AbstractPage data={abstractData}/>} />
+            <Route path="/admin" element={<AdminPage/>}/>
+          </Routes>
+        </div>
       </div>
     </Router>
   )

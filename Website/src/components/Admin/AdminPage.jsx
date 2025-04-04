@@ -16,7 +16,6 @@ export function AuthAdmin() {
     function uploadFile(file) {
         var year = document.getElementById("year").value;
         year = year == ""? new Date().getFullYear() : year;
-        console.log(year);
         if (file == null) {
             alert("Please select a file to upload.");
             return;
@@ -60,7 +59,6 @@ export function AdminPage() {
         if (authUser && authLoading === false) {
             onValue(dbRef(database, `users/${authUser.uid}`), (userData) => {
                 userData = userData.val();
-                console.log(userData);
                 if (userData != null && userData.authorized) {
                     setPage("admin")
                 } else {

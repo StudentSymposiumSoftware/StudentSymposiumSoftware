@@ -13,7 +13,7 @@ exports[`yearSelector renders correctly 1`] = `
         </div>
         <div>
           <select
-            class="bg-white text-black"
+            class="bg-white text-black w-min cursor-pointer"
           >
             <option
               selected=""
@@ -55,7 +55,7 @@ exports[`yearSelector renders correctly 1`] = `
       </div>
       <div>
         <select
-          class="bg-white text-black"
+          class="bg-white text-black w-min cursor-pointer"
         >
           <option
             selected=""
