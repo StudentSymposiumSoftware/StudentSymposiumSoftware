@@ -52,7 +52,6 @@ export const parseInput = (inputData) => {
       inputData[i].keywords = inputData[i].keywords.split(",").map(keyword => keyword.trim()).filter(keyword => keyword.length > 0);
       inputData[i].abstract = inputData[i]["Project Abstract"];
       inputData[i].major = inputData[i]["Major"] || inputData[i]["Major_1"] || "";
-      inputData[i].mentor = inputData[i]["Faculty Mentor Name"]
     }
   
     return inputData;

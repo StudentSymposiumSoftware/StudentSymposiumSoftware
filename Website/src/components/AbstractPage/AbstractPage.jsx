@@ -1,8 +1,7 @@
 import "./AbstractPage.css";
 import { useParams, useNavigate } from "react-router-dom";
-import { useEffect, useState } from "react";
 
-import { toTitleCase, findSchoolLogo } from "../shared";
+import { findSchoolLogo } from "../shared";
 
 function AbstractPage({data}) {
     const navigate = useNavigate();
@@ -22,7 +21,7 @@ function AbstractPage({data}) {
                         <a className="cursor-pointer" onClick={() => navigate(-1)}>Return to Previous Page</a><br/>
                         <span className="text-[24px]">{data.major} {abstractNumber} - {data.title}</span><br/>
                         <span className="text-[20px] italic">{data.allAuthors}</span><br/>
-                        <span className="text-[20px] italic">Mentor: {data.mentor}</span>
+                        <span className="text-[20px] italic">Mentor: {data.professor}</span>
                     </div>
                     <img src={findSchoolLogo(data.school)} className="place-self-center"/>
                     <div className="col-span-3">

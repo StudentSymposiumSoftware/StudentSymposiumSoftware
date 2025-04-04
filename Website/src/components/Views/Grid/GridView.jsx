@@ -1,13 +1,12 @@
 import "./GridView.css"
-import { toTitleCase, findSchoolLogo } from "../../shared"
+import { toTitleCase, findSchoolLogo, abstractDataSearch } from "../../shared"
 import PersonIcon from '@mui/icons-material/PersonRounded';
 import { useNavigate } from "react-router-dom";
 
 function GridView({data, searchQuery, setSearchText}) {
     data = data.filter(item => {
         if (searchQuery === "") return true;
-        const searchRegex = new RegExp(searchQuery, "i");
-        return searchRegex.test(item.title) || searchRegex.test(item.abstractNumber) || searchRegex.test(item.author) || searchRegex.test(item.keywords);
+        return abstractDataSearch(item, searchQuery);
     });
     return (
         <div className='grid-container'>
