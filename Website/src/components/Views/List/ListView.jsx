@@ -1,6 +1,6 @@
 import "./ListView.css"
 
-function ListView(props) {
+function ListView() {
 
     return (
         <div id="list-container">

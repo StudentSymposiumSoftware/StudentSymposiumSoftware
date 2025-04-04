@@ -1,7 +1,6 @@
 import "./GridView.css"
 import { toTitleCase, findSchoolLogo, abstractDataSearch } from "../../shared"
 import PersonIcon from '@mui/icons-material/PersonRounded';
-import { useNavigate } from "react-router-dom";
 
 function GridView({data, searchQuery, setSearchText}) {
     data = data.filter(item => {
@@ -17,7 +16,6 @@ function GridView({data, searchQuery, setSearchText}) {
 }
 
 function AbstractGrid({item, index, setSearchText}) {
-    const navigate = useNavigate();
     return (
         <a key={index} className="item" href={`#/abstract/${item.abstractNumber}`}>
             <img src={findSchoolLogo(item.school)} alt="school logo" className="mt-5 p-[2px]"/>
