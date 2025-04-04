@@ -86,7 +86,7 @@ function App() {
           </span>
 
           <span className="inline-flex items-center justify-items-end align-middle text-right">
-            {availableYears && <YearSelector setYear={setYear} availableYears={availableYears} currYear={year}/> }
+            {(availableYears && hasHash) && <YearSelector setYear={setYear} availableYears={availableYears} currYear={year}/> }
           </span>
         </div>
 
