@@ -12,7 +12,6 @@ function AbstractPage({data}) {
     });
     if (data.length != 0) {
         data = data[0];
-        console.log(data)
     }
 
     return (
