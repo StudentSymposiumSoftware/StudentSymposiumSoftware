@@ -15,7 +15,7 @@ exports[`Abstract Page renders correctly 1`] = `
             class="col-span-2"
           >
             <a
-              class="cursor-pointer"
+              class="cursor-pointer all-link"
             >
               Return to Previous Page
             </a>
@@ -87,7 +87,7 @@ exports[`Abstract Page renders correctly 1`] = `
           class="col-span-2"
         >
           <a
-            class="cursor-pointer"
+            class="cursor-pointer all-link"
           >
             Return to Previous Page
           </a>

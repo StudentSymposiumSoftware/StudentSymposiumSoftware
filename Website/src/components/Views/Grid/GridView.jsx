@@ -17,11 +17,11 @@ function GridView({data, searchQuery, setSearchText}) {
 
 function AbstractGrid({item, index, setSearchText}) {
     return (
-        <a key={index} className="item" href={`#/abstract/${item.abstractNumber}`}>
+        <div key={index} className="item">
             <img src={findSchoolLogo(item.school)} alt="school logo" className="mt-5 p-[2px]"/>
-            <h4>{`${item.abstractNumber}: ${toTitleCase(item.title)}`}</h4>
+            <a href={`#/abstract/${item.abstractNumber}`} className="author-link">{`${item.abstractNumber}: ${toTitleCase(item.title)}`}</a>
             <span><PersonIcon className="mr-[2px]"/><h4 onClick={() => setSearchText(item.author)} className="author-link inline-block leading-[24px]"> {toTitleCase(item.author)}</h4></span>
-        </a>
+        </div>
     )
 }
 

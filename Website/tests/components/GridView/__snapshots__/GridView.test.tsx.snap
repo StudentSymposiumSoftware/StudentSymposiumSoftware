@@ -8,18 +8,20 @@ exports[`GridView renders correctly 1`] = `
       <div
         class="grid-container"
       >
-        <a
+        <div
           class="item"
-          href="#/abstract/38893888"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-machias.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/38893888"
+          >
             38893888: Machine Learning Approaches To Financial Fraud Detection
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -39,19 +41,21 @@ exports[`GridView renders correctly 1`] = `
               Elijah Smith
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/75957852"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-machias.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/75957852"
+          >
             75957852: The Psychology Of Decision-making In Uncertain Environments
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -71,19 +75,21 @@ exports[`GridView renders correctly 1`] = `
               Sophia Campbell
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/48203955"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-machias.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/48203955"
+          >
             48203955: The Sociology Of Online Communities In The Digital Age
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -103,19 +109,21 @@ exports[`GridView renders correctly 1`] = `
               Lucy Martinez
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/64568884"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-machias.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/64568884"
+          >
             64568884: Advancements In Human-robot Interaction For Assistive Technologies
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -135,19 +143,21 @@ exports[`GridView renders correctly 1`] = `
               Zoe Jackson
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/40679302"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-machias.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/40679302"
+          >
             40679302: Blockchain Technology In Supply Chain Transparency
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -167,19 +177,21 @@ exports[`GridView renders correctly 1`] = `
               Noah King
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/37625940"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-orono.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/37625940"
+          >
             37625940: Advancements In Human-robot Interaction For Assistive Technologies
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -199,19 +211,21 @@ exports[`GridView renders correctly 1`] = `
               Joseph Baker
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/35716422"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-machias.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/35716422"
+          >
             35716422: Climate Change And Its Effects On Global Food Security
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -231,19 +245,21 @@ exports[`GridView renders correctly 1`] = `
               Ava Rodriguez
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/82413071"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-machias.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/82413071"
+          >
             82413071: The Psychology Of Decision-making In Uncertain Environments
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -263,19 +279,21 @@ exports[`GridView renders correctly 1`] = `
               Henry Adams
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/27882383"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-orono.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/27882383"
+          >
             27882383: Machine Learning Approaches To Financial Fraud Detection
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -295,19 +313,21 @@ exports[`GridView renders correctly 1`] = `
               Mason Hernandez
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/92969314"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-orono.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/92969314"
+          >
             92969314: Machine Learning Approaches To Financial Fraud Detection
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -327,19 +347,21 @@ exports[`GridView renders correctly 1`] = `
               Emma Taylor
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/29718536"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-machias.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/29718536"
+          >
             29718536: The Role Of Citizen Science In Biodiversity Conservation
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -359,19 +381,21 @@ exports[`GridView renders correctly 1`] = `
               Aurora Martinez
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/1457768"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-orono.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/1457768"
+          >
             1457768: The Role Of Citizen Science In Biodiversity Conservation
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -391,19 +415,21 @@ exports[`GridView renders correctly 1`] = `
               Lucas Robinson
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/14148682"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-orono.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/14148682"
+          >
             14148682: Blockchain Technology In Supply Chain Transparency
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -423,19 +449,21 @@ exports[`GridView renders correctly 1`] = `
               Chloe Adams
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/60454722"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-orono.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/60454722"
+          >
             60454722: Exploring The Feasibility Of Space-based Solar Power
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -455,19 +483,21 @@ exports[`GridView renders correctly 1`] = `
               Layla Young
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/41498009"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-machias.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/41498009"
+          >
             41498009: Social Media Influence On Adolescent Mental Health
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -487,19 +517,21 @@ exports[`GridView renders correctly 1`] = `
               Alexander Hall
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/23333306"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-orono.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/23333306"
+          >
             23333306: Analyzing The Impact Of Microplastics On Marine Ecosystems
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -519,19 +551,21 @@ exports[`GridView renders correctly 1`] = `
               Zoe Young
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/97656877"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-machias.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/97656877"
+          >
             97656877: Cultural Impacts On Language Evolution
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -551,19 +585,21 @@ exports[`GridView renders correctly 1`] = `
               Mason Clark
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/91417686"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-machias.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/91417686"
+          >
             91417686: Social Media Influence On Adolescent Mental Health
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -583,19 +619,21 @@ exports[`GridView renders correctly 1`] = `
               Henry Hall
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/4887031"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-machias.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/4887031"
+          >
             4887031: Advancements In Human-robot Interaction For Assistive Technologies
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -615,19 +653,21 @@ exports[`GridView renders correctly 1`] = `
               Samuel Scott
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/36475226"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-machias.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/36475226"
+          >
             36475226: Advancements In Human-robot Interaction For Assistive Technologies
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -647,19 +687,21 @@ exports[`GridView renders correctly 1`] = `
               Grace Nelson
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/29014475"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-machias.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/29014475"
+          >
             29014475: Machine Learning Approaches To Financial Fraud Detection
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -679,19 +721,21 @@ exports[`GridView renders correctly 1`] = `
               Scarlett Hernandez
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/44667664"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-machias.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/44667664"
+          >
             44667664: The Future Of Crispr In Gene Therapy
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -711,19 +755,21 @@ exports[`GridView renders correctly 1`] = `
               Maya Hernandez
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/21709418"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-orono.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/21709418"
+          >
             21709418: Analyzing The Impact Of Microplastics On Marine Ecosystems
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -743,19 +789,21 @@ exports[`GridView renders correctly 1`] = `
               Elijah Rivera
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/45822327"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-machias.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/45822327"
+          >
             45822327: Social Media Influence On Adolescent Mental Health
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -775,19 +823,21 @@ exports[`GridView renders correctly 1`] = `
               Liam Taylor
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/75710656"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-orono.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/75710656"
+          >
             75710656: The Impact Of Remote Work On Organizational Productivity
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -807,19 +857,21 @@ exports[`GridView renders correctly 1`] = `
               Mia Robinson
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/39877467"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-orono.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/39877467"
+          >
             39877467: Deep Learning For Medical Image Analysis
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -839,19 +891,21 @@ exports[`GridView renders correctly 1`] = `
               Evelyn Rodriguez
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/74596190"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-orono.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/74596190"
+          >
             74596190: Cultural Impacts On Language Evolution
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -871,19 +925,21 @@ exports[`GridView renders correctly 1`] = `
               Zoe Brown
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/30556122"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-machias.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/30556122"
+          >
             30556122: Advancements In Human-robot Interaction For Assistive Technologies
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -903,19 +959,21 @@ exports[`GridView renders correctly 1`] = `
               Sophie Thomas
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/75180428"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-orono.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/75180428"
+          >
             75180428: Advancements In Human-robot Interaction For Assistive Technologies
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -935,19 +993,21 @@ exports[`GridView renders correctly 1`] = `
               Maya Mitchell
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/82398661"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-orono.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/82398661"
+          >
             82398661: Analyzing The Impact Of Microplastics On Marine Ecosystems
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -967,19 +1027,21 @@ exports[`GridView renders correctly 1`] = `
               Jack Anderson
             </h4>
           </span>
-        </a>
-        <a
+        </div>
+        <div
           class="item"
-          href="#/abstract/82398661"
         >
           <img
             alt="school logo"
             class="mt-5 p-[2px]"
             src="/StudentSymposiumSoftware/umaine-orono.png"
           />
-          <h4>
+          <a
+            class="author-link"
+            href="#/abstract/82398661"
+          >
             82398661: Analyzing The Impact Of Microplastics On Marine Ecosystems
-          </h4>
+          </a>
           <span>
             <svg
               aria-hidden="true"
@@ -999,7 +1061,7 @@ exports[`GridView renders correctly 1`] = `
               Harper Rodriguez
             </h4>
           </span>
-        </a>
+        </div>
       </div>
     </div>
   </body>,
@@ -1007,18 +1069,20 @@ exports[`GridView renders correctly 1`] = `
     <div
       class="grid-container"
     >
-      <a
+      <div
         class="item"
-        href="#/abstract/38893888"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-machias.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/38893888"
+        >
           38893888: Machine Learning Approaches To Financial Fraud Detection
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1038,19 +1102,21 @@ exports[`GridView renders correctly 1`] = `
             Elijah Smith
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/75957852"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-machias.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/75957852"
+        >
           75957852: The Psychology Of Decision-making In Uncertain Environments
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1070,19 +1136,21 @@ exports[`GridView renders correctly 1`] = `
             Sophia Campbell
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/48203955"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-machias.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/48203955"
+        >
           48203955: The Sociology Of Online Communities In The Digital Age
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1102,19 +1170,21 @@ exports[`GridView renders correctly 1`] = `
             Lucy Martinez
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/64568884"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-machias.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/64568884"
+        >
           64568884: Advancements In Human-robot Interaction For Assistive Technologies
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1134,19 +1204,21 @@ exports[`GridView renders correctly 1`] = `
             Zoe Jackson
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/40679302"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-machias.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/40679302"
+        >
           40679302: Blockchain Technology In Supply Chain Transparency
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1166,19 +1238,21 @@ exports[`GridView renders correctly 1`] = `
             Noah King
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/37625940"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-orono.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/37625940"
+        >
           37625940: Advancements In Human-robot Interaction For Assistive Technologies
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1198,19 +1272,21 @@ exports[`GridView renders correctly 1`] = `
             Joseph Baker
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/35716422"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-machias.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/35716422"
+        >
           35716422: Climate Change And Its Effects On Global Food Security
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1230,19 +1306,21 @@ exports[`GridView renders correctly 1`] = `
             Ava Rodriguez
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/82413071"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-machias.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/82413071"
+        >
           82413071: The Psychology Of Decision-making In Uncertain Environments
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1262,19 +1340,21 @@ exports[`GridView renders correctly 1`] = `
             Henry Adams
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/27882383"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-orono.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/27882383"
+        >
           27882383: Machine Learning Approaches To Financial Fraud Detection
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1294,19 +1374,21 @@ exports[`GridView renders correctly 1`] = `
             Mason Hernandez
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/92969314"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-orono.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/92969314"
+        >
           92969314: Machine Learning Approaches To Financial Fraud Detection
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1326,19 +1408,21 @@ exports[`GridView renders correctly 1`] = `
             Emma Taylor
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/29718536"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-machias.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/29718536"
+        >
           29718536: The Role Of Citizen Science In Biodiversity Conservation
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1358,19 +1442,21 @@ exports[`GridView renders correctly 1`] = `
             Aurora Martinez
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/1457768"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-orono.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/1457768"
+        >
           1457768: The Role Of Citizen Science In Biodiversity Conservation
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1390,19 +1476,21 @@ exports[`GridView renders correctly 1`] = `
             Lucas Robinson
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/14148682"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-orono.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/14148682"
+        >
           14148682: Blockchain Technology In Supply Chain Transparency
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1422,19 +1510,21 @@ exports[`GridView renders correctly 1`] = `
             Chloe Adams
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/60454722"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-orono.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/60454722"
+        >
           60454722: Exploring The Feasibility Of Space-based Solar Power
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1454,19 +1544,21 @@ exports[`GridView renders correctly 1`] = `
             Layla Young
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/41498009"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-machias.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/41498009"
+        >
           41498009: Social Media Influence On Adolescent Mental Health
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1486,19 +1578,21 @@ exports[`GridView renders correctly 1`] = `
             Alexander Hall
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/23333306"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-orono.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/23333306"
+        >
           23333306: Analyzing The Impact Of Microplastics On Marine Ecosystems
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1518,19 +1612,21 @@ exports[`GridView renders correctly 1`] = `
             Zoe Young
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/97656877"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-machias.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/97656877"
+        >
           97656877: Cultural Impacts On Language Evolution
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1550,19 +1646,21 @@ exports[`GridView renders correctly 1`] = `
             Mason Clark
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/91417686"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-machias.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/91417686"
+        >
           91417686: Social Media Influence On Adolescent Mental Health
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1582,19 +1680,21 @@ exports[`GridView renders correctly 1`] = `
             Henry Hall
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/4887031"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-machias.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/4887031"
+        >
           4887031: Advancements In Human-robot Interaction For Assistive Technologies
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1614,19 +1714,21 @@ exports[`GridView renders correctly 1`] = `
             Samuel Scott
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/36475226"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-machias.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/36475226"
+        >
           36475226: Advancements In Human-robot Interaction For Assistive Technologies
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1646,19 +1748,21 @@ exports[`GridView renders correctly 1`] = `
             Grace Nelson
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/29014475"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-machias.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/29014475"
+        >
           29014475: Machine Learning Approaches To Financial Fraud Detection
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1678,19 +1782,21 @@ exports[`GridView renders correctly 1`] = `
             Scarlett Hernandez
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/44667664"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-machias.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/44667664"
+        >
           44667664: The Future Of Crispr In Gene Therapy
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1710,19 +1816,21 @@ exports[`GridView renders correctly 1`] = `
             Maya Hernandez
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/21709418"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-orono.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/21709418"
+        >
           21709418: Analyzing The Impact Of Microplastics On Marine Ecosystems
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1742,19 +1850,21 @@ exports[`GridView renders correctly 1`] = `
             Elijah Rivera
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/45822327"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-machias.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/45822327"
+        >
           45822327: Social Media Influence On Adolescent Mental Health
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1774,19 +1884,21 @@ exports[`GridView renders correctly 1`] = `
             Liam Taylor
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/75710656"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-orono.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/75710656"
+        >
           75710656: The Impact Of Remote Work On Organizational Productivity
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1806,19 +1918,21 @@ exports[`GridView renders correctly 1`] = `
             Mia Robinson
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/39877467"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-orono.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/39877467"
+        >
           39877467: Deep Learning For Medical Image Analysis
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1838,19 +1952,21 @@ exports[`GridView renders correctly 1`] = `
             Evelyn Rodriguez
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/74596190"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-orono.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/74596190"
+        >
           74596190: Cultural Impacts On Language Evolution
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1870,19 +1986,21 @@ exports[`GridView renders correctly 1`] = `
             Zoe Brown
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/30556122"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-machias.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/30556122"
+        >
           30556122: Advancements In Human-robot Interaction For Assistive Technologies
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1902,19 +2020,21 @@ exports[`GridView renders correctly 1`] = `
             Sophie Thomas
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/75180428"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-orono.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/75180428"
+        >
           75180428: Advancements In Human-robot Interaction For Assistive Technologies
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1934,19 +2054,21 @@ exports[`GridView renders correctly 1`] = `
             Maya Mitchell
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/82398661"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-orono.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/82398661"
+        >
           82398661: Analyzing The Impact Of Microplastics On Marine Ecosystems
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1966,19 +2088,21 @@ exports[`GridView renders correctly 1`] = `
             Jack Anderson
           </h4>
         </span>
-      </a>
-      <a
+      </div>
+      <div
         class="item"
-        href="#/abstract/82398661"
       >
         <img
           alt="school logo"
           class="mt-5 p-[2px]"
           src="/StudentSymposiumSoftware/umaine-orono.png"
         />
-        <h4>
+        <a
+          class="author-link"
+          href="#/abstract/82398661"
+        >
           82398661: Analyzing The Impact Of Microplastics On Marine Ecosystems
-        </h4>
+        </a>
         <span>
           <svg
             aria-hidden="true"
@@ -1998,7 +2122,7 @@ exports[`GridView renders correctly 1`] = `
             Harper Rodriguez
           </h4>
         </span>
-      </a>
+      </div>
     </div>
   </div>,
   "debug": [Function],
