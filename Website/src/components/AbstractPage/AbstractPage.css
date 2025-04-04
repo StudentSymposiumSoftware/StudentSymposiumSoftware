@@ -31,3 +31,16 @@
   0% , 60% , 100%{ transform:  scale(1) }
   80% { transform:  scale(1.2)}
 }
+
+.all-link {
+  font-style: italic;
+  transition: color 0.2s ease-in-out;
+}
+
+.all-link:hover {
+  color: darkblue;
+}
+
+.all-link:active {
+  color: red;
+}

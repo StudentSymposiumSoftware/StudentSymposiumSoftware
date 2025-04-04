@@ -18,7 +18,7 @@ function AbstractPage({data}) {
             {data.length != 0 && (
                 <div className="grid grid-cols-3">
                     <div className="col-span-2">
-                        <a className="cursor-pointer" onClick={() => navigate(-1)}>Return to Previous Page</a><br/>
+                        <a className="cursor-pointer all-link" onClick={() => navigate(-1)}>Return to Previous Page</a><br/>
                         <span className="text-[24px]">{data.major} {abstractNumber} - {data.title}</span><br/>
                         <span className="text-[20px] italic">{data.allAuthors}</span><br/>
                         <span className="text-[20px] italic">Mentor: {data.professor}</span>
