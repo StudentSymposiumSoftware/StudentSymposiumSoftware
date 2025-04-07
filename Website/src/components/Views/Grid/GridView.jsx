@@ -1,17 +1,16 @@
 import "./GridView.css"
+import { useNavigate } from "react-router-dom"
 
 function GridView(props) {
-    
-    console.log(props.data) // <-- Here's the data for your ticket
-
-
+    const navigate = useNavigate();
     
     return (
-        <div class="grid-container">
+        <div className="grid-container">
             {props.data.map((item, index) => (
                 <div key={index} className="item" >
-                    {/* Render the item data here */}
-                    <h4>{[item.title, 'by', item.author].join(' ')}</h4>
+  
+                    <h4>{item.title}</h4>
+                    <h4 onClick={() => navigate(`/author/${item.author}`)} className="author-link">By {item.author}</h4>
                     <p>{[item.major, 'at', item.school].join(' ')}</p>
                     <p>{['Abstract number', item.abstractNumber].join(' ')}</p>
                 </div>

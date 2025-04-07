@@ -221,7 +221,14 @@ export const mockData = [{ author: 'Elijah Smith',
     major: 'Physics',
     title: 'Analyzing the Impact of Microplastics on Marine Ecosystems',
     category: 'Natural Sciences',
-    abstractNumber: 82398661 }]
+    abstractNumber: 82398661 },
+    { author: 'Harper Rodriguez',
+      professor: 'Harper Rodriguez',
+      school: 'UMaine Orono',
+      major: 'Physics',
+      title: 'Analyzing the Impact of Microplastics on Marine Ecosystems',
+      category: 'Natural Sciences',
+      abstractNumber: 82398661 }]
 
 
   export default mockData;
