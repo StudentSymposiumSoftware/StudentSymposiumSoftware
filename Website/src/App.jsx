@@ -102,7 +102,6 @@ function App() {
 
         <div className={`overflow-auto ${hash ? "h-[calc(100vh-200px)]" : "h-[calc(100vh-140px)]"} w-[100%]`} id="main-content">
           <Routes>
-            {/* <Route path="/" element={<HomepageComponent/>} /> */}
             <Route path="/" element={<GridView data={abstractData} searchQuery={searchText} setSearchText={(text) => passQuery(text)}/>} />
             <Route path="/list" element={<ListView data={abstractData} searchQuery={searchText} setSearchText={(text) => passQuery(text)}/>} />
             <Route path="/author/:name" element={<AuthorPage data={abstractData}/>} />
