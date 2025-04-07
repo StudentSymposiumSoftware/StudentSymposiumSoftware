@@ -6,17 +6,2307 @@ exports[`ListView renders correctly 1`] = `
   "baseElement": <body>
     <div>
       <div
-        id="list-container"
+        class="pt-2 text-primary-background ml-[20px] mr-[20px] mt-[0px] rounded-lg bg-white"
       >
-        Welcome to the list view page
+        <table
+          class="w-[100%] text-black pb-3 rounded-t-lg"
+        >
+          <tr
+            class="sticky top-0 w-[100%] p-5 mb-2 bg-white rounded-t-lg italic"
+          >
+            <th>
+              Abstract
+            </th>
+            <th>
+              School
+            </th>
+            <th>
+              Title
+            </th>
+            <th>
+              Category
+            </th>
+            <th>
+              Author
+            </th>
+            <th>
+              Mentor
+            </th>
+          </tr>
+          <tbody
+            class="w-[100%] h-[50px] overflow-auto"
+          >
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                38893888
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-machias.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/38893888"
+                >
+                  Machine Learning Approaches to Financial Fraud Detection
+                </a>
+              </td>
+              <td>
+                <a>
+                  Physics
+                </a>
+              </td>
+              <td>
+                <a>
+                  Elijah Smith
+                </a>
+              </td>
+              <td>
+                <a>
+                  Olivia Lewis
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                75957852
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-machias.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/75957852"
+                >
+                  The Psychology of Decision-Making in Uncertain Environments
+                </a>
+              </td>
+              <td>
+                <a>
+                  Political Science
+                </a>
+              </td>
+              <td>
+                <a>
+                  Sophia Campbell
+                </a>
+              </td>
+              <td>
+                <a>
+                  Mia Lee
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                48203955
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-machias.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/48203955"
+                >
+                  The Sociology of Online Communities in the Digital Age
+                </a>
+              </td>
+              <td>
+                <a>
+                  Business Administration
+                </a>
+              </td>
+              <td>
+                <a>
+                  Lucy Martinez
+                </a>
+              </td>
+              <td>
+                <a>
+                  Carter Martinez
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                64568884
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-machias.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/64568884"
+                >
+                  Advancements in Human-Robot Interaction for Assistive Technologies
+                </a>
+              </td>
+              <td>
+                <a>
+                  Psychology
+                </a>
+              </td>
+              <td>
+                <a>
+                  Zoe Jackson
+                </a>
+              </td>
+              <td>
+                <a>
+                  Layla Perez
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                40679302
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-machias.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/40679302"
+                >
+                  Blockchain Technology in Supply Chain Transparency
+                </a>
+              </td>
+              <td>
+                <a>
+                  Political Science
+                </a>
+              </td>
+              <td>
+                <a>
+                  Noah King
+                </a>
+              </td>
+              <td>
+                <a>
+                  William Smith
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                37625940
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-orono.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/37625940"
+                >
+                  Advancements in Human-Robot Interaction for Assistive Technologies
+                </a>
+              </td>
+              <td>
+                <a>
+                  Mathematics
+                </a>
+              </td>
+              <td>
+                <a>
+                  Joseph Baker
+                </a>
+              </td>
+              <td>
+                <a>
+                  Aria Thompson
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                35716422
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-machias.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/35716422"
+                >
+                  Climate Change and Its Effects on Global Food Security
+                </a>
+              </td>
+              <td>
+                <a>
+                  Physics
+                </a>
+              </td>
+              <td>
+                <a>
+                  Ava Rodriguez
+                </a>
+              </td>
+              <td>
+                <a>
+                  Victoria Thomas
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                82413071
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-machias.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/82413071"
+                >
+                  The Psychology of Decision-Making in Uncertain Environments
+                </a>
+              </td>
+              <td>
+                <a>
+                  Psychology
+                </a>
+              </td>
+              <td>
+                <a>
+                  Henry Adams
+                </a>
+              </td>
+              <td>
+                <a>
+                  Lucy Miller
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                27882383
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-orono.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/27882383"
+                >
+                  Machine Learning Approaches to Financial Fraud Detection
+                </a>
+              </td>
+              <td>
+                <a>
+                  Business Administration
+                </a>
+              </td>
+              <td>
+                <a>
+                  Mason Hernandez
+                </a>
+              </td>
+              <td>
+                <a>
+                  Aiden Perez
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                92969314
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-orono.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/92969314"
+                >
+                  Machine Learning Approaches to Financial Fraud Detection
+                </a>
+              </td>
+              <td>
+                <a>
+                  Biology
+                </a>
+              </td>
+              <td>
+                <a>
+                  Emma Taylor
+                </a>
+              </td>
+              <td>
+                <a>
+                  Ethan Hernandez
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                29718536
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-machias.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/29718536"
+                >
+                  The Role of Citizen Science in Biodiversity Conservation
+                </a>
+              </td>
+              <td>
+                <a>
+                  Computer Science
+                </a>
+              </td>
+              <td>
+                <a>
+                  Aurora Martinez
+                </a>
+              </td>
+              <td>
+                <a>
+                  William Anderson
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                1457768
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-orono.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/1457768"
+                >
+                  The Role of Citizen Science in Biodiversity Conservation
+                </a>
+              </td>
+              <td>
+                <a>
+                  Psychology
+                </a>
+              </td>
+              <td>
+                <a>
+                  Lucas Robinson
+                </a>
+              </td>
+              <td>
+                <a>
+                  Scarlett King
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                14148682
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-orono.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/14148682"
+                >
+                  Blockchain Technology in Supply Chain Transparency
+                </a>
+              </td>
+              <td>
+                <a>
+                  Physics
+                </a>
+              </td>
+              <td>
+                <a>
+                  Chloe Adams
+                </a>
+              </td>
+              <td>
+                <a>
+                  Liam Rodriguez
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                60454722
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-orono.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/60454722"
+                >
+                  Exploring the Feasibility of Space-Based Solar Power
+                </a>
+              </td>
+              <td>
+                <a>
+                  Biology
+                </a>
+              </td>
+              <td>
+                <a>
+                  Layla Young
+                </a>
+              </td>
+              <td>
+                <a>
+                  Alexander Roberts
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                41498009
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-machias.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/41498009"
+                >
+                  Social Media Influence on Adolescent Mental Health
+                </a>
+              </td>
+              <td>
+                <a>
+                  Business Administration
+                </a>
+              </td>
+              <td>
+                <a>
+                  Alexander Hall
+                </a>
+              </td>
+              <td>
+                <a>
+                  Aria Clark
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                23333306
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-orono.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/23333306"
+                >
+                  Analyzing the Impact of Microplastics on Marine Ecosystems
+                </a>
+              </td>
+              <td>
+                <a>
+                  Physics
+                </a>
+              </td>
+              <td>
+                <a>
+                  Zoe Young
+                </a>
+              </td>
+              <td>
+                <a>
+                  Amelia Jackson
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                97656877
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-machias.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/97656877"
+                >
+                  Cultural Impacts on Language Evolution
+                </a>
+              </td>
+              <td>
+                <a>
+                  Nursing
+                </a>
+              </td>
+              <td>
+                <a>
+                  Mason Clark
+                </a>
+              </td>
+              <td>
+                <a>
+                  Scarlett Hernandez
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                91417686
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-machias.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/91417686"
+                >
+                  Social Media Influence on Adolescent Mental Health
+                </a>
+              </td>
+              <td>
+                <a>
+                  Mechanical Engineering
+                </a>
+              </td>
+              <td>
+                <a>
+                  Henry Hall
+                </a>
+              </td>
+              <td>
+                <a>
+                  Ella Garcia
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                4887031
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-machias.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/4887031"
+                >
+                  Advancements in Human-Robot Interaction for Assistive Technologies
+                </a>
+              </td>
+              <td>
+                <a>
+                  Mathematics
+                </a>
+              </td>
+              <td>
+                <a>
+                  Samuel Scott
+                </a>
+              </td>
+              <td>
+                <a>
+                  Evelyn Green
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                36475226
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-machias.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/36475226"
+                >
+                  Advancements in Human-Robot Interaction for Assistive Technologies
+                </a>
+              </td>
+              <td>
+                <a>
+                  Nursing
+                </a>
+              </td>
+              <td>
+                <a>
+                  Grace Nelson
+                </a>
+              </td>
+              <td>
+                <a>
+                  Aria Scott
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                29014475
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-machias.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/29014475"
+                >
+                  Machine Learning Approaches to Financial Fraud Detection
+                </a>
+              </td>
+              <td>
+                <a>
+                  Mechanical Engineering
+                </a>
+              </td>
+              <td>
+                <a>
+                  Scarlett Hernandez
+                </a>
+              </td>
+              <td>
+                <a>
+                  Matthew Wright
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                44667664
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-machias.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/44667664"
+                >
+                  The Future of CRISPR in Gene Therapy
+                </a>
+              </td>
+              <td>
+                <a>
+                  Physics
+                </a>
+              </td>
+              <td>
+                <a>
+                  Maya Hernandez
+                </a>
+              </td>
+              <td>
+                <a>
+                  William Green
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                21709418
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-orono.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/21709418"
+                >
+                  Analyzing the Impact of Microplastics on Marine Ecosystems
+                </a>
+              </td>
+              <td>
+                <a>
+                  Computer Science
+                </a>
+              </td>
+              <td>
+                <a>
+                  Elijah Rivera
+                </a>
+              </td>
+              <td>
+                <a>
+                  Harper Martinez
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                45822327
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-machias.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/45822327"
+                >
+                  Social Media Influence on Adolescent Mental Health
+                </a>
+              </td>
+              <td>
+                <a>
+                  Political Science
+                </a>
+              </td>
+              <td>
+                <a>
+                  Liam Taylor
+                </a>
+              </td>
+              <td>
+                <a>
+                  Ella Walker
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                75710656
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-orono.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/75710656"
+                >
+                  The Impact of Remote Work on Organizational Productivity
+                </a>
+              </td>
+              <td>
+                <a>
+                  Mathematics
+                </a>
+              </td>
+              <td>
+                <a>
+                  Mia Robinson
+                </a>
+              </td>
+              <td>
+                <a>
+                  Noah Green
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                39877467
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-orono.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/39877467"
+                >
+                  Deep Learning for Medical Image Analysis
+                </a>
+              </td>
+              <td>
+                <a>
+                  Physics
+                </a>
+              </td>
+              <td>
+                <a>
+                  Evelyn Rodriguez
+                </a>
+              </td>
+              <td>
+                <a>
+                  Lucas Moore
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                74596190
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-orono.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/74596190"
+                >
+                  Cultural Impacts on Language Evolution
+                </a>
+              </td>
+              <td>
+                <a>
+                  Physics
+                </a>
+              </td>
+              <td>
+                <a>
+                  Zoe Brown
+                </a>
+              </td>
+              <td>
+                <a>
+                  Scarlett Thompson
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                30556122
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-machias.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/30556122"
+                >
+                  Advancements in Human-Robot Interaction for Assistive Technologies
+                </a>
+              </td>
+              <td>
+                <a>
+                  Mechanical Engineering
+                </a>
+              </td>
+              <td>
+                <a>
+                  Sophie Thomas
+                </a>
+              </td>
+              <td>
+                <a>
+                  David Rodriguez
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                75180428
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-orono.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/75180428"
+                >
+                  Advancements in Human-Robot Interaction for Assistive Technologies
+                </a>
+              </td>
+              <td>
+                <a>
+                  Nursing
+                </a>
+              </td>
+              <td>
+                <a>
+                  Maya Mitchell
+                </a>
+              </td>
+              <td>
+                <a>
+                  Aiden White
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                82398661
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-orono.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/82398661"
+                >
+                  Analyzing the Impact of Microplastics on Marine Ecosystems
+                </a>
+              </td>
+              <td>
+                <a>
+                  Physics
+                </a>
+              </td>
+              <td>
+                <a>
+                  Jack Anderson
+                </a>
+              </td>
+              <td>
+                <a>
+                  Harper Rodriguez
+                </a>
+              </td>
+            </tr>
+            <tr
+              class="p-5 w-[100%] text-center align-middle listItem"
+            >
+              <td>
+                82398661
+              </td>
+              <td>
+                <img
+                  src="/StudentSymposiumSoftware/umaine-orono.png"
+                />
+              </td>
+              <td
+                class="italic"
+              >
+                <a
+                  href="#/abstract/82398661"
+                >
+                  Analyzing the Impact of Microplastics on Marine Ecosystems
+                </a>
+              </td>
+              <td>
+                <a>
+                  Physics
+                </a>
+              </td>
+              <td>
+                <a>
+                  Harper Rodriguez
+                </a>
+              </td>
+              <td>
+                <a>
+                  Harper Rodriguez
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      id="list-container"
+      class="pt-2 text-primary-background ml-[20px] mr-[20px] mt-[0px] rounded-lg bg-white"
     >
-      Welcome to the list view page
+      <table
+        class="w-[100%] text-black pb-3 rounded-t-lg"
+      >
+        <tr
+          class="sticky top-0 w-[100%] p-5 mb-2 bg-white rounded-t-lg italic"
+        >
+          <th>
+            Abstract
+          </th>
+          <th>
+            School
+          </th>
+          <th>
+            Title
+          </th>
+          <th>
+            Category
+          </th>
+          <th>
+            Author
+          </th>
+          <th>
+            Mentor
+          </th>
+        </tr>
+        <tbody
+          class="w-[100%] h-[50px] overflow-auto"
+        >
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              38893888
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-machias.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/38893888"
+              >
+                Machine Learning Approaches to Financial Fraud Detection
+              </a>
+            </td>
+            <td>
+              <a>
+                Physics
+              </a>
+            </td>
+            <td>
+              <a>
+                Elijah Smith
+              </a>
+            </td>
+            <td>
+              <a>
+                Olivia Lewis
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              75957852
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-machias.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/75957852"
+              >
+                The Psychology of Decision-Making in Uncertain Environments
+              </a>
+            </td>
+            <td>
+              <a>
+                Political Science
+              </a>
+            </td>
+            <td>
+              <a>
+                Sophia Campbell
+              </a>
+            </td>
+            <td>
+              <a>
+                Mia Lee
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              48203955
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-machias.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/48203955"
+              >
+                The Sociology of Online Communities in the Digital Age
+              </a>
+            </td>
+            <td>
+              <a>
+                Business Administration
+              </a>
+            </td>
+            <td>
+              <a>
+                Lucy Martinez
+              </a>
+            </td>
+            <td>
+              <a>
+                Carter Martinez
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              64568884
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-machias.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/64568884"
+              >
+                Advancements in Human-Robot Interaction for Assistive Technologies
+              </a>
+            </td>
+            <td>
+              <a>
+                Psychology
+              </a>
+            </td>
+            <td>
+              <a>
+                Zoe Jackson
+              </a>
+            </td>
+            <td>
+              <a>
+                Layla Perez
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              40679302
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-machias.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/40679302"
+              >
+                Blockchain Technology in Supply Chain Transparency
+              </a>
+            </td>
+            <td>
+              <a>
+                Political Science
+              </a>
+            </td>
+            <td>
+              <a>
+                Noah King
+              </a>
+            </td>
+            <td>
+              <a>
+                William Smith
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              37625940
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-orono.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/37625940"
+              >
+                Advancements in Human-Robot Interaction for Assistive Technologies
+              </a>
+            </td>
+            <td>
+              <a>
+                Mathematics
+              </a>
+            </td>
+            <td>
+              <a>
+                Joseph Baker
+              </a>
+            </td>
+            <td>
+              <a>
+                Aria Thompson
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              35716422
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-machias.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/35716422"
+              >
+                Climate Change and Its Effects on Global Food Security
+              </a>
+            </td>
+            <td>
+              <a>
+                Physics
+              </a>
+            </td>
+            <td>
+              <a>
+                Ava Rodriguez
+              </a>
+            </td>
+            <td>
+              <a>
+                Victoria Thomas
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              82413071
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-machias.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/82413071"
+              >
+                The Psychology of Decision-Making in Uncertain Environments
+              </a>
+            </td>
+            <td>
+              <a>
+                Psychology
+              </a>
+            </td>
+            <td>
+              <a>
+                Henry Adams
+              </a>
+            </td>
+            <td>
+              <a>
+                Lucy Miller
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              27882383
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-orono.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/27882383"
+              >
+                Machine Learning Approaches to Financial Fraud Detection
+              </a>
+            </td>
+            <td>
+              <a>
+                Business Administration
+              </a>
+            </td>
+            <td>
+              <a>
+                Mason Hernandez
+              </a>
+            </td>
+            <td>
+              <a>
+                Aiden Perez
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              92969314
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-orono.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/92969314"
+              >
+                Machine Learning Approaches to Financial Fraud Detection
+              </a>
+            </td>
+            <td>
+              <a>
+                Biology
+              </a>
+            </td>
+            <td>
+              <a>
+                Emma Taylor
+              </a>
+            </td>
+            <td>
+              <a>
+                Ethan Hernandez
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              29718536
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-machias.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/29718536"
+              >
+                The Role of Citizen Science in Biodiversity Conservation
+              </a>
+            </td>
+            <td>
+              <a>
+                Computer Science
+              </a>
+            </td>
+            <td>
+              <a>
+                Aurora Martinez
+              </a>
+            </td>
+            <td>
+              <a>
+                William Anderson
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              1457768
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-orono.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/1457768"
+              >
+                The Role of Citizen Science in Biodiversity Conservation
+              </a>
+            </td>
+            <td>
+              <a>
+                Psychology
+              </a>
+            </td>
+            <td>
+              <a>
+                Lucas Robinson
+              </a>
+            </td>
+            <td>
+              <a>
+                Scarlett King
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              14148682
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-orono.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/14148682"
+              >
+                Blockchain Technology in Supply Chain Transparency
+              </a>
+            </td>
+            <td>
+              <a>
+                Physics
+              </a>
+            </td>
+            <td>
+              <a>
+                Chloe Adams
+              </a>
+            </td>
+            <td>
+              <a>
+                Liam Rodriguez
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              60454722
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-orono.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/60454722"
+              >
+                Exploring the Feasibility of Space-Based Solar Power
+              </a>
+            </td>
+            <td>
+              <a>
+                Biology
+              </a>
+            </td>
+            <td>
+              <a>
+                Layla Young
+              </a>
+            </td>
+            <td>
+              <a>
+                Alexander Roberts
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              41498009
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-machias.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/41498009"
+              >
+                Social Media Influence on Adolescent Mental Health
+              </a>
+            </td>
+            <td>
+              <a>
+                Business Administration
+              </a>
+            </td>
+            <td>
+              <a>
+                Alexander Hall
+              </a>
+            </td>
+            <td>
+              <a>
+                Aria Clark
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              23333306
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-orono.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/23333306"
+              >
+                Analyzing the Impact of Microplastics on Marine Ecosystems
+              </a>
+            </td>
+            <td>
+              <a>
+                Physics
+              </a>
+            </td>
+            <td>
+              <a>
+                Zoe Young
+              </a>
+            </td>
+            <td>
+              <a>
+                Amelia Jackson
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              97656877
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-machias.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/97656877"
+              >
+                Cultural Impacts on Language Evolution
+              </a>
+            </td>
+            <td>
+              <a>
+                Nursing
+              </a>
+            </td>
+            <td>
+              <a>
+                Mason Clark
+              </a>
+            </td>
+            <td>
+              <a>
+                Scarlett Hernandez
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              91417686
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-machias.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/91417686"
+              >
+                Social Media Influence on Adolescent Mental Health
+              </a>
+            </td>
+            <td>
+              <a>
+                Mechanical Engineering
+              </a>
+            </td>
+            <td>
+              <a>
+                Henry Hall
+              </a>
+            </td>
+            <td>
+              <a>
+                Ella Garcia
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              4887031
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-machias.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/4887031"
+              >
+                Advancements in Human-Robot Interaction for Assistive Technologies
+              </a>
+            </td>
+            <td>
+              <a>
+                Mathematics
+              </a>
+            </td>
+            <td>
+              <a>
+                Samuel Scott
+              </a>
+            </td>
+            <td>
+              <a>
+                Evelyn Green
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              36475226
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-machias.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/36475226"
+              >
+                Advancements in Human-Robot Interaction for Assistive Technologies
+              </a>
+            </td>
+            <td>
+              <a>
+                Nursing
+              </a>
+            </td>
+            <td>
+              <a>
+                Grace Nelson
+              </a>
+            </td>
+            <td>
+              <a>
+                Aria Scott
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              29014475
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-machias.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/29014475"
+              >
+                Machine Learning Approaches to Financial Fraud Detection
+              </a>
+            </td>
+            <td>
+              <a>
+                Mechanical Engineering
+              </a>
+            </td>
+            <td>
+              <a>
+                Scarlett Hernandez
+              </a>
+            </td>
+            <td>
+              <a>
+                Matthew Wright
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              44667664
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-machias.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/44667664"
+              >
+                The Future of CRISPR in Gene Therapy
+              </a>
+            </td>
+            <td>
+              <a>
+                Physics
+              </a>
+            </td>
+            <td>
+              <a>
+                Maya Hernandez
+              </a>
+            </td>
+            <td>
+              <a>
+                William Green
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              21709418
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-orono.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/21709418"
+              >
+                Analyzing the Impact of Microplastics on Marine Ecosystems
+              </a>
+            </td>
+            <td>
+              <a>
+                Computer Science
+              </a>
+            </td>
+            <td>
+              <a>
+                Elijah Rivera
+              </a>
+            </td>
+            <td>
+              <a>
+                Harper Martinez
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              45822327
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-machias.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/45822327"
+              >
+                Social Media Influence on Adolescent Mental Health
+              </a>
+            </td>
+            <td>
+              <a>
+                Political Science
+              </a>
+            </td>
+            <td>
+              <a>
+                Liam Taylor
+              </a>
+            </td>
+            <td>
+              <a>
+                Ella Walker
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              75710656
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-orono.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/75710656"
+              >
+                The Impact of Remote Work on Organizational Productivity
+              </a>
+            </td>
+            <td>
+              <a>
+                Mathematics
+              </a>
+            </td>
+            <td>
+              <a>
+                Mia Robinson
+              </a>
+            </td>
+            <td>
+              <a>
+                Noah Green
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              39877467
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-orono.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/39877467"
+              >
+                Deep Learning for Medical Image Analysis
+              </a>
+            </td>
+            <td>
+              <a>
+                Physics
+              </a>
+            </td>
+            <td>
+              <a>
+                Evelyn Rodriguez
+              </a>
+            </td>
+            <td>
+              <a>
+                Lucas Moore
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              74596190
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-orono.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/74596190"
+              >
+                Cultural Impacts on Language Evolution
+              </a>
+            </td>
+            <td>
+              <a>
+                Physics
+              </a>
+            </td>
+            <td>
+              <a>
+                Zoe Brown
+              </a>
+            </td>
+            <td>
+              <a>
+                Scarlett Thompson
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              30556122
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-machias.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/30556122"
+              >
+                Advancements in Human-Robot Interaction for Assistive Technologies
+              </a>
+            </td>
+            <td>
+              <a>
+                Mechanical Engineering
+              </a>
+            </td>
+            <td>
+              <a>
+                Sophie Thomas
+              </a>
+            </td>
+            <td>
+              <a>
+                David Rodriguez
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              75180428
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-orono.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/75180428"
+              >
+                Advancements in Human-Robot Interaction for Assistive Technologies
+              </a>
+            </td>
+            <td>
+              <a>
+                Nursing
+              </a>
+            </td>
+            <td>
+              <a>
+                Maya Mitchell
+              </a>
+            </td>
+            <td>
+              <a>
+                Aiden White
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              82398661
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-orono.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/82398661"
+              >
+                Analyzing the Impact of Microplastics on Marine Ecosystems
+              </a>
+            </td>
+            <td>
+              <a>
+                Physics
+              </a>
+            </td>
+            <td>
+              <a>
+                Jack Anderson
+              </a>
+            </td>
+            <td>
+              <a>
+                Harper Rodriguez
+              </a>
+            </td>
+          </tr>
+          <tr
+            class="p-5 w-[100%] text-center align-middle listItem"
+          >
+            <td>
+              82398661
+            </td>
+            <td>
+              <img
+                src="/StudentSymposiumSoftware/umaine-orono.png"
+              />
+            </td>
+            <td
+              class="italic"
+            >
+              <a
+                href="#/abstract/82398661"
+              >
+                Analyzing the Impact of Microplastics on Marine Ecosystems
+              </a>
+            </td>
+            <td>
+              <a>
+                Physics
+              </a>
+            </td>
+            <td>
+              <a>
+                Harper Rodriguez
+              </a>
+            </td>
+            <td>
+              <a>
+                Harper Rodriguez
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>,
   "debug": [Function],
