@@ -104,7 +104,7 @@ function App() {
           <Routes>
             {/* <Route path="/" element={<HomepageComponent/>} /> */}
             <Route path="/" element={<GridView data={abstractData} searchQuery={searchText} setSearchText={(text) => passQuery(text)}/>} />
-            <Route path="/list" element={<ListView data={abstractData}/>} />
+            <Route path="/list" element={<ListView data={abstractData} searchQuery={searchText} setSearchText={(text) => passQuery(text)}/>} />
             <Route path="/author/:name" element={<AuthorPage data={abstractData}/>} />
             <Route path="/abstract/:number" element={<AbstractPage data={abstractData}/>} />
             <Route path="/admin" element={<AdminPage/>}/>
