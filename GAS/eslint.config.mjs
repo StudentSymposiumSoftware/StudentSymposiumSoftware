@@ -1,4 +1,3 @@
-import globals from "globals";
 import pluginJs from "@eslint/js";
 import googleappsscript from "eslint-plugin-googleappsscript";
 
@@ -12,14 +11,7 @@ export default [
     },
     rules: {
       "no-unused-vars": "warn",
-    },
-  },
-  { 
-    languageOptions: { 
-      globals: { ...globals.browser, ...globals.node } 
-    },
-    rules: {
-      "no-unused-vars": "warn",
+      "no-undef": "warn",
     },
   },
 ];

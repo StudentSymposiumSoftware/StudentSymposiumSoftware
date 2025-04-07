@@ -1,15 +1,15 @@
-function EmailJudges(){
+function EmailJudges() {
   // Constants
   /* int */ const COL_ABSTRACTNUM = 0;
   /* int */ const COL_JUDGEEMAIL = 1;
   /* int */ const COL_JUDGE2EMAIL = 2;
   /* str */ const RANGE_JUDGEASSIGNING_ABSTRACTASSIGNMENTTABLE = "A2:C";
-  
+
   const Spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
-  
+
   // Named Ranges (Settings)
-  /* str */ const EMAIL_SUBJECT = Spreadsheet.getSheetByName("Judge Assigning").getRange("JudgeAssignmentEmail_Subject");
-  /* str */ const EMAIL_PRELUDE = Spreadsheet.getSheetByName("Judge Assigning").getRange("JudgeAssignmentEmail_OpeningText");
+  /* str */ const EMAIL_SUBJECT = Spreadsheet.getSheetByName("Judge Assigning").getRange("JudgeAssignmentEmail_Subject").getValue();
+  /* str */ const EMAIL_PRELUDE = Spreadsheet.getSheetByName("Judge Assigning").getRange("JudgeAssignmentEmail_OpeningText").getValue();
 
   // Setup
   /* str[] */ var sourceEmailList = Spreadsheet.getSheetByName("Judge Assigning").getRange(RANGE_JUDGEASSIGNING_ABSTRACTASSIGNMENTTABLE).getValues();
@@ -52,12 +52,24 @@ function EmailJudges(){
 }
 
 /*
+* Send a test email to the specified email address in the sheet
+*/
+function sendTestEmail() {
+  /* Spreadsheet */ const Spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+  /* str */ const TEST_EMAIL = Spreadsheet.getSheetByName("Judge Assigning").getRange("JudgeAssignmentEmail_TestEmailAddress").getValue();
+  /* str */ const TEST_SUBJECT = "SSS Test Email";
+  /* str */ const TEST_BODY = "This is a test email from the Student Symposium Software Suite"
+
+  sendEmail(TEST_EMAIL, TEST_SUBJECT, TEST_BODY);
+}
+
+/*
 * Lightweight wrapper for GMail email app
 * email {str} - Email(s) to send to (comma seperated)
 * subject {str} - Subject of email
 * body {str} - HTML formatted body of email
 */
-function sendEmail(email, subject, body){
+function sendEmail(email, subject, body) {
   MailApp.sendEmail({
     to: email,
     subject: subject,
@@ -75,7 +87,7 @@ class Judge {
     /* str */ this.email = judgeEmail;
     /* str[] */ this.abstractNumbers = [abstractNumber];
   }
-  
+
   AbstractNumberText(numbers) {
     return `Assigned Abstract Numbers: ${numbers}`
   }

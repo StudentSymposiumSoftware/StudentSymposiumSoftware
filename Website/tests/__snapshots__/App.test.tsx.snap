@@ -9,11 +9,104 @@ exports[`GridView renders correctly 1`] = `
         id="site-container"
       >
         <div
+          class="bg-white m-5 rounded-lg ml-[20px] mr-[20px] h-[100px] w-[calc(100% - 50px)] mt-[15px] flex flex-row pr-5 drop-shadow-xl"
           id="navbar"
         >
+          <span
+            class="inline-flex items-center align-middle mr-5 h-[100px] p-[10px]"
+          >
+            <img
+              class="h-[80px]"
+              id="navbar_logo"
+              src="logo.png"
+            />
+          </span>
+          <span
+            class="inline-flex items-center align-middle mr-5"
+          >
+            <a
+              class="PageLink"
+              data-discover="true"
+              href="#/"
+            >
+              <h3>
+                Home Page
+              </h3>
+            </a>
+            <a
+              class="PageLink"
+              data-discover="true"
+              href="#/search"
+            >
+              <h3>
+                Search View
+              </h3>
+            </a>
+            <a
+              class="PageLink"
+              data-discover="true"
+              href="#/list"
+            >
+              <h3>
+                List View
+              </h3>
+            </a>
+            <a
+              class="PageLink"
+              data-discover="true"
+              href="#/grid"
+            >
+              <h3>
+                Grid View
+              </h3>
+            </a>
+            <a
+              class="PageLink"
+              data-discover="true"
+              href="#/admin"
+            >
+              <h3>
+                Admin
+              </h3>
+            </a>
+          </span>
+          <span
+            class="inline-flex items-center justify-items-end align-middle text-right grow"
+          />
+        </div>
+        <div
+          id="homepage-container"
+        >
+          <h2>
+            Welcome to the Symposium Recap site !!
+          </h2>
           <h3>
-            Navigate to our different displays here:
+            Please select the needed link above to route to your component
           </h3>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      id="site-container"
+    >
+      <div
+        class="bg-white m-5 rounded-lg ml-[20px] mr-[20px] h-[100px] w-[calc(100% - 50px)] mt-[15px] flex flex-row pr-5 drop-shadow-xl"
+        id="navbar"
+      >
+        <span
+          class="inline-flex items-center align-middle mr-5 h-[100px] p-[10px]"
+        >
+          <img
+            class="h-[80px]"
+            id="navbar_logo"
+            src="logo.png"
+          />
+        </span>
+        <span
+          class="inline-flex items-center align-middle mr-5"
+        >
           <a
             class="PageLink"
             data-discover="true"
@@ -50,66 +143,19 @@ exports[`GridView renders correctly 1`] = `
               Grid View
             </h3>
           </a>
-        </div>
-        <div
-          id="homepage-container"
-        >
-          <h2>
-            Welcome to the Symposium Recap site !!
-          </h2>
-          <h3>
-            Please select the needed link above to route to your component
-          </h3>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      id="site-container"
-    >
-      <div
-        id="navbar"
-      >
-        <h3>
-          Navigate to our different displays here:
-        </h3>
-        <a
-          class="PageLink"
-          data-discover="true"
-          href="#/"
-        >
-          <h3>
-            Home Page
-          </h3>
-        </a>
-        <a
-          class="PageLink"
-          data-discover="true"
-          href="#/search"
-        >
-          <h3>
-            Search View
-          </h3>
-        </a>
-        <a
-          class="PageLink"
-          data-discover="true"
-          href="#/list"
-        >
-          <h3>
-            List View
-          </h3>
-        </a>
-        <a
-          class="PageLink"
-          data-discover="true"
-          href="#/grid"
-        >
-          <h3>
-            Grid View
-          </h3>
-        </a>
+          <a
+            class="PageLink"
+            data-discover="true"
+            href="#/admin"
+          >
+            <h3>
+              Admin
+            </h3>
+          </a>
+        </span>
+        <span
+          class="inline-flex items-center justify-items-end align-middle text-right grow"
+        />
       </div>
       <div
         id="homepage-container"

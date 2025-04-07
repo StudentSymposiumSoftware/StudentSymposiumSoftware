@@ -1,9 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
+import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(),tailwindcss()],
   test: {
     environment: 'jsdom',
     include: ['**/*.test.tsx'],
@@ -20,5 +21,8 @@ export default defineConfig({
       }
     },
   },
-  base: '/Website/'
+  base: '/StudentSymposiumSoftware/',
+  build: {
+    watch: { include: ['/*.css', './*.css', '/src/*.css'] }
+  },
 })

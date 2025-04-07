@@ -1,74 +1,564 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`SearchView renders correctly 1`] = `
-{
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
+<div>
+  <div
+    id="search-container"
+  >
+    <input
+      class="search-bar"
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+    <div
+      class="search-results"
+    >
       <div
-        id="search-container"
+        class="search-item"
       >
-        Welcome to the search page
+        <h4>
+          #
+          38893888
+        </h4>
+        <h3>
+          Machine Learning Approaches to Financial Fraud Detection
+        </h3>
+        <h4>
+          by 
+          Elijah Smith
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          75957852
+        </h4>
+        <h3>
+          The Psychology of Decision-Making in Uncertain Environments
+        </h3>
+        <h4>
+          by 
+          Sophia Campbell
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          48203955
+        </h4>
+        <h3>
+          The Sociology of Online Communities in the Digital Age
+        </h3>
+        <h4>
+          by 
+          Lucy Martinez
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          64568884
+        </h4>
+        <h3>
+          Advancements in Human-Robot Interaction for Assistive Technologies
+        </h3>
+        <h4>
+          by 
+          Zoe Jackson
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          40679302
+        </h4>
+        <h3>
+          Blockchain Technology in Supply Chain Transparency
+        </h3>
+        <h4>
+          by 
+          Noah King
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          37625940
+        </h4>
+        <h3>
+          Advancements in Human-Robot Interaction for Assistive Technologies
+        </h3>
+        <h4>
+          by 
+          Joseph Baker
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          35716422
+        </h4>
+        <h3>
+          Climate Change and Its Effects on Global Food Security
+        </h3>
+        <h4>
+          by 
+          Ava Rodriguez
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          82413071
+        </h4>
+        <h3>
+          The Psychology of Decision-Making in Uncertain Environments
+        </h3>
+        <h4>
+          by 
+          Henry Adams
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          27882383
+        </h4>
+        <h3>
+          Machine Learning Approaches to Financial Fraud Detection
+        </h3>
+        <h4>
+          by 
+          Mason Hernandez
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          92969314
+        </h4>
+        <h3>
+          Machine Learning Approaches to Financial Fraud Detection
+        </h3>
+        <h4>
+          by 
+          Emma Taylor
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          29718536
+        </h4>
+        <h3>
+          The Role of Citizen Science in Biodiversity Conservation
+        </h3>
+        <h4>
+          by 
+          Aurora Martinez
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          1457768
+        </h4>
+        <h3>
+          The Role of Citizen Science in Biodiversity Conservation
+        </h3>
+        <h4>
+          by 
+          Lucas Robinson
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          14148682
+        </h4>
+        <h3>
+          Blockchain Technology in Supply Chain Transparency
+        </h3>
+        <h4>
+          by 
+          Chloe Adams
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          60454722
+        </h4>
+        <h3>
+          Exploring the Feasibility of Space-Based Solar Power
+        </h3>
+        <h4>
+          by 
+          Layla Young
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          41498009
+        </h4>
+        <h3>
+          Social Media Influence on Adolescent Mental Health
+        </h3>
+        <h4>
+          by 
+          Alexander Hall
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          23333306
+        </h4>
+        <h3>
+          Analyzing the Impact of Microplastics on Marine Ecosystems
+        </h3>
+        <h4>
+          by 
+          Zoe Young
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          97656877
+        </h4>
+        <h3>
+          Cultural Impacts on Language Evolution
+        </h3>
+        <h4>
+          by 
+          Mason Clark
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          91417686
+        </h4>
+        <h3>
+          Social Media Influence on Adolescent Mental Health
+        </h3>
+        <h4>
+          by 
+          Henry Hall
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          4887031
+        </h4>
+        <h3>
+          Advancements in Human-Robot Interaction for Assistive Technologies
+        </h3>
+        <h4>
+          by 
+          Samuel Scott
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          36475226
+        </h4>
+        <h3>
+          Advancements in Human-Robot Interaction for Assistive Technologies
+        </h3>
+        <h4>
+          by 
+          Grace Nelson
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          29014475
+        </h4>
+        <h3>
+          Machine Learning Approaches to Financial Fraud Detection
+        </h3>
+        <h4>
+          by 
+          Scarlett Hernandez
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          44667664
+        </h4>
+        <h3>
+          The Future of CRISPR in Gene Therapy
+        </h3>
+        <h4>
+          by 
+          Maya Hernandez
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          21709418
+        </h4>
+        <h3>
+          Analyzing the Impact of Microplastics on Marine Ecosystems
+        </h3>
+        <h4>
+          by 
+          Elijah Rivera
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          45822327
+        </h4>
+        <h3>
+          Social Media Influence on Adolescent Mental Health
+        </h3>
+        <h4>
+          by 
+          Liam Taylor
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          75710656
+        </h4>
+        <h3>
+          The Impact of Remote Work on Organizational Productivity
+        </h3>
+        <h4>
+          by 
+          Mia Robinson
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          39877467
+        </h4>
+        <h3>
+          Deep Learning for Medical Image Analysis
+        </h3>
+        <h4>
+          by 
+          Evelyn Rodriguez
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          74596190
+        </h4>
+        <h3>
+          Cultural Impacts on Language Evolution
+        </h3>
+        <h4>
+          by 
+          Zoe Brown
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          30556122
+        </h4>
+        <h3>
+          Advancements in Human-Robot Interaction for Assistive Technologies
+        </h3>
+        <h4>
+          by 
+          Sophie Thomas
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          75180428
+        </h4>
+        <h3>
+          Advancements in Human-Robot Interaction for Assistive Technologies
+        </h3>
+        <h4>
+          by 
+          Maya Mitchell
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          82398661
+        </h4>
+        <h3>
+          Analyzing the Impact of Microplastics on Marine Ecosystems
+        </h3>
+        <h4>
+          by 
+          Jack Anderson
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          82398661
+        </h4>
+        <h3>
+          Analyzing the Impact of Microplastics on Marine Ecosystems
+        </h3>
+        <h4>
+          by 
+          Harper Rodriguez
+        </h4>
       </div>
     </div>
-  </body>,
-  "container": <div>
+  </div>
+</div>
+`;
+
+exports[`Searching should properly search abstracts 1`] = `
+<div>
+  <div
+    id="search-container"
+  >
+    <input
+      class="search-bar"
+      placeholder="Search..."
+      type="text"
+      value="Fraud"
+    />
     <div
-      id="search-container"
+      class="search-results"
     >
-      Welcome to the search page
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          38893888
+        </h4>
+        <h3>
+          Machine Learning Approaches to Financial Fraud Detection
+        </h3>
+        <h4>
+          by 
+          Elijah Smith
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          27882383
+        </h4>
+        <h3>
+          Machine Learning Approaches to Financial Fraud Detection
+        </h3>
+        <h4>
+          by 
+          Mason Hernandez
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          92969314
+        </h4>
+        <h3>
+          Machine Learning Approaches to Financial Fraud Detection
+        </h3>
+        <h4>
+          by 
+          Emma Taylor
+        </h4>
+      </div>
+      <div
+        class="search-item"
+      >
+        <h4>
+          #
+          29014475
+        </h4>
+        <h3>
+          Machine Learning Approaches to Financial Fraud Detection
+        </h3>
+        <h4>
+          by 
+          Scarlett Hernandez
+        </h4>
+      </div>
     </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
+  </div>
+</div>
 `;
