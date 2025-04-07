@@ -39,7 +39,7 @@ exports[`GridView renders correctly 1`] = `
           />
         </div>
         <div
-          class="bg-white m-5 rounded-lg ml-[20px] mr-[20px] h-[40px] w-[calc(100% - 50px)] mt-[10px] flex flex-row pr-5 drop-shadow-xl p-[2px] hidden"
+          class="bg-white m-5 rounded-lg ml-[20px] mr-[20px] h-[40px] w-[calc(100% - 50px)] mt-[10px] flex flex-row pr-5 drop-shadow-xl p-[2px] false"
           id="filter-bar"
         >
           <span
@@ -89,7 +89,7 @@ exports[`GridView renders correctly 1`] = `
           </span>
         </div>
         <div
-          class="overflow-auto h-[calc(100vh-140px)] w-[100%]"
+          class="overflow-auto h-[calc(100vh-200px)] w-[100%]"
           id="main-content"
         >
           <div
@@ -138,7 +138,7 @@ exports[`GridView renders correctly 1`] = `
         />
       </div>
       <div
-        class="bg-white m-5 rounded-lg ml-[20px] mr-[20px] h-[40px] w-[calc(100% - 50px)] mt-[10px] flex flex-row pr-5 drop-shadow-xl p-[2px] hidden"
+        class="bg-white m-5 rounded-lg ml-[20px] mr-[20px] h-[40px] w-[calc(100% - 50px)] mt-[10px] flex flex-row pr-5 drop-shadow-xl p-[2px] false"
         id="filter-bar"
       >
         <span
@@ -188,7 +188,7 @@ exports[`GridView renders correctly 1`] = `
         </span>
       </div>
       <div
-        class="overflow-auto h-[calc(100vh-140px)] w-[100%]"
+        class="overflow-auto h-[calc(100vh-200px)] w-[100%]"
         id="main-content"
       >
         <div

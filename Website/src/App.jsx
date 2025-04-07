@@ -23,7 +23,7 @@ function App() {
   const [year, setYear] = useState();
   const [availableYears, setAvailableYears] = useState(false);
   const [searchText, setSearchText] = useState("");
-  const [hash, setHash] = useState(window.location.hash);
+  const [hash, setHash] = useState(["#/","#/list", ""].includes(window.location.hash));
 
   /* v8 ignore start */
   useEffect(() => {
@@ -59,7 +59,7 @@ function App() {
   // Super gross way of handling this
   useEffect(() => {
     const onHashChanged = () => {
-        setHash(window.location.hash);
+        setHash(["#/","#/list", ""].includes(window.location.hash));
     };
 
     window.addEventListener("hashchange", onHashChanged);
@@ -70,7 +70,6 @@ function App() {
   }, []);
 
   /* v8 ignore end */
-  const hasHash = ["#/","#/list"].includes(hash);
 
   return (
     <Router>
@@ -86,11 +85,11 @@ function App() {
           </span>
 
           <span className="inline-flex items-center justify-items-end align-middle text-right">
-            {(availableYears && hasHash) && <YearSelector setYear={setYear} availableYears={availableYears} currYear={year}/> }
+            {(availableYears && hash) && <YearSelector setYear={setYear} availableYears={availableYears} currYear={year}/> }
           </span>
         </div>
 
-        <div id="filter-bar" className={`bg-white m-5 rounded-lg ml-[20px] mr-[20px] h-[40px] w-[calc(100% - 50px)] mt-[10px] flex flex-row pr-5 drop-shadow-xl p-[2px] ${!hasHash && "hidden"}`}>
+        <div id="filter-bar" className={`bg-white m-5 rounded-lg ml-[20px] mr-[20px] h-[40px] w-[calc(100% - 50px)] mt-[10px] flex flex-row pr-5 drop-shadow-xl p-[2px] ${!hash && "hidden"}`}>
           <span className="pl-[10px] inline-flex items-center align-middle grow">
             <input placeholder="Search abstracts..." className="h-[36px] text-black w-[50%] focus:outline-none flex grow" id="search-query" onChange={(e) => {setSearchText(e.target.value)}}/>
             {searchText != "" && <ClearIcon className="text-primary-background h-[40px] cursor-pointer" onClick={() => passQuery("")}/>}
@@ -101,7 +100,7 @@ function App() {
           </span>
         </div>
 
-        <div className={`overflow-auto ${hasHash ? "h-[calc(100vh-200px)]" : "h-[calc(100vh-140px)]"} w-[100%]`} id="main-content">
+        <div className={`overflow-auto ${hash ? "h-[calc(100vh-200px)]" : "h-[calc(100vh-140px)]"} w-[100%]`} id="main-content">
           <Routes>
             {/* <Route path="/" element={<HomepageComponent/>} /> */}
             <Route path="/" element={<GridView data={abstractData} searchQuery={searchText} setSearchText={(text) => passQuery(text)}/>} />
