@@ -11,7 +11,7 @@ function ListView(props) {
                     <div key={index} className="listItem" >
 
                         <h4>{item.title}</h4>
-                        <h4 onClick={() => navigate(`/author/${item.author}`)} className="author-link">By {item.author}</h4>
+                        <a href={`/author/${item.author}`} className="author-link">By {item.author}</a>
                         <div className = "list-Contents" >{[item.major, 'at', item.school].join(' ')}<br/>{['Abstract number', item.abstractNumber].join(' ')}</div>
 
 
