@@ -33,22 +33,25 @@ function calculateScores() {
         } else {
             scores[row[0].toString()] = []
             scores[row[0].toString()].push(temp)
-            // Logger.log(scores[row[0].toString()])
         }
 
     }
-    Logger.log(scores)
 
     for (var key in scores) {
-        for (let i = 0; i < 2; i++) {
+        numOfJudges = scores[key].length
+        if(numOfJudges == 3){
+          Logger.log(key)
+        }
+        
+        for (let i = 0; i < numOfJudges; i++) {
             var sum = scores[key][i].reduce((a, b) => a + b)
-            scores[key][i] = sum / 16
+            scores[key][i] = sum 
         }
     }
 
 
     // Prepare for output
-    // [[KEYS, SCORE1AVG, SCORE2AVG]]
+    // [[Abstract#, SCORE1AVG, SCORE2AVG, SCORE3AVG, TOTALAVG]]
     let outputData = []
     for (let i = 0; i < Object.keys(scores).length; i++) {
         var absScore = []
@@ -57,11 +60,23 @@ function calculateScores() {
         absScore[0] = key
 
         let row = scores[key];
+        var finalScore = 0
         absScore[1] = row[0]
-        absScore[2] = row[1]
 
-        var finalScore = (row[0] + row[1]) / 2
-        absScore[3] = finalScore
+        if (row[2] != null){
+          absScore[2] = row[1]
+          absScore[3] = row[2]
+          absScore[4] = (row[0] + row[1] + row[2]) / 3
+        }else if(row[1] != null){
+          absScore[2] = row[1]
+          absScore[3] = "No Score"
+          absScore[4] = (row[0] + row[1]) / 2
+        } else {
+          absScore[2] = "No Score"
+          absScore[3] = "No Score"
+          absScore[4] = row[0]
+        }
+        
         outputData.push(absScore)
     }
     clearScores();
